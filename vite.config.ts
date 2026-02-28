@@ -286,7 +286,15 @@ export default defineConfig({
     reportCompressedSize: false,
     chunkSizeWarningLimit: 2000,
     rollupOptions: {
-      maxParallelFileOps: 3,
+      maxParallelFileOps: 2,
+      output: {
+        minifyInternalExports: false,
+      },
+      onwarn(warning, warn) {
+        if (warning.code === 'CIRCULAR_DEPENDENCY') return;
+        if (warning.code === 'MODULE_LEVEL_DIRECTIVE') return;
+        warn(warning);
+      },
     },
   },
 });
