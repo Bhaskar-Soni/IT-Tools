@@ -32,10 +32,10 @@ const apiPlugin = {
     server.middlewares.use((req: IncomingMessage, res: ServerResponse, next: () => void) => {
       // Match dynamic links API endpoints: /api/links/{linkName}/boxes (ignore query params)
       const linksMatch = req.url?.match(/^\/api\/links\/([^\/]+)\/boxes/);
-      
+
       if (linksMatch) {
         const linkName = linksMatch[1];
-        
+
         if (req.method === 'GET') {
           const dataPath = resolve(__dirname, `src/content/links/${linkName}/data/boxes.json`);
           try {
@@ -233,6 +233,18 @@ export default defineConfig({
         // Provide a default export for yamljs (CJS).
         find: /^yamljs$/,
         replacement: fileURLToPath(new URL('./src/shims/yamljs.ts', import.meta.url)),
+      },
+      {
+        find: /^node:fs\/promises$/,
+        replacement: fileURLToPath(new URL('./src/shims/fs-promises.ts', import.meta.url)),
+      },
+      {
+        find: /^node:url$/,
+        replacement: fileURLToPath(new URL('./src/shims/node-url.ts', import.meta.url)),
+      },
+      {
+        find: /^node:stream$/,
+        replacement: fileURLToPath(new URL('./src/shims/node-stream.ts', import.meta.url)),
       },
       {
         find: /^isolated-vm$/,
