@@ -1,4 +1,6 @@
-# IT-Tools
+<h1 align="center">IT-Tools</h1>
+
+![Dashboard Screenshot](public/dashboard.png)
 
 IT-Tools is a practical cybersecurity and systems knowledge platform focused on useful execution, not noise.
 It combines browser-based tools with structured content so learners and practitioners can move faster across real technical workflows.
