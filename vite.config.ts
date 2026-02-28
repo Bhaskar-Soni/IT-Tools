@@ -286,17 +286,7 @@ export default defineConfig({
     reportCompressedSize: false,
     chunkSizeWarningLimit: 2000,
     rollupOptions: {
-      maxParallelFileOps: 20,
-      output: {
-        manualChunks(id) {
-          if (id.includes('node_modules')) {
-            if (id.includes('naive-ui')) return 'naive-ui';
-            if (id.includes('monaco-editor')) return 'monaco-editor';
-            if (id.includes('mermaid')) return 'mermaid';
-            return 'vendor';
-          }
-        },
-      },
+      maxParallelFileOps: 3,
     },
   },
 });
