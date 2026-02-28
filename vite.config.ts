@@ -286,6 +286,7 @@ export default defineConfig({
     reportCompressedSize: false,
     chunkSizeWarningLimit: 2000,
     rollupOptions: {
+      maxParallelFileOps: 20,
       output: {
         manualChunks(id) {
           if (id.includes('node_modules')) {
