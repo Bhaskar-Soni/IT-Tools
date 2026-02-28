@@ -1,10 +1,9 @@
 <script setup lang="ts">
 
 import type { Ref } from 'vue';
-import { createWorker } from 'tesseract.js';
-import { getDocument } from 'pdfjs-dist';
-import * as pdfJS from 'pdfjs-dist';
-import pdfJSWorkerURL from 'pdfjs-dist/build/pdf.worker?url';
+const loadTesseract = () => import('tesseract.js');
+const loadPdfJs = () => import('pdfjs-dist');
+
 import { textStatistics } from '../text-statistics/text-statistics.service';
 import TextareaCopyable from '@/components/TextareaCopyable.vue';
 import { useQueryParamOrStorage } from '@/composable/queryParams';
@@ -138,6 +137,7 @@ async function onUpload(file: File) {
 }
 
 async function loadPdfFile(file: File) {
+  const { getDocument } = await loadPdfJs();
   const arrBuffer = await file.arrayBuffer();
   const byteArray = new Uint8Array(arrBuffer);
   return getDocument({ data: byteArray }).promise;
@@ -168,6 +168,7 @@ async function ocr(file: File, language: string) {
     return '';
   }
   ocrInProgress.value = true;
+  const { createWorker } = await loadTesseract();
   const worker = await createWorker();
   await worker.reinitialize(language);
   const allTexts = [];
@@ -176,6 +177,9 @@ async function ocr(file: File, language: string) {
     allTexts.push(ret.data.text);
   }
   else {
+    const pdfJS = await loadPdfJs();
+    // @ts-ignore
+    const pdfJSWorkerURL = (await import('pdfjs-dist/build/pdf.worker?url')).default; 
     pdfJS.GlobalWorkerOptions.workerSrc = pdfJSWorkerURL;
 
     for (const image of (await convertPdfToImage(file))) {

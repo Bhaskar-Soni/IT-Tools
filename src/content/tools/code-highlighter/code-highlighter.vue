@@ -1,7 +1,8 @@
 <script setup lang="ts">
 
-import { bundledLanguagesInfo, createHighlighter } from 'shiki/bundle/full';
-import { bundledThemesInfo } from 'shiki/themes';
+// Load shiki dynamically to save build memory
+const loadShiki = () => import('shiki');
+
 import { useQueryParamOrStorage } from '@/composable/queryParams';
 import { useCopy, useCopyHtml } from '@/composable/copy';
 
@@ -18,18 +19,20 @@ function identity<T extends number | string = string>(arg: T): T {
   return arg;
 }`);
 
-const themes = ref<{ value: string; label: string }[]>(
-  bundledThemesInfo.map((item) => {
-    return {
-      value: item.id,
-      label: item.displayName,
-    };
+const themes = ref<{ value: string; label: string }[]>([]);
+const langs = ref<{ value: string; label: string }[]>([]);
+
+onMounted(async () => {
+  const { bundledLanguagesInfo, bundledThemesInfo } = await loadShiki();
+  themes.value = bundledThemesInfo.map(item => ({
+    value: item.id,
+    label: item.displayName,
   }));
-const langs = ref<{ value: string; label: string }[]>(
-  bundledLanguagesInfo.map(item => ({
+  langs.value = bundledLanguagesInfo.map(item => ({
     value: item.id,
     label: item.name,
-  })));
+  }));
+});
 
 const currentTheme = useQueryParamOrStorage({ name: 'theme', storageName: 'code-highlighter:theme', defaultValue: 'dark-plus' });
 const currentLang = useQueryParamOrStorage({ name: 'lang', storageName: 'code-highlighter:lang', defaultValue: 'typescript' });
@@ -44,6 +47,7 @@ const formattedCodeHtml = computedAsync(async () => {
 
   const lineNumberWidth = Math.log10(codeValue.split('\n').length) + 2;
 
+  const { createHighlighter } = await loadShiki();
   const highlighter = await createHighlighter(
     {
       langs: [currentLangValue],

@@ -1,9 +1,9 @@
 <script setup lang="ts">
 
 import { nextTick, onMounted, ref, watch } from 'vue';
-import mermaid from 'mermaid';
+// Load mermaid dynamically to save build memory
+const loadMermaid = () => import('mermaid');
 
-mermaid.initialize({ startOnLoad: false });
 
 const mermaidCode = ref<string>(`graph TD
 A[Start] --> B{Is it working?}
@@ -14,6 +14,9 @@ B -- No --> D[Fix it!]
 const mermaidContainer = ref<HTMLElement | null>(null);
 
 async function renderMermaid(): Promise<void> {
+  const mermaid = (await loadMermaid()).default;
+  mermaid.initialize({ startOnLoad: false });
+
   if (mermaidContainer.value) {
     mermaidContainer.value.innerHTML = '';
     try {
