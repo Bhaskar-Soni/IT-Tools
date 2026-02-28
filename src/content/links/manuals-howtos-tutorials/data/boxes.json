@@ -1,0 +1,898 @@
+[
+  {
+    "name": "Shell/Command line",
+    "links": [
+      {
+        "title": "pure-bash-bible",
+        "url": "https://github.com/dylanaraps/pure-bash-bible",
+        "description": "is a collection of pure bash alternatives to external processes.",
+        "category": "General",
+        "createdAt": 1772217589596
+      },
+      {
+        "title": "pure-sh-bible",
+        "url": "https://github.com/dylanaraps/pure-sh-bible",
+        "description": "is a collection of pure POSIX sh alternatives to external processes.",
+        "category": "General",
+        "createdAt": 1772217589597
+      },
+      {
+        "title": "bash-guide",
+        "url": "https://github.com/Idnan/bash-guide",
+        "description": "is a guide to learn bash.",
+        "category": "General",
+        "createdAt": 1772217589598
+      },
+      {
+        "title": "bash-handbook",
+        "url": "https://github.com/denysdovhan/bash-handbook",
+        "description": "for those who wanna learn Bash.",
+        "category": "General",
+        "createdAt": 1772217589599
+      },
+      {
+        "title": "The Bash Hackers Wiki",
+        "url": "https://wiki.bash-hackers.org/start",
+        "description": "hold documentation of any kind about GNU Bash.",
+        "category": "General",
+        "createdAt": 1772217589600
+      },
+      {
+        "title": "Shell & Utilities",
+        "url": "http://pubs.opengroup.org/onlinepubs/9699919799/utilities/contents.html",
+        "description": "describes the commands offered to application programs by POSIX-conformant systems.",
+        "category": "General",
+        "createdAt": 1772217589601
+      },
+      {
+        "title": "the-art-of-command-line",
+        "url": "https://github.com/jlevy/the-art-of-command-line",
+        "description": "master the command line, in one page.",
+        "category": "General",
+        "createdAt": 1772217589602
+      },
+      {
+        "title": "Shell Style Guide",
+        "url": "https://google.github.io/styleguide/shellguide.html",
+        "description": "a shell style guide for Google-originated open-source projects.",
+        "category": "General",
+        "createdAt": 1772217589603
+      }
+    ],
+    "createdAt": 1772217589596,
+    "updatedAt": 1772217589603
+  },
+  {
+    "name": "Text Editors",
+    "links": [
+      {
+        "title": "Vim Cheat Sheet",
+        "url": "https://vim.rtorr.com/",
+        "description": "great multi language vim guide.",
+        "category": "General",
+        "createdAt": 1772217589604
+      }
+    ],
+    "createdAt": 1772217589604,
+    "updatedAt": 1772217589604
+  },
+  {
+    "name": "Python",
+    "links": [
+      {
+        "title": "Awesome Python",
+        "url": "https://awesome-python.com/",
+        "description": "a curated list of awesome Python frameworks, libraries, software and resources.",
+        "category": "General",
+        "createdAt": 1772217589605
+      },
+      {
+        "title": "python-cheatsheet",
+        "url": "https://github.com/gto76/python-cheatsheet",
+        "description": "comprehensive Python cheatsheet.",
+        "category": "General",
+        "createdAt": 1772217589606
+      },
+      {
+        "title": "pythoncheatsheet.org",
+        "url": "https://www.pythoncheatsheet.org/",
+        "description": "basic reference for beginner and advanced developers.",
+        "category": "General",
+        "createdAt": 1772217589607
+      }
+    ],
+    "createdAt": 1772217589605,
+    "updatedAt": 1772217589607
+  },
+  {
+    "name": "Sed & Awk & Other",
+    "links": [
+      {
+        "title": "F\u2019Awk Yeah!",
+        "url": "https://posts.specterops.io/fawk-yeah-advanced-sed-and-awk-usage-parsing-for-pentesters-3-e5727e11a8ad?gi=c8f9506b26b6",
+        "description": "advanced sed and awk usage (Parsing for Pentesters 3).",
+        "category": "General",
+        "createdAt": 1772217589608
+      }
+    ],
+    "createdAt": 1772217589608,
+    "updatedAt": 1772217589608
+  },
+  {
+    "name": "\\*nix & Network",
+    "links": [
+      {
+        "title": "nixCraft",
+        "url": "https://www.cyberciti.biz/",
+        "description": "linux and unix tutorials for new and seasoned sysadmin.",
+        "category": "General",
+        "createdAt": 1772217589609
+      },
+      {
+        "title": "TecMint",
+        "url": "https://www.tecmint.com/",
+        "description": "the ideal Linux blog for Sysadmins & Geeks.",
+        "category": "General",
+        "createdAt": 1772217589610
+      },
+      {
+        "title": "Omnisecu",
+        "url": "http://www.omnisecu.com/index.php",
+        "description": "free Networking, System Administration and Security tutorials.",
+        "category": "General",
+        "createdAt": 1772217589611
+      },
+      {
+        "title": "linux-cheat",
+        "url": "https://github.com/cirosantilli/linux-cheat",
+        "description": "Linux tutorials and cheatsheets. Minimal examples. Mostly user-land CLI utilities.",
+        "category": "General",
+        "createdAt": 1772217589612
+      },
+      {
+        "title": "linuxupskillchallenge",
+        "url": "https://github.com/snori74/linuxupskillchallenge",
+        "description": "learn the skills required to sysadmin.",
+        "category": "General",
+        "createdAt": 1772217589613
+      },
+      {
+        "title": "Unix Toolbox",
+        "url": "http://cb.vu/unixtoolbox.xhtml",
+        "description": "Unix/Linux/BSD commands and tasks which are useful for IT work or for advanced users.",
+        "category": "General",
+        "createdAt": 1772217589614
+      },
+      {
+        "title": "Linux Kernel Teaching",
+        "url": "https://linux-kernel-labs.github.io/refs/heads/master/index.html",
+        "description": "is a collection of lectures and labs Linux kernel topics.",
+        "category": "General",
+        "createdAt": 1772217589615
+      },
+      {
+        "title": "htop explained",
+        "url": "https://peteris.rocks/blog/htop/",
+        "description": "explanation of everything you can see in htop/top on Linux.",
+        "category": "General",
+        "createdAt": 1772217589616
+      },
+      {
+        "title": "Linux Guide and Hints",
+        "url": "https://linuxguideandhints.com/",
+        "description": "tutorials on system administration in Fedora and CentOS.",
+        "category": "General",
+        "createdAt": 1772217589617
+      },
+      {
+        "title": "strace-little-book",
+        "url": "https://github.com/NanXiao/strace-little-book",
+        "description": "a little book which introduces strace.",
+        "category": "General",
+        "createdAt": 1772217589618
+      },
+      {
+        "title": "linux-tracing-workshop",
+        "url": "https://github.com/goldshtn/linux-tracing-workshop",
+        "description": "examples and hands-on labs for Linux tracing tools workshops.",
+        "category": "General",
+        "createdAt": 1772217589619
+      },
+      {
+        "title": "http2-explained",
+        "url": "https://github.com/bagder/http2-explained",
+        "description": "a detailed document explaining and documenting HTTP/2.",
+        "category": "General",
+        "createdAt": 1772217589620
+      },
+      {
+        "title": "http3-explained",
+        "url": "https://github.com/bagder/http3-explained",
+        "description": "a document describing the HTTP/3 and QUIC protocols.",
+        "category": "General",
+        "createdAt": 1772217589621
+      },
+      {
+        "title": "HTTP/2 in Action",
+        "url": "https://www.manning.com/books/http2-in-action",
+        "description": "an excellent introduction to the new HTTP/2 standard.",
+        "category": "General",
+        "createdAt": 1772217589622
+      },
+      {
+        "title": "Let's code a TCP/IP stack",
+        "url": "https://www.saminiir.com/lets-code-tcp-ip-stack-1-ethernet-arp/",
+        "description": "great stuff to learn network and system programming at a deeper level.",
+        "category": "General",
+        "createdAt": 1772217589623
+      },
+      {
+        "title": "Nginx Admin's Handbook",
+        "url": "https://github.com/trimstray/nginx-admins-handbook",
+        "description": "how to improve NGINX performance, security and other important things.",
+        "category": "General",
+        "createdAt": 1772217589624
+      },
+      {
+        "title": "nginxconfig.io",
+        "url": "https://github.com/digitalocean/nginxconfig.io",
+        "description": "NGINX config generator on steroids.",
+        "category": "General",
+        "createdAt": 1772217589625
+      },
+      {
+        "title": "openssh guideline",
+        "url": "https://infosec.mozilla.org/guidelines/openssh",
+        "description": "is to help operational teams with the configuration of OpenSSH server and client.",
+        "category": "General",
+        "createdAt": 1772217589626
+      },
+      {
+        "title": "SSH Handshake Explained",
+        "url": "https://gravitational.com/blog/ssh-handshake-explained/",
+        "description": "is a relatively brief description of the SSH handshake.",
+        "category": "General",
+        "createdAt": 1772217589627
+      },
+      {
+        "title": "ISC's Knowledgebase",
+        "url": "https://kb.isc.org/docs/using-this-knowledgebase",
+        "description": "you'll find some general information about BIND 9, ISC DHCP, and Kea DHCP.",
+        "category": "General",
+        "createdAt": 1772217589628
+      },
+      {
+        "title": "PacketLife.net",
+        "url": "https://packetlife.net/",
+        "description": "a place to record notes while studying for Cisco's CCNP certification.",
+        "category": "General",
+        "createdAt": 1772217589629
+      }
+    ],
+    "createdAt": 1772217589609,
+    "updatedAt": 1772217589629
+  },
+  {
+    "name": "Microsoft",
+    "links": [
+      {
+        "title": "AD-Attack-Defense",
+        "url": "https://github.com/infosecn1nja/AD-Attack-Defense",
+        "description": "attack and defend active directory using modern post exploitation activity.",
+        "category": "General",
+        "createdAt": 1772217589630
+      }
+    ],
+    "createdAt": 1772217589630,
+    "updatedAt": 1772217589630
+  },
+  {
+    "name": "Large scale systems",
+    "links": [
+      {
+        "title": "The System Design Primer",
+        "url": "https://github.com/donnemartin/system-design-primer",
+        "description": "learn how to design large-scale systems.",
+        "category": "General",
+        "createdAt": 1772217589631
+      },
+      {
+        "title": "Awesome Scalability",
+        "url": "https://github.com/binhnguyennus/awesome-scalability",
+        "description": "best practices in building High Scalability, High Availability, High Stability, and more.",
+        "category": "General",
+        "createdAt": 1772217589632
+      },
+      {
+        "title": "Web Architecture 101",
+        "url": "https://engineering.videoblocks.com/web-architecture-101-a3224e126947?gi=a896808d22a",
+        "description": "the basic architecture concepts.",
+        "category": "General",
+        "createdAt": 1772217589633
+      }
+    ],
+    "createdAt": 1772217589631,
+    "updatedAt": 1772217589633
+  },
+  {
+    "name": "System hardening",
+    "links": [
+      {
+        "title": "CIS Benchmarks",
+        "url": "https://www.cisecurity.org/cis-benchmarks/",
+        "description": "secure configuration settings for over 100 technologies, available as a free PDF.",
+        "category": "General",
+        "createdAt": 1772217589634
+      },
+      {
+        "title": "Security Harden CentOS 7",
+        "url": "https://highon.coffee/blog/security-harden-centos-7/",
+        "description": "this walks you through the steps required to security harden CentOS.",
+        "category": "General",
+        "createdAt": 1772217589635
+      },
+      {
+        "title": "CentOS 7 Server Hardening Guide",
+        "url": "https://www.lisenet.com/2017/centos-7-server-hardening-guide/",
+        "description": "great guide for hardening CentOS; familiar with OpenSCAP.",
+        "category": "General",
+        "createdAt": 1772217589636
+      },
+      {
+        "title": "awesome-security-hardening",
+        "url": "https://github.com/decalage2/awesome-security-hardening",
+        "description": "is a collection of security hardening guides, tools and other resources.",
+        "category": "General",
+        "createdAt": 1772217589637
+      },
+      {
+        "title": "The Practical Linux Hardening Guide",
+        "url": "https://github.com/trimstray/the-practical-linux-hardening-guide",
+        "description": "provides a high-level overview of hardening GNU/Linux systems.",
+        "category": "General",
+        "createdAt": 1772217589638
+      },
+      {
+        "title": "Linux Hardening Guide",
+        "url": "https://madaidans-insecurities.github.io/guides/linux-hardening.html",
+        "description": "how to harden Linux as much as possible for security and privacy.",
+        "category": "General",
+        "createdAt": 1772217589639
+      }
+    ],
+    "createdAt": 1772217589634,
+    "updatedAt": 1772217589639
+  },
+  {
+    "name": "Security & Privacy",
+    "links": [
+      {
+        "title": "Hacking Articles",
+        "url": "https://www.hackingarticles.in/",
+        "description": "LRaj Chandel's Security & Hacking Blog.",
+        "category": "General",
+        "createdAt": 1772217589640
+      },
+      {
+        "title": "AWS security tools",
+        "url": "https://github.com/toniblyx/my-arsenal-of-aws-security-tools",
+        "description": "make your AWS cloud environment more secure.",
+        "category": "General",
+        "createdAt": 1772217589641
+      },
+      {
+        "title": "Rawsec's CyberSecurity Inventory",
+        "url": "https://inventory.rawsec.ml/index.html",
+        "description": "an inventory of tools and resources about CyberSecurity.",
+        "category": "General",
+        "createdAt": 1772217589642
+      },
+      {
+        "title": "The Illustrated TLS Connection",
+        "url": "https://tls.ulfheim.net/",
+        "description": "every byte of a TLS connection explained and reproduced.",
+        "category": "General",
+        "createdAt": 1772217589643
+      },
+      {
+        "title": "SSL Research",
+        "url": "https://github.com/ssllabs/research/wiki/SSL-and-TLS-Deployment-Best-Practices",
+        "description": "SSL and TLS Deployment Best Practices by SSL Labs.",
+        "category": "General",
+        "createdAt": 1772217589644
+      },
+      {
+        "title": "SELinux Game",
+        "url": "http://selinuxgame.org/index.html",
+        "description": "learn SELinux by doing. Solve Puzzles, show skillz.",
+        "category": "General",
+        "createdAt": 1772217589645
+      },
+      {
+        "title": "Certificates and PKI",
+        "url": "https://smallstep.com/blog/everything-pki.html",
+        "description": "everything you should know about certificates and PKI but are too afraid to ask.",
+        "category": "General",
+        "createdAt": 1772217589646
+      },
+      {
+        "title": "The Art of Subdomain Enumeration",
+        "url": "https://appsecco.com/books/subdomain-enumeration/",
+        "description": "a reference for subdomain enumeration techniques.",
+        "category": "General",
+        "createdAt": 1772217589647
+      },
+      {
+        "title": "Quitting Google",
+        "url": "https://lifehacker.com/the-comprehensive-guide-to-quitting-google-1830001964",
+        "description": "the comprehensive guide to quitting Google.",
+        "category": "General",
+        "createdAt": 1772217589648
+      }
+    ],
+    "createdAt": 1772217589640,
+    "updatedAt": 1772217589648
+  },
+  {
+    "name": "Web Apps",
+    "links": [
+      {
+        "title": "OWASP",
+        "url": "https://www.owasp.org/index.php/Main_Page",
+        "description": "worldwide not-for-profit charitable organization focused on improving the security of software.",
+        "category": "General",
+        "createdAt": 1772217589649
+      },
+      {
+        "title": "OWASP ASVS 3.0.1",
+        "url": "https://www.owasp.org/index.php/Category:OWASP_Application_Security_Verification_Standard_Project",
+        "description": "OWASP Application Security Verification Standard Project.",
+        "category": "General",
+        "createdAt": 1772217589650
+      },
+      {
+        "title": "OWASP ASVS 3.0.1 Web App",
+        "url": "https://github.com/Santandersecurityresearch/asvs",
+        "description": "simple web app that helps developers understand the ASVS requirements.",
+        "category": "General",
+        "createdAt": 1772217589651
+      },
+      {
+        "title": "OWASP ASVS 4.0",
+        "url": "https://github.com/OWASP/ASVS/tree/master/4.0",
+        "description": "is a list of application security requirements or tests.",
+        "category": "General",
+        "createdAt": 1772217589652
+      },
+      {
+        "title": "OWASP Testing Guide v4",
+        "url": "https://www.owasp.org/index.php/OWASP_Testing_Project",
+        "description": "includes a \"best practice\" penetration testing framework.",
+        "category": "General",
+        "createdAt": 1772217589653
+      },
+      {
+        "title": "OWASP Dev Guide",
+        "url": "https://github.com/OWASP/DevGuide",
+        "description": "this is the development version of the OWASP Developer Guide.",
+        "category": "General",
+        "createdAt": 1772217589654
+      },
+      {
+        "title": "OWASP WSTG",
+        "url": "https://github.com/OWASP/wstg",
+        "description": "is a comprehensive open source guide to testing the security of web apps.",
+        "category": "General",
+        "createdAt": 1772217589655
+      },
+      {
+        "title": "OWASP API Security Project",
+        "url": "https://www.owasp.org/index.php/OWASP_API_Security_Project",
+        "description": "focuses specifically on the top ten vulnerabilities in API security.",
+        "category": "General",
+        "createdAt": 1772217589656
+      },
+      {
+        "title": "Mozilla Web Security",
+        "url": "https://infosec.mozilla.org/guidelines/web_security.html",
+        "description": "help operational teams with creating secure web applications.",
+        "category": "General",
+        "createdAt": 1772217589657
+      },
+      {
+        "title": "security-bulletins",
+        "url": "https://github.com/Netflix/security-bulletins",
+        "description": "security bulletins that relate to Netflix Open Source.",
+        "category": "General",
+        "createdAt": 1772217589658
+      },
+      {
+        "title": "API-Security-Checklist",
+        "url": "https://github.com/shieldfy/API-Security-Checklist",
+        "description": "security countermeasures when designing, testing, and releasing your API.",
+        "category": "General",
+        "createdAt": 1772217589659
+      },
+      {
+        "title": "Enable CORS",
+        "url": "https://enable-cors.org/index.html",
+        "description": "enable cross-origin resource sharing.",
+        "category": "General",
+        "createdAt": 1772217589660
+      },
+      {
+        "title": "Application Security Wiki",
+        "url": "https://appsecwiki.com/#/",
+        "description": "is an initiative to provide all application security related resources at one place.",
+        "category": "General",
+        "createdAt": 1772217589661
+      },
+      {
+        "title": "Weird Proxies",
+        "url": "https://github.com/GrrrDog/weird_proxies/wiki",
+        "description": "reverse proxy related attacks; it is a result of analysis of various proxies.",
+        "category": "General",
+        "createdAt": 1772217589662
+      },
+      {
+        "title": "Webshells",
+        "url": "https://dfir.it/blog/2015/08/12/webshell-every-time-the-same-purpose/",
+        "description": "great series about malicious payloads.",
+        "category": "General",
+        "createdAt": 1772217589663
+      },
+      {
+        "title": "Practical Web Cache Poisoning",
+        "url": "https://portswigger.net/blog/practical-web-cache-poisoning",
+        "description": "show you how to compromise websites by using esoteric web features.",
+        "category": "General",
+        "createdAt": 1772217589664
+      },
+      {
+        "title": "Hidden directories and files",
+        "url": "https://github.com/bl4de/research/tree/master/hidden_directories_leaks",
+        "description": "as a source of sensitive information about web application.",
+        "category": "General",
+        "createdAt": 1772217589665
+      },
+      {
+        "title": "Explosive blog",
+        "url": "https://bo0om.ru/en/",
+        "description": "great blog about cybersec and pentests.",
+        "category": "General",
+        "createdAt": 1772217589666
+      },
+      {
+        "title": "Security Cookies",
+        "url": "https://www.netsparker.com/security-cookies-whitepaper/",
+        "description": "this paper will take a close look at cookie security.",
+        "category": "General",
+        "createdAt": 1772217589667
+      },
+      {
+        "title": "APISecurityBestPractices",
+        "url": "https://github.com/GitGuardian/APISecurityBestPractices",
+        "description": "help you keep secrets (API keys, db credentials, certificates) out of source code.",
+        "category": "General",
+        "createdAt": 1772217589668
+      }
+    ],
+    "createdAt": 1772217589649,
+    "updatedAt": 1772217589668
+  },
+  {
+    "name": "All in one",
+    "links": [
+      {
+        "title": "LZone Cheat Sheets",
+        "url": "https://lzone.de/cheat-sheet/",
+        "description": "all cheat sheets.",
+        "category": "General",
+        "createdAt": 1772217589669
+      },
+      {
+        "title": "Dan\u2019s Cheat Sheets\u2019s",
+        "url": "https://github.com/rstacruz/cheatsheets",
+        "description": "massive cheat sheets documentation.",
+        "category": "General",
+        "createdAt": 1772217589670
+      },
+      {
+        "title": "Rico's cheatsheets",
+        "url": "https://devhints.io/",
+        "description": "this is a modest collection of cheatsheets.",
+        "category": "General",
+        "createdAt": 1772217589671
+      },
+      {
+        "title": "DevDocs API",
+        "url": "https://devdocs.io/",
+        "description": "combines multiple API documentations in a fast, organized, and searchable interface.",
+        "category": "General",
+        "createdAt": 1772217589672
+      },
+      {
+        "title": "cheat.sh",
+        "url": "https://cheat.sh/",
+        "description": "the only cheat sheet you need.",
+        "category": "General",
+        "createdAt": 1772217589673
+      },
+      {
+        "title": "gnulinux.guru",
+        "url": "https://gnulinux.guru/",
+        "description": "collection of cheat sheets about bash, vim and networking.",
+        "category": "General",
+        "createdAt": 1772217589674
+      },
+      {
+        "title": "Web Skills",
+        "url": "https://andreasbm.github.io/web-skills/",
+        "description": "visual overview of useful skills to learn as a web developer.",
+        "category": "General",
+        "createdAt": 1772217589675
+      }
+    ],
+    "createdAt": 1772217589669,
+    "updatedAt": 1772217589675
+  },
+  {
+    "name": "Ebooks",
+    "links": [
+      {
+        "title": "free-programming-books",
+        "url": "https://github.com/EbookFoundation/free-programming-books",
+        "description": "list of free learning resources in many languages.",
+        "category": "General",
+        "createdAt": 1772217589676
+      }
+    ],
+    "createdAt": 1772217589676,
+    "updatedAt": 1772217589676
+  },
+  {
+    "name": "Other",
+    "links": [
+      {
+        "title": "CTF Series : Vulnerable Machines",
+        "url": "https://bitvijays.github.io/LFC-VulnerableMachines.html",
+        "description": "the steps below could be followed to find vulnerabilities and exploits.",
+        "category": "General",
+        "createdAt": 1772217589677
+      },
+      {
+        "title": "50M_CTF_Writeup",
+        "url": "https://github.com/manoelt/50M_CTF_Writeup",
+        "description": "$50 million CTF from Hackerone - writeup.",
+        "category": "General",
+        "createdAt": 1772217589678
+      },
+      {
+        "title": "ctf-tasks",
+        "url": "https://github.com/j00ru/ctf-tasks",
+        "description": "an archive of low-level CTF challenges developed over the years.",
+        "category": "General",
+        "createdAt": 1772217589679
+      },
+      {
+        "title": "How to start RE/malware analysis?",
+        "url": "https://hshrzd.wordpress.com/how-to-start/",
+        "description": "collection of some hints and useful links for the beginners.",
+        "category": "General",
+        "createdAt": 1772217589680
+      },
+      {
+        "title": "The C10K problem",
+        "url": "http://www.kegel.com/c10k.html",
+        "description": "it's time for web servers to handle ten thousand clients simultaneously, don't you think?",
+        "category": "General",
+        "createdAt": 1772217589681
+      },
+      {
+        "title": "How 1500 bytes became the MTU of the internet",
+        "url": "https://blog.benjojo.co.uk/post/why-is-ethernet-mtu-1500",
+        "description": "great story about the Maximum Transmission Unit.",
+        "category": "General",
+        "createdAt": 1772217589682
+      },
+      {
+        "title": "poor man's profiler",
+        "url": "http://poormansprofiler.org/",
+        "description": "like dtrace's don't really provide methods to see what programs are blocking on.",
+        "category": "General",
+        "createdAt": 1772217589683
+      },
+      {
+        "title": "HTTPS on Stack Overflow",
+        "url": "https://nickcraver.com/blog/2017/05/22/https-on-stack-overflow/",
+        "description": "this is the story of a long journey regarding the implementation of SSL.",
+        "category": "General",
+        "createdAt": 1772217589684
+      },
+      {
+        "title": "Julia's Drawings",
+        "url": "https://drawings.jvns.ca/",
+        "description": "some drawings about programming and unix world, zines about systems & debugging tools.",
+        "category": "General",
+        "createdAt": 1772217589685
+      },
+      {
+        "title": "Hash collisions",
+        "url": "https://github.com/corkami/collisions",
+        "description": "this great repository is focused on hash collisions exploitation.",
+        "category": "General",
+        "createdAt": 1772217589686
+      },
+      {
+        "title": "sha256-animation",
+        "url": "https://github.com/in3rsha/sha256-animation",
+        "description": "animation of the SHA-256 hash function in your terminal.",
+        "category": "General",
+        "createdAt": 1772217589687
+      },
+      {
+        "title": "sha256algorithm",
+        "url": "https://sha256algorithm.com/",
+        "description": "sha256 algorithm explained online step by step visually.",
+        "category": "General",
+        "createdAt": 1772217589688
+      },
+      {
+        "title": "BGP Meets Cat",
+        "url": "https://labs.ripe.net/Members/cteusche/bgp-meets-cat",
+        "description": "after 3072 hours of manipulating BGP, Job Snijders has succeeded in drawing a Nyancat.",
+        "category": "General",
+        "createdAt": 1772217589689
+      },
+      {
+        "title": "bgp-battleships",
+        "url": "https://github.com/benjojo/bgp-battleships",
+        "description": "playing battleships over BGP.",
+        "category": "General",
+        "createdAt": 1772217589690
+      },
+      {
+        "title": "What happens when...",
+        "url": "https://github.com/alex/what-happens-when",
+        "description": "you type google.com into your browser and press enter?",
+        "category": "General",
+        "createdAt": 1772217589691
+      },
+      {
+        "title": "how-web-works",
+        "url": "https://github.com/vasanthk/how-web-works",
+        "description": "based on the 'What happens when...' repository.",
+        "category": "General",
+        "createdAt": 1772217589692
+      },
+      {
+        "title": "HTTPS in the real world",
+        "url": "https://robertheaton.com/2018/11/28/https-in-the-real-world/",
+        "description": "great tutorial explain how HTTPS works in the real world.",
+        "category": "General",
+        "createdAt": 1772217589693
+      },
+      {
+        "title": "Gitlab and NFS bug",
+        "url": "https://about.gitlab.com/2018/11/14/how-we-spent-two-weeks-hunting-an-nfs-bug/",
+        "description": "how we spent two weeks hunting an NFS bug in the Linux kernel.",
+        "category": "General",
+        "createdAt": 1772217589694
+      },
+      {
+        "title": "Gitlab melts down",
+        "url": "https://about.gitlab.com/2017/02/10/postmortem-of-database-outage-of-january-31/",
+        "description": "postmortem on the database outage of January 31 2017 with the lessons we learned.",
+        "category": "General",
+        "createdAt": 1772217589695
+      },
+      {
+        "title": "How To Become A Hacker",
+        "url": "http://www.catb.org/esr/faqs/hacker-howto.html",
+        "description": "if you want to be a hacker, keep reading.",
+        "category": "General",
+        "createdAt": 1772217589696
+      },
+      {
+        "title": "Operation Costs in CPU",
+        "url": "http://ithare.com/infographics-operation-costs-in-cpu-clock-cycles/",
+        "description": "should help to estimate costs of certain operations in CPU clocks.",
+        "category": "General",
+        "createdAt": 1772217589697
+      },
+      {
+        "title": "Let's Build a Simple Database",
+        "url": "https://cstack.github.io/db_tutorial/",
+        "description": "writing a sqlite clone from scratch in C.",
+        "category": "General",
+        "createdAt": 1772217589698
+      },
+      {
+        "title": "simple-computer",
+        "url": "https://djhworld.github.io/post/2019/05/21/i-dont-know-how-cpus-work-so-i-simulated-one-in-code/",
+        "description": "great resource to understand how computers work under the hood.",
+        "category": "General",
+        "createdAt": 1772217589699
+      },
+      {
+        "title": "The story of \"Have I been pwned?\"",
+        "url": "https://www.troyhunt.com/working-with-154-million-records-on/",
+        "description": "working with 154 million records on Azure Table Storage.",
+        "category": "General",
+        "createdAt": 1772217589700
+      },
+      {
+        "title": "TOP500 Supercomputers",
+        "url": "https://www.top500.org/",
+        "description": "shows the 500 most powerful commercially available computer systems.",
+        "category": "General",
+        "createdAt": 1772217589701
+      },
+      {
+        "title": "How to build a 8 GPU password cracker",
+        "url": "https://www.shellntel.com/blog/2017/2/8/how-to-build-a-8-gpu-password-cracker",
+        "description": "hours of frustration like desktop components do.",
+        "category": "General",
+        "createdAt": 1772217589702
+      },
+      {
+        "title": "CERN Data Centre",
+        "url": "https://home.cern/science/computing",
+        "description": "3D visualizations of the CERN computing environments (and more).",
+        "category": "General",
+        "createdAt": 1772217589703
+      },
+      {
+        "title": "How fucked is my database",
+        "url": "http://howfuckedismydatabase.com/",
+        "description": "evaluate how fucked your database is with this handy website.",
+        "category": "General",
+        "createdAt": 1772217589704
+      },
+      {
+        "title": "Linux Troubleshooting 101 , 2016 Edition",
+        "url": "https://krisbuytaert.be/blog/linux-troubleshooting-101-2016-edition/index.html",
+        "description": "everything is a DNS Problem...",
+        "category": "General",
+        "createdAt": 1772217589705
+      },
+      {
+        "title": "Five Whys",
+        "url": "https://open.buffer.com/5-whys-process/",
+        "description": "you know what the problem is, but you cannot solve it?",
+        "category": "General",
+        "createdAt": 1772217589706
+      },
+      {
+        "title": "Maersk, me & notPetya",
+        "url": "https://gvnshtn.com/maersk-me-notpetya/",
+        "description": "how did ransomware successfully hijack hundreds of domain controllers?",
+        "category": "General",
+        "createdAt": 1772217589707
+      },
+      {
+        "title": "howhttps.works",
+        "url": "https://howhttps.works/",
+        "description": "how HTTPS works ...in a comic!",
+        "category": "General",
+        "createdAt": 1772217589708
+      },
+      {
+        "title": "howdns.works",
+        "url": "https://howdns.works/",
+        "description": "a fun and colorful explanation of how DNS works.",
+        "category": "General",
+        "createdAt": 1772217589709
+      },
+      {
+        "title": "POSTGRESQLCO.NF",
+        "url": "https://postgresqlco.nf/en/doc/param/",
+        "description": "your postgresql.conf documentation and recommendations.",
+        "category": "General",
+        "createdAt": 1772217589710
+      }
+    ],
+    "createdAt": 1772217589677,
+    "updatedAt": 1772217589710
+  }
+]

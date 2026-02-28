@@ -1,0 +1,219 @@
+[
+  {
+    "name": "Terminal emulators",
+    "links": [
+      {
+        "title": "Guake",
+        "url": "https://github.com/Guake/guake",
+        "description": "is a dropdown terminal made for the GNOME desktop environment.",
+        "category": "General",
+        "createdAt": 1772216575457
+      },
+      {
+        "title": "Terminator",
+        "url": "https://gnometerminator.blogspot.com/p/introduction.html",
+        "description": "is based on GNOME Terminal, useful features for sysadmins and other users.",
+        "category": "General",
+        "createdAt": 1772216575458
+      },
+      {
+        "title": "Kitty",
+        "url": "https://sw.kovidgoyal.net/kitty/",
+        "description": "is a GPU based terminal emulator that supports smooth scrolling and images.",
+        "category": "General",
+        "createdAt": 1772216575459
+      },
+      {
+        "title": "Alacritty",
+        "url": "https://github.com/alacritty/alacritty",
+        "description": "is a fast, cross-platform, OpenGL terminal emulator.",
+        "category": "General",
+        "createdAt": 1772216575460
+      }
+    ],
+    "createdAt": 1772216575457,
+    "updatedAt": 1772216575460
+  },
+  {
+    "name": "Network",
+    "links": [
+      {
+        "title": "Wireshark",
+        "url": "https://www.wireshark.org/",
+        "description": "is the world\u2019s foremost and widely-used network protocol analyzer.",
+        "category": "General",
+        "createdAt": 1772216575461
+      },
+      {
+        "title": "Ettercap",
+        "url": "https://www.ettercap-project.org/",
+        "description": "is a comprehensive network monitor tool.",
+        "category": "General",
+        "createdAt": 1772216575462
+      },
+      {
+        "title": "EtherApe",
+        "url": "https://etherape.sourceforge.io/",
+        "description": "is a graphical network monitoring solution.",
+        "category": "General",
+        "createdAt": 1772216575463
+      },
+      {
+        "title": "Packet Sender",
+        "url": "https://packetsender.com/",
+        "description": "is a networking utility for packet generation and built-in UDP/TCP/SSL client and servers.",
+        "category": "General",
+        "createdAt": 1772216575464
+      },
+      {
+        "title": "Ostinato",
+        "url": "https://ostinato.org/",
+        "description": "is a packet crafter and traffic generator.",
+        "category": "General",
+        "createdAt": 1772216575465
+      },
+      {
+        "title": "JMeter\u2122",
+        "url": "https://jmeter.apache.org/",
+        "description": "open source software to load test functional behavior and measure performance.",
+        "category": "General",
+        "createdAt": 1772216575466
+      },
+      {
+        "title": "locust",
+        "url": "https://github.com/locustio/locust",
+        "description": "scalable user load testing tool written in Python.",
+        "category": "General",
+        "createdAt": 1772216575467
+      }
+    ],
+    "createdAt": 1772216575461,
+    "updatedAt": 1772216575467
+  },
+  {
+    "name": "Browsers",
+    "links": [
+      {
+        "title": "TOR Browser",
+        "url": "https://www.torproject.org/",
+        "description": "protect your privacy and defend yourself against network surveillance and traffic analysis.",
+        "category": "General",
+        "createdAt": 1772216575468
+      }
+    ],
+    "createdAt": 1772216575468,
+    "updatedAt": 1772216575468
+  },
+  {
+    "name": "Password Managers",
+    "links": [
+      {
+        "title": "KeePassXC",
+        "url": "https://keepassxc.org/",
+        "description": "store your passwords safely and auto-type them into your everyday websites and apps.",
+        "category": "General",
+        "createdAt": 1772216575469
+      },
+      {
+        "title": "Bitwarden",
+        "url": "https://bitwarden.com/",
+        "description": "open source password manager with built-in sync.",
+        "category": "General",
+        "createdAt": 1772216575470
+      },
+      {
+        "title": "Vaultwarden",
+        "url": "https://github.com/dani-garcia/vaultwarden/",
+        "description": "unofficial Bitwarden compatible server written in Rust.",
+        "category": "General",
+        "createdAt": 1772216575471
+      }
+    ],
+    "createdAt": 1772216575469,
+    "updatedAt": 1772216575471
+  },
+  {
+    "name": "Messengers/IRC Clients",
+    "links": [
+      {
+        "title": "HexChat",
+        "url": "https://hexchat.github.io/index.html",
+        "description": "is an IRC client based on XChat.",
+        "category": "General",
+        "createdAt": 1772216575472
+      },
+      {
+        "title": "Pidgin",
+        "url": "https://pidgin.im/",
+        "description": "is an easy to use and free chat client used by millions.",
+        "category": "General",
+        "createdAt": 1772216575473
+      }
+    ],
+    "createdAt": 1772216575472,
+    "updatedAt": 1772216575473
+  },
+  {
+    "name": "Messengers (end to end encryption)",
+    "links": [
+      {
+        "title": "Signal",
+        "url": "https://www.signal.org/",
+        "description": "is an encrypted communications app.",
+        "category": "General",
+        "createdAt": 1772216575474
+      },
+      {
+        "title": "Wire",
+        "url": "https://wire.com/en/",
+        "description": "secure messaging, file sharing, voice calls and video conferences.",
+        "category": "General",
+        "createdAt": 1772216575475
+      },
+      {
+        "title": "TorChat",
+        "url": "https://github.com/prof7bit/TorChat",
+        "description": "decentralized anonymous instant messenger on top of Tor Hidden Services.",
+        "category": "General",
+        "createdAt": 1772216575476
+      },
+      {
+        "title": "Matrix",
+        "url": "https://matrix.org/",
+        "description": "an open network for secure, decentralized, real-time communication.",
+        "category": "General",
+        "createdAt": 1772216575477
+      }
+    ],
+    "createdAt": 1772216575474,
+    "updatedAt": 1772216575477
+  },
+  {
+    "name": "Text editors",
+    "links": [
+      {
+        "title": "Sublime Text",
+        "url": "https://www.sublimetext.com/3",
+        "description": "is a lightweight, cross-platform code editor known for its speed, ease of use.",
+        "category": "General",
+        "createdAt": 1772216575478
+      },
+      {
+        "title": "Visual Studio Code",
+        "url": "https://code.visualstudio.com/",
+        "description": "an open-source and free source code editor developed by Microsoft.",
+        "category": "General",
+        "createdAt": 1772216575479
+      },
+      {
+        "title": "Atom",
+        "url": "https://atom.io/",
+        "description": "a hackable text editor for the 21st Century.",
+        "category": "General",
+        "createdAt": 1772216575480
+      }
+    ],
+    "createdAt": 1772216575478,
+    "updatedAt": 1772216575480
+  }
+]

