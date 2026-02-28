@@ -281,6 +281,26 @@ export default defineConfig({
 
   build: {
     target: 'esnext',
+    sourcemap: false,
+    minify: 'terser',
+    terserOptions: {
+      compress: {
+        drop_console: true,
+        drop_debugger: true,
+      },
+    },
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (id.includes('node_modules')) {
+            if (id.includes('naive-ui')) return 'naive-ui';
+            if (id.includes('monaco-editor')) return 'monaco-editor';
+            if (id.includes('mermaid')) return 'mermaid';
+            return 'vendor';
+          }
+        },
+      },
+    },
   },
 });
 
