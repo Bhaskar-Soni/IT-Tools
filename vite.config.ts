@@ -18,6 +18,7 @@ import markdown from 'vite-plugin-vue-markdown';
 import svgLoader from 'vite-svg-loader';
 import { VitePWA } from 'vite-plugin-pwa';
 import monacoEditorPlugin from 'vite-plugin-monaco-editor';
+import { nodePolyfills } from 'vite-plugin-node-polyfills';
 
 import { configDefaults } from 'vitest/config';
 
@@ -214,6 +215,14 @@ export default defineConfig({
         ],
       },
     }),
+    nodePolyfills({
+      include: ['buffer', 'crypto', 'stream', 'util', 'url', 'path', 'fs'],
+      globals: {
+        Buffer: true,
+        global: true,
+        process: true,
+      },
+    }),
   ],
 
   base: baseUrl,
@@ -234,7 +243,7 @@ export default defineConfig({
         replacement: fileURLToPath(new URL('./src/shims/yamljs.ts', import.meta.url)),
       },
       {
-        find: /^node:fs\/promises$/,
+        find: /^(node:)?fs\/promises$/,
         replacement: fileURLToPath(new URL('./src/shims/fs-promises.ts', import.meta.url)),
       },
       {
