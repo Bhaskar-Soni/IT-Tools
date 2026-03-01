@@ -284,10 +284,24 @@ export default defineConfig({
     minify: 'esbuild',
     reportCompressedSize: false,
     chunkSizeWarningLimit: 2000,
+    emptyOutDir: true,
     rollupOptions: {
-      maxParallelFileOps: 5,
+      maxParallelFileOps: 1, // Minimum RAM usage
       output: {
         minifyInternalExports: false,
+        manualChunks(id) {
+          if (id.includes('node_modules')) {
+            if (id.includes('monaco-editor')) return 'monaco';
+            if (id.includes('naive-ui')) return 'naive';
+            if (id.includes('shiki')) return 'shiki';
+            if (id.includes('mermaid')) return 'mermaid';
+            if (id.includes('tesseract.js') || id.includes('pdfjs-dist')) return 'ocr';
+            return 'vendor';
+          }
+          if (id.includes('src/content/tools')) {
+            return 'tools';
+          }
+        },
       },
       onwarn(warning, warn) {
         if (warning.code === 'CIRCULAR_DEPENDENCY') return;
