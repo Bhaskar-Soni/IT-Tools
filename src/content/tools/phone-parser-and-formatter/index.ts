@@ -1,0 +1,13 @@
+import { Phone } from '@vicons/tabler';
+import type { ContentItem } from '@/core/content.types';
+
+export const content: ContentItem = {
+  type: 'tool',
+  slug: 'phone-parser-and-formatter',
+  title: 'Phone parser and formatter',
+  description: 'Parse, validate and format phone numbers. Get information about the phone number, like the country code, type, etc. Forge link to send message in WhatsApp and SMS.',
+  keywords: ['phone','parser','formatter','validate','format','number','telephone','mobile','cell','international','national','whatsapp','sms','message',],
+  component: () => import('./phone-parser-and-formatter.vue'),
+  icon: Phone,
+  category: 'Data',
+};

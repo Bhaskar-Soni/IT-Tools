@@ -1,21 +1,20 @@
-import messages from '@intlify/unplugin-vue-i18n/messages';
-import { get } from '@vueuse/core';
 import type { Plugin } from 'vue';
-import { createI18n } from 'vue-i18n';
 
-const i18n = createI18n({
-  legacy: false,
-  locale: 'en',
-  messages,
-});
-
+// This plugin is deprecated and not currently used
+// Kept for backward compatibility
 export const i18nPlugin: Plugin = {
   install: (app) => {
-    app.use(i18n);
+    // No-op: i18n is not used in this application
   },
 };
 
-export const translate = function (localeKey: string) {
-  const hasKey = i18n.global.te(localeKey, get(i18n.global.locale));
-  return hasKey ? i18n.global.t(localeKey) : localeKey;
+// Fallback translate function - returns the key itself since i18n is not actively used
+export const translate = (key: string): string => {
+  return key;
+};
+
+// Get current locale - defaults to 'en-US'
+export const getCurrentLocale = (): string => {
+  // Try to get from navigator or use default
+  return typeof navigator !== 'undefined' ? navigator.language : 'en-US';
 };

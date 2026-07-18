@@ -1,13 +1,48 @@
-import { extension as getExtensionFromMimeType, extension as getMimeTypeFromExtension } from 'mime-types';
 import type { Ref } from 'vue';
 import _ from 'lodash';
 
 export {
   getMimeTypeFromBase64,
-  getMimeTypeFromExtension, getExtensionFromMimeType,
-  useDownloadFileFromBase64, useDownloadFileFromBase64Refs,
+  getMimeTypeFromExtension,
+  getExtensionFromMimeType,
+  useDownloadFileFromBase64,
+  useDownloadFileFromBase64Refs,
   previewImageFromBase64,
 };
+
+const mimeTypeByExtension: Record<string, string> = {
+  txt: 'text/plain',
+  html: 'text/html',
+  htm: 'text/html',
+  css: 'text/css',
+  js: 'application/javascript',
+  json: 'application/json',
+  xml: 'application/xml',
+  csv: 'text/csv',
+  png: 'image/png',
+  jpg: 'image/jpeg',
+  jpeg: 'image/jpeg',
+  gif: 'image/gif',
+  svg: 'image/svg+xml',
+  pdf: 'application/pdf',
+  mp3: 'audio/mpeg',
+  mp4: 'video/mp4',
+  wav: 'audio/wav',
+  webp: 'image/webp',
+  zip: 'application/zip',
+};
+
+const extensionByMimeType: Record<string, string> = Object.entries(mimeTypeByExtension)
+  .reduce((acc, [ext, mime]) => {
+    if (!acc[mime]) acc[mime] = ext;
+    return acc;
+  }, {} as Record<string, string>);
+
+function getMimeTypeFromExtension(ext?: string) {
+  if (!ext) return undefined;
+  const clean = ext.replace(/^\./, '').toLowerCase();
+  return mimeTypeByExtension[clean];
+}
 
 const commonMimeTypesSignatures = {
   'JVBERi0': 'application/pdf',
@@ -45,6 +80,11 @@ function getFileExtensionFromMimeType({
   }
 
   return defaultExtension;
+}
+
+function getExtensionFromMimeType(mimeType?: string) {
+  if (!mimeType) return undefined;
+  return extensionByMimeType[mimeType.toLowerCase()];
 }
 
 function downloadFromBase64({ sourceValue, filename, extension, fileMimeType }:

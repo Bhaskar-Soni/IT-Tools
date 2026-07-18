@@ -12,6 +12,10 @@ const props = withDefaults(
     inputDefault?: string
     outputLabel?: string
     outputLanguage?: string
+    downloadFileName?: string
+    rows?: number | string
+    inputAutosize?: boolean
+    inputLineNumbers?: boolean
   }>(),
   {
     transformer: _.identity,
@@ -21,10 +25,14 @@ const props = withDefaults(
     inputPlaceholder: 'Input...',
     outputLabel: 'Output',
     outputLanguage: '',
+    downloadFileName: undefined,
+    rows: 20,
+    inputAutosize: true,
+    inputLineNumbers: false,
   },
 );
 
-const { transformer, inputValidationRules, inputLabel, outputLabel, outputLanguage, inputPlaceholder, inputDefault }
+const { transformer, inputValidationRules, inputLabel, outputLabel, outputLanguage, inputPlaceholder, inputDefault, downloadFileName, rows, inputAutosize }
   = toRefs(props);
 
 const inputElement = ref<typeof CInputText>();
@@ -39,8 +47,8 @@ const output = computed(() => transformer.value(input.value));
     v-model:value="input"
     :placeholder="inputPlaceholder"
     :label="inputLabel"
-    rows="20"
-    autosize
+    :rows="rows"
+    :autosize="inputAutosize"
     raw-text
     multiline
     test-id="input"
@@ -52,6 +60,11 @@ const output = computed(() => transformer.value(input.value));
     <div mb-5px>
       {{ outputLabel }}
     </div>
-    <textarea-copyable :value="output" :language="outputLanguage" :follow-height-of="inputElement?.inputWrapperRef" />
+    <textarea-copyable
+      :value="output"
+      :language="outputLanguage"
+      :follow-height-of="inputElement?.inputWrapperRef"
+      :download-file-name="downloadFileName"
+    />
   </div>
 </template>

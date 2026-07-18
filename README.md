@@ -1,133 +1,252 @@
-<picture>
-    <source srcset="./.github/logo-dark.png" media="(prefers-color-scheme: light)">
-    <source srcset="./.github/logo-white.png" media="(prefers-color-scheme: dark)">
-    <img src="./.github/logo-dark.png" alt="logo">
-</picture>
+<h1 align="center">IT-Tools</h1>
 
-<p align="center">
-Useful tools for developer and people working in IT. <a href="https://it-tools.tech">Try it!</a>
-</p>
+![Dashboard Screenshot](public/dashboard.png)
 
-## Functionalities and roadmap
+IT-Tools is a practical cybersecurity and systems knowledge platform focused on useful execution, not noise.
+It combines browser-based tools with structured content so learners and practitioners can move faster across real technical workflows.
 
-Please check the [issues](https://github.com/CorentinTh/it-tools/issues) to see if some feature listed to be implemented.
+## What IT-Tools Includes
 
-You have an idea of a tool? Submit a [feature request](https://github.com/CorentinTh/it-tools/issues/new/choose)!
+- Browser tools for parsing, conversion, generation, analysis, and validation
+- Curated guides, notes, commands, cheatsheets, and lists
+- Reusable templates, policies, and reports for delivery and documentation
+- Link collections with categorized resources
+- A unified content scaffolding system for adding new sections quickly
 
-## Self host
+Current content areas in this repo:
 
-Self host solutions for your homelab
+- `tools`
+- `guides`
+- `commands`
+- `cheatsheets`
+- `scripts`
+- `notes`
+- `templates`
+- `policies`
+- `reports`
+- `lists`
+- `links`
 
-**From docker hub:**
+## Tech Stack
 
-```sh
-docker run -d --name it-tools --restart unless-stopped -p 8080:80 corentinth/it-tools:latest
+- Vue 3 + Vite
+- TypeScript
+- Pinia
+- Naive UI
+- UnoCSS
+- Vitest + Playwright
+- PNPM workstream and custom content generation scripts
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18+ (LTS recommended)
+- PNPM 9+
+
+### Install using Docker
+
+```bash
+git clone https://github.com/Bhaskar-Soni/IT-Tools.git
+cd IT-Tools
+docker compose up --build -d
+
+## Explore the tools: http://localhost:5173/
 ```
 
-**From github packages:**
-
-```sh
-docker run -d --name it-tools --restart unless-stopped -p 8080:80 ghcr.io/corentinth/it-tools:latest
-```
-
-**Other solutions:**
-
-- [Cloudron](https://www.cloudron.io/store/tech.ittools.cloudron.html)
-- [Tipi](https://www.runtipi.io/docs/apps-available)
-- [Unraid](https://unraid.net/community/apps?q=it-tools)
-
-## Contribute
-
-### Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) with the following extensions:
-
-- [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur)
-- [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-- [i18n Ally](https://marketplace.visualstudio.com/items?itemName=lokalise.i18n-ally)
-
-with the following settings:
-
-```json
-{
-  "editor.formatOnSave": false,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
-  "i18n-ally.localesPaths": ["locales", "src/tools/*/locales"],
-  "i18n-ally.keystyle": "nested"
-}
-```
-
-### Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
-
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-### Project Setup
-
-```sh
+### Install using Source 
+```bash
 pnpm install
 ```
 
-### Compile and Hot-Reload for Development
+### Run Dev Server
 
-```sh
+```bash
 pnpm dev
 ```
 
-### Type-Check, Compile and Minify for Production
+### Typecheck, Lint, and Test
 
-```sh
+```bash
+pnpm typecheck
+pnpm lint
+pnpm test:unit
+pnpm test:e2e
+```
+
+### Build for Production
+
+On macOS/Linux:
+
+```bash
 pnpm build
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+On Windows PowerShell (if inline `NODE_OPTIONS=...` fails in shell):
 
-```sh
-pnpm test
+```powershell
+$env:NODE_OPTIONS="--max_old_space_size=4096"
+pnpm exec vue-tsc --noEmit
+pnpm exec vite build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### Preview Production Build
 
-```sh
-pnpm lint
+```bash
+pnpm preview
 ```
 
-### Create a new tool
+## Content Creation Workflow
 
-To create a new tool, there is a script that generate the boilerplate of the new tool, simply run:
+IT-Tools uses script-driven scaffolding to keep structure and metadata consistent.
 
-```sh
-pnpm run script:create:tool my-tool-name
+### 1. Create a new content type (optional)
+
+```bash
+pnpm create:content "<type>"
 ```
 
-It will create a directory in `src/tools` with the correct files, and a the import in `src/tools/index.ts`. You will just need to add the imported tool in the proper category and develop the tool.
+Example:
 
-## Contributors
+```bash
+pnpm create:content "playbooks"
+```
 
-Big thanks to all the people who have already contributed!
+### 2. Create an item inside a content type
 
-[![contributors](https://contrib.rocks/image?repo=corentinth/it-tools&refresh=1)](https://github.com/corentinth/it-tools/graphs/contributors)
+```bash
+pnpm create:items <content-type> "<item-name>" --subcategory "<subcategory>"
+```
 
-## Credits
+Examples:
 
-Coded with ❤️ by [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=readme).
+```bash
+pnpm create:items guides "linux-user-management" --subcategory "How-To Guides"
+pnpm create:items notes "incident-response-timeline" --subcategory "SOC Notes"
+pnpm create:items links "threat-intel-sources" --subcategory "Threat Intelligence"
+```
 
-This project is continuously deployed using [vercel.com](https://vercel.com).
+### 3. Create script items in specific script formats
 
-Contributor graph is generated using [contrib.rocks](https://contrib.rocks/preview?repo=corentinth/it-tools).
+```bash
+pnpm create:items scripts "backup-rotation" bash
+pnpm create:items scripts "daily-health-check" bash,batch,python
+pnpm create:items scripts "ops-bundle" all
+```
 
-<a href="https://www.producthunt.com/posts/it-tools?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-it&#0045;tools" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=345793&theme=light" alt="IT&#0032;Tools - Collection&#0032;of&#0032;handy&#0032;online&#0032;tools&#0032;for&#0032;devs&#0044;&#0032;with&#0032;great&#0032;UX | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
-<a href="https://www.producthunt.com/posts/it-tools?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-it&#0045;tools" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=345793&theme=light&period=daily" alt="IT&#0032;Tools - Collection&#0032;of&#0032;handy&#0032;online&#0032;tools&#0032;for&#0032;devs&#0044;&#0032;with&#0032;great&#0032;UX | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+Supported script formats:
+
+- `bash`
+- `batch`
+- `python`
+- `powershell`
+- `yaml`
+- `zsh`
+- `fish`
+- `tcl`
+
+### 4. Delete items or content types
+
+```bash
+pnpm delete:items <content-type> "<item-name>"
+pnpm delete:content <content-type>
+```
+
+### 5. Sync category files after major edits
+
+```bash
+pnpm sync:categories
+```
+
+## Project Structure
+
+```text
+.
+|-- src/
+|   |-- content/              # All generated and curated content
+|   |   |-- tools/
+|   |   |-- guides/
+|   |   |-- commands/
+|   |   |-- cheatsheets/
+|   |   |-- scripts/
+|   |   |-- notes/
+|   |   |-- templates/
+|   |   |-- policies/
+|   |   |-- reports/
+|   |   |-- lists/
+|   |   `-- links/
+|   |-- pages/                # App pages (Home, About, etc.)
+|   |-- layouts/              # App layouts
+|   |-- components/           # Shared UI components
+|   |-- stores/               # Pinia state stores
+|   `-- ui/                   # UI styling and behavior assets
+|-- scripts/                  # Scaffolding and maintenance scripts
+|   |-- templates/            # Generation templates
+|   `-- lib/                  # Shared script utilities
+|-- Readme/                   # Extended internal docs
+|-- Dockerfile
+|-- nginx.conf
+`-- vercel.json
+```
+
+## Deployment
+
+### Docker
+
+```bash
+docker build -t it-tools .
+docker run -p 8080:80 it-tools
+```
+
+### Vercel
+
+This repo includes SPA rewrite routing in `vercel.json`:
+
+- Route fallback to `/index.html` for client-side routes
+
+## Scripts Reference
+
+Main project scripts from `package.json`:
+
+- `pnpm dev`
+- `pnpm build`
+- `pnpm preview`
+- `pnpm typecheck`
+- `pnpm lint`
+- `pnpm test:unit`
+- `pnpm test:e2e`
+- `pnpm create:content`
+- `pnpm create:items`
+- `pnpm delete:content`
+- `pnpm delete:items`
+- `pnpm sync:categories`
+- `pnpm release`
+
+## Contribution Guidelines
+
+1. Keep naming in kebab-case for new content items.
+2. Assign each item to an intentional subcategory.
+3. Run `pnpm sync:categories` after bulk creation/deletion.
+4. Run `pnpm typecheck` and `pnpm lint` before opening a PR.
+5. Prefer practical, field-usable content over generic theory.
+
+## Usage and Responsibility
+
+This platform includes security and investigation-oriented material.
+Use all techniques and tools only in authorized, legal, and ethical contexts.
+
+## Attribution & Credits
+
+Portions of content, structure, or inspiration in this project are derived from publicly available resources, including:
+
+- https://it-tools.tech/
+- https://sharevb-it-tools.vercel.app/
+- https://github.com/r1cksec/cheatsheets/
+- https://github.com/trimstray/the-book-of-secret-knowledge
+
+All trademarks, content, and intellectual property remain the property of their respective owners.  
+This project is intended for educational and informational purposes only.
 
 ## License
 
-This project is under the [GNU GPLv3](LICENSE).
+GNU GPLv3

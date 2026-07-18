@@ -1,7 +1,7 @@
-<script setup lang="ts">
+﻿<script setup lang="ts">
 import { useHead } from '@vueuse/head';
 
-useHead({ title: 'Page not found - IT Tools' });
+useHead({ title: 'Page not found - IT-Tools' });
 </script>
 
 <template>
@@ -11,17 +11,20 @@ useHead({ title: 'Page not found - IT Tools' });
     </span>
 
     <h1 m-0 mt-3>
-      {{ $t('404.notFound') }}
+      {{ "404 Not Found" }}
     </h1>
     <div mt-4 op-60>
-      {{ $t('404.sorry') }}
+      {{ "Sorry, this page does not seem to exist" }}
     </div>
     <div mb-8 op-60>
-      {{ $t('404.maybe') }}
+      {{ "Maybe the cache is doing tricky things, try force-refreshing?" }}
     </div>
 
     <c-button to="/">
-      {{ $t('404.backHome') }}
+      {{ "Back home" }}
     </c-button>
   </div>
 </template>
+
+
+

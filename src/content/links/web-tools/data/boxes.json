@@ -1,0 +1,1325 @@
+[
+  {
+    "name": "Browsers",
+    "links": [
+      {
+        "title": "SSL/TLS Capabilities of Your Browser",
+        "url": "https://www.ssllabs.com/ssltest/viewMyClient.html",
+        "description": "test your browser's SSL implementation.",
+        "category": "General",
+        "createdAt": 1772216824556
+      },
+      {
+        "title": "Can I use",
+        "url": "https://caniuse.com/",
+        "description": "provides up-to-date browser support tables for support of front-end web technologies.",
+        "category": "General",
+        "createdAt": 1772216824557
+      },
+      {
+        "title": "Panopticlick 3.0",
+        "url": "https://panopticlick.eff.org/",
+        "description": "is your browser safe against tracking?",
+        "category": "General",
+        "createdAt": 1772216824558
+      },
+      {
+        "title": "Privacy Analyzer",
+        "url": "https://privacy.net/analyzer/",
+        "description": "see what data is exposed from your browser.",
+        "category": "General",
+        "createdAt": 1772216824559
+      },
+      {
+        "title": "Web Browser Security",
+        "url": "https://browserleaks.com/",
+        "description": "it's all about Web Browser fingerprinting.",
+        "category": "General",
+        "createdAt": 1772216824560
+      },
+      {
+        "title": "How's My SSL?",
+        "url": "https://www.howsmyssl.com/",
+        "description": "help a web server developer learn what real world TLS clients were capable of.",
+        "category": "General",
+        "createdAt": 1772216824561
+      },
+      {
+        "title": "sslClientInfo",
+        "url": "https://suche.org/sslClientInfo",
+        "description": "client test (incl TLSv1.3 information).",
+        "category": "General",
+        "createdAt": 1772216824562
+      }
+    ],
+    "createdAt": 1772216824556,
+    "updatedAt": 1772216824562
+  },
+  {
+    "name": "SSL/Security",
+    "links": [
+      {
+        "title": "SSLLabs Server Test",
+        "url": "https://www.ssllabs.com/ssltest/",
+        "description": "performs a deep analysis of the configuration of any SSL web server.",
+        "category": "General",
+        "createdAt": 1772216824563
+      },
+      {
+        "title": "SSLLabs Server Test (DEV)",
+        "url": "https://dev.ssllabs.com/ssltest/",
+        "description": "performs a deep analysis of the configuration of any SSL web server.",
+        "category": "General",
+        "createdAt": 1772216824564
+      },
+      {
+        "title": "ImmuniWeb\u00ae SSLScan",
+        "url": "https://www.immuniweb.com/ssl/",
+        "description": "test SSL/TLS (PCI DSS, HIPAA and NIST).",
+        "category": "General",
+        "createdAt": 1772216824565
+      },
+      {
+        "title": "SSL Check",
+        "url": "https://www.jitbit.com/sslcheck/",
+        "description": "scan your website for non-secure content.",
+        "category": "General",
+        "createdAt": 1772216824566
+      },
+      {
+        "title": "SSL Scanner",
+        "url": "http://www.ssltools.com",
+        "description": "analyze website security.",
+        "category": "General",
+        "createdAt": 1772216824567
+      },
+      {
+        "title": "CryptCheck",
+        "url": "https://cryptcheck.fr/",
+        "description": "test your TLS server configuration (e.g. ciphers).",
+        "category": "General",
+        "createdAt": 1772216824568
+      },
+      {
+        "title": "urlscan.io",
+        "url": "https://urlscan.io/",
+        "description": "service to scan and analyse websites.",
+        "category": "General",
+        "createdAt": 1772216824569
+      },
+      {
+        "title": "Report URI",
+        "url": "https://report-uri.com/home/tools",
+        "description": "monitoring security policies like CSP and HPKP.",
+        "category": "General",
+        "createdAt": 1772216824570
+      },
+      {
+        "title": "CSP Evaluator",
+        "url": "https://csp-evaluator.withgoogle.com/",
+        "description": "allows developers and security experts to check if a Content Security Policy.",
+        "category": "General",
+        "createdAt": 1772216824571
+      },
+      {
+        "title": "Useless CSP",
+        "url": "https://uselesscsp.com/",
+        "description": "public list about CSP in some big players (might make them care a bit more).",
+        "category": "General",
+        "createdAt": 1772216824572
+      },
+      {
+        "title": "Why No HTTPS?",
+        "url": "https://whynohttps.com/",
+        "description": "top 100 websites by Alexa rank not automatically redirecting insecure requests.",
+        "category": "General",
+        "createdAt": 1772216824573
+      },
+      {
+        "title": "TLS Cipher Suite Search",
+        "url": "https://ciphersuite.info/",
+        "description": "cipher suite search engine.",
+        "category": "General",
+        "createdAt": 1772216824574
+      },
+      {
+        "title": "cipherli.st",
+        "url": "https://github.com/RaymiiOrg/cipherli.st",
+        "description": "strong ciphers for Apache, Nginx, Lighttpd, and more. *",
+        "category": "General",
+        "createdAt": 1772216824575
+      },
+      {
+        "title": "dhtool",
+        "url": "https://2ton.com.au/dhtool/",
+        "description": "public Diffie-Hellman parameter service/tool.",
+        "category": "General",
+        "createdAt": 1772216824576
+      },
+      {
+        "title": "badssl.com",
+        "url": "https://badssl.com/",
+        "description": "memorable site for testing clients against bad SSL configs.",
+        "category": "General",
+        "createdAt": 1772216824577
+      },
+      {
+        "title": "tlsfun.de",
+        "url": "https://tlsfun.de/",
+        "description": "registered for various tests regarding the TLS/SSL protocol.",
+        "category": "General",
+        "createdAt": 1772216824578
+      },
+      {
+        "title": "CAA Record Helper",
+        "url": "https://sslmate.com/caa/",
+        "description": "generate a CAA policy.",
+        "category": "General",
+        "createdAt": 1772216824579
+      },
+      {
+        "title": "Common CA Database",
+        "url": "https://ccadb.org/resources",
+        "description": "repository of information about CAs, and their root and intermediate certificates.",
+        "category": "General",
+        "createdAt": 1772216824580
+      },
+      {
+        "title": "CERTSTREAM",
+        "url": "https://certstream.calidog.io/",
+        "description": "real-time certificate transparency log update stream.",
+        "category": "General",
+        "createdAt": 1772216824581
+      },
+      {
+        "title": "crt.sh",
+        "url": "https://crt.sh/",
+        "description": "discovers certificates by continually monitoring all of the publicly known CT.",
+        "category": "General",
+        "createdAt": 1772216824582
+      },
+      {
+        "title": "Hardenize",
+        "url": "https://www.hardenize.com/",
+        "description": "deploy the security standards.",
+        "category": "General",
+        "createdAt": 1772216824583
+      },
+      {
+        "title": "Cipher suite compatibility",
+        "url": "https://cryptcheck.fr/suite/",
+        "description": "test TLS cipher suite compatibility.",
+        "category": "General",
+        "createdAt": 1772216824584
+      },
+      {
+        "title": "urlvoid",
+        "url": "https://www.urlvoid.com/",
+        "description": "this service helps you detect potentially malicious websites.",
+        "category": "General",
+        "createdAt": 1772216824585
+      },
+      {
+        "title": "security.txt",
+        "url": "https://securitytxt.org/",
+        "description": "a proposed standard (generator) which allows websites to define security policies.",
+        "category": "General",
+        "createdAt": 1772216824586
+      },
+      {
+        "title": "ssl-config-generator",
+        "url": "https://github.com/mozilla/ssl-config-generator",
+        "description": "help you follow the Mozilla Server Side TLS configuration guidelines.",
+        "category": "General",
+        "createdAt": 1772216824587
+      },
+      {
+        "title": "TLScan",
+        "url": "https://github.com/mjol/TLScan",
+        "description": "pure python, SSL/TLS protocol and cipher scanner/enumerator.",
+        "category": "General",
+        "createdAt": 1772216824588
+      }
+    ],
+    "createdAt": 1772216824563,
+    "updatedAt": 1772216824588
+  },
+  {
+    "name": "HTTP Headers & Web Linters",
+    "links": [
+      {
+        "title": "Security Headers",
+        "url": "https://securityheaders.com/",
+        "description": "analyse the HTTP response headers (with rating system to the results).",
+        "category": "General",
+        "createdAt": 1772216824589
+      },
+      {
+        "title": "Observatory by Mozilla",
+        "url": "https://observatory.mozilla.org/",
+        "description": "set of tools to analyze your website.",
+        "category": "General",
+        "createdAt": 1772216824590
+      },
+      {
+        "title": "webhint",
+        "url": "https://webhint.io/",
+        "description": "is a linting tool that will help you with your site's accessibility, speed, security, and more.",
+        "category": "General",
+        "createdAt": 1772216824591
+      }
+    ],
+    "createdAt": 1772216824589,
+    "updatedAt": 1772216824591
+  },
+  {
+    "name": "DNS",
+    "links": [
+      {
+        "title": "ViewDNS",
+        "url": "http://viewdns.info/",
+        "description": "one source for free DNS related tools and information.",
+        "category": "General",
+        "createdAt": 1772216824592
+      },
+      {
+        "title": "DNSLookup",
+        "url": "https://dnslookup.org/",
+        "description": "is an advanced DNS lookup tool.",
+        "category": "General",
+        "createdAt": 1772216824593
+      },
+      {
+        "title": "DNSlytics",
+        "url": "https://dnslytics.com/",
+        "description": "online DNS investigation tool.",
+        "category": "General",
+        "createdAt": 1772216824594
+      },
+      {
+        "title": "DNS Spy",
+        "url": "https://dnsspy.io/",
+        "description": "monitor, validate and verify your DNS configurations.",
+        "category": "General",
+        "createdAt": 1772216824595
+      },
+      {
+        "title": "Zonemaster",
+        "url": "https://zonemaster.iis.se/en/",
+        "description": "helps you to control how your DNS works.",
+        "category": "General",
+        "createdAt": 1772216824596
+      },
+      {
+        "title": "Leaf DNS",
+        "url": "http://leafdns.com/",
+        "description": "comprehensive DNS tester.",
+        "category": "General",
+        "createdAt": 1772216824597
+      },
+      {
+        "title": "Find subdomains online",
+        "url": "https://findsubdomains.com/",
+        "description": "find subdomains for security assessment penetration test.",
+        "category": "General",
+        "createdAt": 1772216824598
+      },
+      {
+        "title": "DNSdumpster",
+        "url": "https://dnsdumpster.com/",
+        "description": "dns recon & research, find & lookup dns records.",
+        "category": "General",
+        "createdAt": 1772216824599
+      },
+      {
+        "title": "DNS Table online",
+        "url": "https://dnstable.com/",
+        "description": "search for DNS records by domain, IP, CIDR, ISP.",
+        "category": "General",
+        "createdAt": 1772216824600
+      },
+      {
+        "title": "intoDNS",
+        "url": "https://intodns.com/",
+        "description": "DNS and mail server health checker.",
+        "category": "General",
+        "createdAt": 1772216824601
+      },
+      {
+        "title": "DNS Bajaj",
+        "url": "http://www.zonecut.net/dns/",
+        "description": "check the delegation of your domain.",
+        "category": "General",
+        "createdAt": 1772216824602
+      },
+      {
+        "title": "BuddyDNS Delegation LAB",
+        "url": "https://www.buddyns.com/delegation-lab/",
+        "description": "check, trace and visualize delegation of your domain.",
+        "category": "General",
+        "createdAt": 1772216824603
+      },
+      {
+        "title": "dnssec-debugger",
+        "url": "https://dnssec-debugger.verisignlabs.com/",
+        "description": "DS or DNSKEY records validator.",
+        "category": "General",
+        "createdAt": 1772216824604
+      },
+      {
+        "title": "PTRarchive.com",
+        "url": "http://ptrarchive.com/",
+        "description": "this site is responsible for the safekeeping of historical reverse DNS records.",
+        "category": "General",
+        "createdAt": 1772216824605
+      },
+      {
+        "title": "xip.io",
+        "url": "http://xip.io/",
+        "description": "wildcard DNS for everyone.",
+        "category": "General",
+        "createdAt": 1772216824606
+      },
+      {
+        "title": "nip.io",
+        "url": "https://nip.io/",
+        "description": "dead simple wildcard DNS for any IP Address.",
+        "category": "General",
+        "createdAt": 1772216824607
+      },
+      {
+        "title": "dnslookup (ceipam)",
+        "url": "https://ceipam.eu/en/dnslookup.php",
+        "description": "one of the best DNS propagation checker (and not only).",
+        "category": "General",
+        "createdAt": 1772216824608
+      },
+      {
+        "title": "What's My DNS",
+        "url": "https://whatsmydns.com",
+        "description": "DNS propagation checking tool.",
+        "category": "General",
+        "createdAt": 1772216824609
+      },
+      {
+        "title": "DNSGrep",
+        "url": "https://blog.erbbysam.com/index.php/2019/02/09/dnsgrep/",
+        "description": "quickly searching large DNS datasets.",
+        "category": "General",
+        "createdAt": 1772216824610
+      }
+    ],
+    "createdAt": 1772216824592,
+    "updatedAt": 1772216824610
+  },
+  {
+    "name": "Mail",
+    "links": [
+      {
+        "title": "smtp-tls-checker",
+        "url": "https://luxsci.com/smtp-tls-checker",
+        "description": "check an email domain for SMTP TLS support.",
+        "category": "General",
+        "createdAt": 1772216824611
+      },
+      {
+        "title": "MX Toolbox",
+        "url": "https://mxtoolbox.com/SuperTool.aspx",
+        "description": "all of your MX record, DNS, blacklist and SMTP diagnostics in one integrated tool.",
+        "category": "General",
+        "createdAt": 1772216824612
+      },
+      {
+        "title": "Secure Email",
+        "url": "https://www.checktls.com/index.html",
+        "description": "complete email test tools for email technicians.",
+        "category": "General",
+        "createdAt": 1772216824613
+      },
+      {
+        "title": "blacklistalert",
+        "url": "http://www.blacklistalert.org/",
+        "description": "checks to see if your domain is on a Real Time Spam Blacklist.",
+        "category": "General",
+        "createdAt": 1772216824614
+      },
+      {
+        "title": "MultiRBL",
+        "url": "http://multirbl.valli.org/",
+        "description": "complete IP check for sending Mailservers.",
+        "category": "General",
+        "createdAt": 1772216824615
+      },
+      {
+        "title": "DKIM SPF & Spam Assassin Validator",
+        "url": "https://dkimvalidator.com/",
+        "description": "checks mail authentication and scores messages with Spam Assassin.",
+        "category": "General",
+        "createdAt": 1772216824616
+      }
+    ],
+    "createdAt": 1772216824611,
+    "updatedAt": 1772216824616
+  },
+  {
+    "name": "Encoders/Decoders and Regex testing",
+    "links": [
+      {
+        "title": "URL Encode/Decode",
+        "url": "https://www.url-encode-decode.com/",
+        "description": "tool from above to either encode or decode a string of text.",
+        "category": "General",
+        "createdAt": 1772216824617
+      },
+      {
+        "title": "Uncoder",
+        "url": "https://uncoder.io/",
+        "description": "the online translator for search queries on log data.",
+        "category": "General",
+        "createdAt": 1772216824618
+      },
+      {
+        "title": "Regex101",
+        "url": "https://regex101.com/",
+        "description": "online regex tester and debugger: PHP, PCRE, Python, Golang and JavaScript.",
+        "category": "General",
+        "createdAt": 1772216824619
+      },
+      {
+        "title": "RegExr",
+        "url": "https://regexr.com/",
+        "description": "online tool to learn, build, & test Regular Expressions (RegEx / RegExp).",
+        "category": "General",
+        "createdAt": 1772216824620
+      },
+      {
+        "title": "RegEx Testing",
+        "url": "https://www.regextester.com/",
+        "description": "online regex testing tool.",
+        "category": "General",
+        "createdAt": 1772216824621
+      },
+      {
+        "title": "RegEx Pal",
+        "url": "https://www.regexpal.com/",
+        "description": "online regex testing tool + other tools.",
+        "category": "General",
+        "createdAt": 1772216824622
+      },
+      {
+        "title": "The Cyber Swiss Army Knife",
+        "url": "https://gchq.github.io/CyberChef/",
+        "description": "a web app for encryption, encoding, compression and data analysis.",
+        "category": "General",
+        "createdAt": 1772216824623
+      }
+    ],
+    "createdAt": 1772216824617,
+    "updatedAt": 1772216824623
+  },
+  {
+    "name": "Net tools",
+    "links": [
+      {
+        "title": "Netcraft",
+        "url": "https://toolbar.netcraft.com/site_report",
+        "description": "detailed report about the site, helping you to make informed choices about their integrity. *",
+        "category": "General",
+        "createdAt": 1772216824624
+      },
+      {
+        "title": "RIPE NCC Atlas",
+        "url": "https://atlas.ripe.net/",
+        "description": "a global, open, distributed Internet measurement platform.",
+        "category": "General",
+        "createdAt": 1772216824625
+      },
+      {
+        "title": "Robtex",
+        "url": "https://www.robtex.com/",
+        "description": "uses various sources to gather public information about IP numbers, domain names, host names, etc.",
+        "category": "General",
+        "createdAt": 1772216824626
+      },
+      {
+        "title": "Security Trails",
+        "url": "https://securitytrails.com/",
+        "description": "APIs for Security Companies, Researchers and Teams.",
+        "category": "General",
+        "createdAt": 1772216824627
+      },
+      {
+        "title": "Online Curl",
+        "url": "https://tools.keycdn.com/curl",
+        "description": "curl test, analyze HTTP Response Headers.",
+        "category": "General",
+        "createdAt": 1772216824628
+      },
+      {
+        "title": "Online Tools for Developers",
+        "url": "https://extendsclass.com/",
+        "description": "HTTP API tools, testers, encoders, converters, formatters, and other tools.",
+        "category": "General",
+        "createdAt": 1772216824629
+      },
+      {
+        "title": "Ping.eu",
+        "url": "https://ping.eu/",
+        "description": "online Ping, Traceroute, DNS lookup, WHOIS and others.",
+        "category": "General",
+        "createdAt": 1772216824630
+      },
+      {
+        "title": "Network-Tools",
+        "url": "https://network-tools.com/",
+        "description": "network tools for webmasters, IT technicians & geeks.",
+        "category": "General",
+        "createdAt": 1772216824631
+      },
+      {
+        "title": "BGPview",
+        "url": "https://bgpview.io/",
+        "description": "search for any ASN, IP, Prefix or Resource name.",
+        "category": "General",
+        "createdAt": 1772216824632
+      },
+      {
+        "title": "Is BGP safe yet?",
+        "url": "https://isbgpsafeyet.com/",
+        "description": "check BGP (RPKI) security of ISPs and other major Internet players.",
+        "category": "General",
+        "createdAt": 1772216824633
+      },
+      {
+        "title": "Riseup",
+        "url": "https://riseup.net/",
+        "description": "provides online communication tools for people and groups working on liberatory social change.",
+        "category": "General",
+        "createdAt": 1772216824634
+      },
+      {
+        "title": "VirusTotal",
+        "url": "https://www.virustotal.com/gui/home/upload",
+        "description": "analyze suspicious files and URLs to detect types of malware.",
+        "category": "General",
+        "createdAt": 1772216824635
+      }
+    ],
+    "createdAt": 1772216824624,
+    "updatedAt": 1772216824635
+  },
+  {
+    "name": "Privacy",
+    "links": [
+      {
+        "title": "privacyguides.org",
+        "url": "https://www.privacyguides.org/",
+        "description": "provides knowledge and tools to protect your privacy against global mass surveillance.",
+        "category": "General",
+        "createdAt": 1772216824636
+      },
+      {
+        "title": "DNS Privacy Test Servers",
+        "url": "https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Test+Servers",
+        "description": "DNS privacy recursive servers list (with a 'no logging' policy).",
+        "category": "General",
+        "createdAt": 1772216824637
+      }
+    ],
+    "createdAt": 1772216824636,
+    "updatedAt": 1772216824637
+  },
+  {
+    "name": "Code parsers/playgrounds",
+    "links": [
+      {
+        "title": "ShellCheck",
+        "url": "https://www.shellcheck.net/",
+        "description": "finds bugs in your shell scripts.",
+        "category": "General",
+        "createdAt": 1772216824638
+      },
+      {
+        "title": "explainshell",
+        "url": "https://explainshell.com/",
+        "description": "get interactive help texts for shell commands.",
+        "category": "General",
+        "createdAt": 1772216824639
+      },
+      {
+        "title": "jsbin",
+        "url": "https://jsbin.com/?html,output",
+        "description": "live pastebin for HTML, CSS & JavaScript, and more.",
+        "category": "General",
+        "createdAt": 1772216824640
+      },
+      {
+        "title": "CodeSandbox",
+        "url": "https://codesandbox.io/",
+        "description": "online code editor for web application development.",
+        "category": "General",
+        "createdAt": 1772216824641
+      },
+      {
+        "title": "PHP Sandbox",
+        "url": "http://sandbox.onlinephpfunctions.com/",
+        "description": "test your PHP code with this code tester.",
+        "category": "General",
+        "createdAt": 1772216824642
+      },
+      {
+        "title": "Repl.it",
+        "url": "https://www.repl.it/",
+        "description": "an instant IDE to learn, build, collaborate, and host all in one place.",
+        "category": "General",
+        "createdAt": 1772216824643
+      },
+      {
+        "title": "vclFiddle",
+        "url": "http://www.vclfiddle.net/",
+        "description": "is an online tool for experimenting with the Varnish Cache VCL.",
+        "category": "General",
+        "createdAt": 1772216824644
+      },
+      {
+        "title": "Haskell Dockerfile Linter",
+        "url": "https://github.com/hadolint/hadolint",
+        "description": "a smarter Dockerfile linter that helps you build best practice Docker images.",
+        "category": "General",
+        "createdAt": 1772216824645
+      }
+    ],
+    "createdAt": 1772216824638,
+    "updatedAt": 1772216824645
+  },
+  {
+    "name": "Performance",
+    "links": [
+      {
+        "title": "GTmetrix",
+        "url": "https://gtmetrix.com/",
+        "description": "analyze your site\u2019s speed and make it faster.",
+        "category": "General",
+        "createdAt": 1772216824646
+      },
+      {
+        "title": "Sucuri loadtimetester",
+        "url": "https://performance.sucuri.net/",
+        "description": "test here the",
+        "category": "General",
+        "createdAt": 1772216824647
+      },
+      {
+        "title": "Pingdom Tools",
+        "url": "https://tools.pingdom.com/",
+        "description": "analyze your site\u2019s speed around the world.",
+        "category": "General",
+        "createdAt": 1772216824648
+      },
+      {
+        "title": "PingMe.io",
+        "url": "https://pingme.io/",
+        "description": "run website latency tests across multiple geographic regions.",
+        "category": "General",
+        "createdAt": 1772216824649
+      },
+      {
+        "title": "PageSpeed Insights",
+        "url": "https://developers.google.com/speed/pagespeed/insights/",
+        "description": "analyze your site\u2019s speed and make it faster.",
+        "category": "General",
+        "createdAt": 1772216824650
+      },
+      {
+        "title": "web.dev",
+        "url": "https://web.dev/",
+        "description": "helps developers like you learn and apply the web's modern capabilities to your own sites and apps.",
+        "category": "General",
+        "createdAt": 1772216824651
+      },
+      {
+        "title": "Lighthouse",
+        "url": "https://github.com/GoogleChrome/lighthouse",
+        "description": "automated auditing, performance metrics, and best practices for the web.",
+        "category": "General",
+        "createdAt": 1772216824652
+      }
+    ],
+    "createdAt": 1772216824646,
+    "updatedAt": 1772216824652
+  },
+  {
+    "name": "Mass scanners (search engines)",
+    "links": [
+      {
+        "title": "Censys",
+        "url": "https://censys.io/",
+        "description": "platform that helps information security practitioners discover, monitor, and analyze devices.",
+        "category": "General",
+        "createdAt": 1772216824653
+      },
+      {
+        "title": "Shodan",
+        "url": "https://www.shodan.io/",
+        "description": "the world's first search engine for Internet-connected devices.",
+        "category": "General",
+        "createdAt": 1772216824654
+      },
+      {
+        "title": "Shodan 2000",
+        "url": "https://2000.shodan.io/#/",
+        "description": "this tool looks for randomly generated data from Shodan.",
+        "category": "General",
+        "createdAt": 1772216824655
+      },
+      {
+        "title": "GreyNoise",
+        "url": "https://viz.greynoise.io/table",
+        "description": "mass scanner such as Shodan and Censys.",
+        "category": "General",
+        "createdAt": 1772216824656
+      },
+      {
+        "title": "ZoomEye",
+        "url": "https://www.zoomeye.org/",
+        "description": "search engine for cyberspace that lets the user find specific network components.",
+        "category": "General",
+        "createdAt": 1772216824657
+      },
+      {
+        "title": "netograph",
+        "url": "https://netograph.io/",
+        "description": "tools to monitor and understand deep structure of the web.",
+        "category": "General",
+        "createdAt": 1772216824658
+      },
+      {
+        "title": "FOFA",
+        "url": "https://fofa.so/",
+        "description": "is a cyberspace search engine.",
+        "category": "General",
+        "createdAt": 1772216824659
+      },
+      {
+        "title": "onyphe",
+        "url": "https://www.onyphe.io/",
+        "description": "is a search engine for open-source and cyber threat intelligence data collected.",
+        "category": "General",
+        "createdAt": 1772216824660
+      },
+      {
+        "title": "IntelligenceX",
+        "url": "https://intelx.io/",
+        "description": "is a search engine and data archive.",
+        "category": "General",
+        "createdAt": 1772216824661
+      },
+      {
+        "title": "binaryedge",
+        "url": "https://app.binaryedge.io/",
+        "description": "it scan the entire internet space and create real-time threat intelligence streams and reports.",
+        "category": "General",
+        "createdAt": 1772216824662
+      },
+      {
+        "title": "Spyse",
+        "url": "https://spyse.com/",
+        "description": "Internet assets registry: networks, threats, web objects, etc.",
+        "category": "General",
+        "createdAt": 1772216824663
+      },
+      {
+        "title": "wigle",
+        "url": "https://wigle.net/",
+        "description": "is a submission-based catalog of wireless networks. All the networks. Found by Everyone.",
+        "category": "General",
+        "createdAt": 1772216824664
+      },
+      {
+        "title": "PublicWWW",
+        "url": "https://publicwww.com/",
+        "description": "find any alphanumeric snippet, signature or keyword in the web pages HTML, JS and CSS code.",
+        "category": "General",
+        "createdAt": 1772216824665
+      },
+      {
+        "title": "IntelTechniques",
+        "url": "https://inteltechniques.com/index.html",
+        "description": "this repository contains hundreds of online search utilities.",
+        "category": "General",
+        "createdAt": 1772216824666
+      },
+      {
+        "title": "hunter",
+        "url": "https://hunter.io/",
+        "description": "lets you find email addresses in seconds and connect with the people that matter for your business.",
+        "category": "General",
+        "createdAt": 1772216824667
+      },
+      {
+        "title": "GhostProject?",
+        "url": "https://ghostproject.fr/",
+        "description": "search by full email address or username.",
+        "category": "General",
+        "createdAt": 1772216824668
+      },
+      {
+        "title": "databreaches",
+        "url": "https://www.databreaches.live/",
+        "description": "was my email affected by data breach?",
+        "category": "General",
+        "createdAt": 1772216824669
+      },
+      {
+        "title": "We Leak Info",
+        "url": "https://weleakinfo.com",
+        "description": "world's fastest and largest data breach search engine.",
+        "category": "General",
+        "createdAt": 1772216824670
+      },
+      {
+        "title": "Pulsedive",
+        "url": "https://pulsedive.com/",
+        "description": "scans of malicious URLs, IPs, and domains, including port scans and web requests.",
+        "category": "General",
+        "createdAt": 1772216824671
+      },
+      {
+        "title": "Buckets by Grayhatwarfar",
+        "url": "https://buckets.grayhatwarfare.com/",
+        "description": "database with public search for Open Amazon S3 Buckets and their contents.",
+        "category": "General",
+        "createdAt": 1772216824672
+      },
+      {
+        "title": "Vigilante.pw",
+        "url": "https://vigilante.pw/",
+        "description": "the breached database directory.",
+        "category": "General",
+        "createdAt": 1772216824673
+      },
+      {
+        "title": "builtwith",
+        "url": "https://builtwith.com/",
+        "description": "find out what websites are built with.",
+        "category": "General",
+        "createdAt": 1772216824674
+      },
+      {
+        "title": "NerdyData",
+        "url": "https://nerdydata.com/",
+        "description": "search the web's source code for technologies, across millions of sites.",
+        "category": "General",
+        "createdAt": 1772216824675
+      },
+      {
+        "title": "zorexeye",
+        "url": "http://zorexeye.com/",
+        "description": "search for sites, images, apps, softwares & more.",
+        "category": "General",
+        "createdAt": 1772216824676
+      },
+      {
+        "title": "Mamont's open FTP Index",
+        "url": "https://www.mmnt.net/",
+        "description": "if a target has an open FTP site with accessible content it will be listed here.",
+        "category": "General",
+        "createdAt": 1772216824677
+      },
+      {
+        "title": "OSINT Framework",
+        "url": "https://osintframework.com/",
+        "description": "focused on gathering information from free tools or resources.",
+        "category": "General",
+        "createdAt": 1772216824678
+      },
+      {
+        "title": "maltiverse",
+        "url": "https://www.maltiverse.com/search",
+        "description": "is a service oriented to cybersecurity analysts.",
+        "category": "General",
+        "createdAt": 1772216824679
+      },
+      {
+        "title": "Leaked Source",
+        "url": "https://leakedsource.ru/main/",
+        "description": "is a collaboration of data found online in the form of a lookup.",
+        "category": "General",
+        "createdAt": 1772216824680
+      },
+      {
+        "title": "We Leak Info",
+        "url": "https://search.weleakinfo.com/",
+        "description": "to help everyday individuals secure their online life, avoiding getting hacked.",
+        "category": "General",
+        "createdAt": 1772216824681
+      },
+      {
+        "title": "pipl",
+        "url": "https://pipl.com/",
+        "description": "is the place to find the person behind the email address, social username or phone number.",
+        "category": "General",
+        "createdAt": 1772216824682
+      },
+      {
+        "title": "abuse.ch",
+        "url": "https://abuse.ch/",
+        "description": "is operated by a random swiss guy fighting malware for non-profit.",
+        "category": "General",
+        "createdAt": 1772216824683
+      },
+      {
+        "title": "malc0de",
+        "url": "http://malc0de.com/database/",
+        "description": "malware search engine.",
+        "category": "General",
+        "createdAt": 1772216824684
+      },
+      {
+        "title": "Cybercrime Tracker",
+        "url": "https://cybercrime-tracker.net/index.php",
+        "description": "monitors and tracks various malware families that are used to perpetrate cyber crimes.",
+        "category": "General",
+        "createdAt": 1772216824685
+      },
+      {
+        "title": "shhgit",
+        "url": "https://github.com/eth0izzle/shhgit/",
+        "description": "find GitHub secrets in real time.",
+        "category": "General",
+        "createdAt": 1772216824686
+      },
+      {
+        "title": "searchcode",
+        "url": "https://searchcode.com/",
+        "description": "helping you find real world examples of functions, API's and libraries.",
+        "category": "General",
+        "createdAt": 1772216824687
+      },
+      {
+        "title": "Insecam",
+        "url": "http://www.insecam.org/",
+        "description": "the world biggest directory of online surveillance security cameras.",
+        "category": "General",
+        "createdAt": 1772216824688
+      },
+      {
+        "title": "index-of",
+        "url": "http://index-of.es/",
+        "description": "contains great stuff like: security, hacking, reverse engineering, cryptography, programming etc.",
+        "category": "General",
+        "createdAt": 1772216824689
+      },
+      {
+        "title": "Rapid7 Labs Open Data",
+        "url": "https://opendata.rapid7.com/",
+        "description": "is a great resources of datasets from Project Sonar.",
+        "category": "General",
+        "createdAt": 1772216824690
+      },
+      {
+        "title": "Common Response Headers",
+        "url": "https://webtechsurvey.com/common-response-headers",
+        "description": "the largest database of HTTP response headers.",
+        "category": "General",
+        "createdAt": 1772216824691
+      },
+      {
+        "title": "InQuest Labs",
+        "url": "https://labs.inquest.net",
+        "description": "InQuest Labs is an open, interactive, and API driven data portal for security researchers.",
+        "category": "General",
+        "createdAt": 1772216824692
+      }
+    ],
+    "createdAt": 1772216824653,
+    "updatedAt": 1772216824692
+  },
+  {
+    "name": "Generators",
+    "links": [
+      {
+        "title": "thispersondoesnotexist",
+        "url": "https://thispersondoesnotexist.com/",
+        "description": "generate fake faces in one click - endless possibilities.",
+        "category": "General",
+        "createdAt": 1772216824693
+      },
+      {
+        "title": "AI Generated Photos",
+        "url": "https://generated.photos",
+        "description": "100.000 AI generated faces.",
+        "category": "General",
+        "createdAt": 1772216824694
+      },
+      {
+        "title": "fakenamegenerator",
+        "url": "https://www.fakenamegenerator.com/",
+        "description": "your randomly generated identity.",
+        "category": "General",
+        "createdAt": 1772216824695
+      },
+      {
+        "title": "Intigriti Redirector",
+        "url": "https://tools.intigriti.io/redirector/",
+        "description": "open redirect/SSRF payload generator.",
+        "category": "General",
+        "createdAt": 1772216824696
+      }
+    ],
+    "createdAt": 1772216824693,
+    "updatedAt": 1772216824696
+  },
+  {
+    "name": "Passwords",
+    "links": [
+      {
+        "title": "have i been pwned?",
+        "url": "https://haveibeenpwned.com/",
+        "description": "check if you have an account that has been compromised in a data breach.",
+        "category": "General",
+        "createdAt": 1772216824697
+      },
+      {
+        "title": "dehashed",
+        "url": "https://www.dehashed.com/",
+        "description": "is a hacked database search engine.",
+        "category": "General",
+        "createdAt": 1772216824698
+      },
+      {
+        "title": "Leaked Source",
+        "url": "https://leakedsource.ru/",
+        "description": "is a collaboration of data found online in the form of a lookup.",
+        "category": "General",
+        "createdAt": 1772216824699
+      }
+    ],
+    "createdAt": 1772216824697,
+    "updatedAt": 1772216824699
+  },
+  {
+    "name": "CVE/Exploits databases",
+    "links": [
+      {
+        "title": "CVE Mitre",
+        "url": "https://cve.mitre.org/",
+        "description": "list of publicly known cybersecurity vulnerabilities.",
+        "category": "General",
+        "createdAt": 1772216824700
+      },
+      {
+        "title": "CVE Details",
+        "url": "https://www.cvedetails.com/",
+        "description": "CVE security vulnerability advanced database.",
+        "category": "General",
+        "createdAt": 1772216824701
+      },
+      {
+        "title": "Exploit DB",
+        "url": "https://www.exploit-db.com/",
+        "description": "CVE compliant archive of public exploits and corresponding vulnerable software.",
+        "category": "General",
+        "createdAt": 1772216824702
+      },
+      {
+        "title": "0day.today",
+        "url": "https://0day.today/",
+        "description": "exploits market provides you the possibility to buy/sell zero-day exploits.",
+        "category": "General",
+        "createdAt": 1772216824703
+      },
+      {
+        "title": "sploitus",
+        "url": "https://sploitus.com/",
+        "description": "the exploit and tools database.",
+        "category": "General",
+        "createdAt": 1772216824704
+      },
+      {
+        "title": "cxsecurity",
+        "url": "https://cxsecurity.com/exploit/",
+        "description": "free vulnerability database.",
+        "category": "General",
+        "createdAt": 1772216824705
+      },
+      {
+        "title": "Vulncode-DB",
+        "url": "https://www.vulncode-db.com/",
+        "description": "is a database for vulnerabilities and their corresponding source code if available.",
+        "category": "General",
+        "createdAt": 1772216824706
+      },
+      {
+        "title": "cveapi",
+        "url": "https://cveapi.com/",
+        "description": "free API for CVE data.",
+        "category": "General",
+        "createdAt": 1772216824707
+      }
+    ],
+    "createdAt": 1772216824700,
+    "updatedAt": 1772216824707
+  },
+  {
+    "name": "Mobile apps scanners",
+    "links": [
+      {
+        "title": "ImmuniWeb\u00ae Mobile App Scanner",
+        "url": "https://www.immuniweb.com/mobile/",
+        "description": "test security and privacy of mobile apps (iOS & Android).",
+        "category": "General",
+        "createdAt": 1772216824708
+      },
+      {
+        "title": "Quixxi",
+        "url": "https://vulnerabilitytest.quixxi.com/",
+        "description": "free Mobile App Vulnerability Scanner for Android & iOS.",
+        "category": "General",
+        "createdAt": 1772216824709
+      },
+      {
+        "title": "Ostorlab",
+        "url": "https://www.ostorlab.co/scan/mobile/",
+        "description": "analyzes mobile application to identify vulnerabilities and potential weaknesses.",
+        "category": "General",
+        "createdAt": 1772216824710
+      }
+    ],
+    "createdAt": 1772216824708,
+    "updatedAt": 1772216824710
+  },
+  {
+    "name": "Private Search Engines",
+    "links": [
+      {
+        "title": "Startpage",
+        "url": "https://www.startpage.com/",
+        "description": "the world's most private search engine.",
+        "category": "General",
+        "createdAt": 1772216824711
+      },
+      {
+        "title": "searX",
+        "url": "https://searx.me/",
+        "description": "a privacy-respecting, hackable metasearch engine.",
+        "category": "General",
+        "createdAt": 1772216824712
+      },
+      {
+        "title": "darksearch",
+        "url": "https://darksearch.io/",
+        "description": "the 1st real Dark Web search engine.",
+        "category": "General",
+        "createdAt": 1772216824713
+      },
+      {
+        "title": "Qwant",
+        "url": "https://www.qwant.com/",
+        "description": "the search engine that respects your privacy.",
+        "category": "General",
+        "createdAt": 1772216824714
+      },
+      {
+        "title": "DuckDuckGo",
+        "url": "https://duckduckgo.com/",
+        "description": "the search engine that doesn't track you.",
+        "category": "General",
+        "createdAt": 1772216824715
+      },
+      {
+        "title": "Swisscows",
+        "url": "https://swisscows.com/",
+        "description": "privacy safe web search",
+        "category": "General",
+        "createdAt": 1772216824716
+      },
+      {
+        "title": "Disconnect",
+        "url": "https://search.disconnect.me/",
+        "description": "the search engine that anonymizes your searches.",
+        "category": "General",
+        "createdAt": 1772216824717
+      },
+      {
+        "title": "MetaGer",
+        "url": "https://metager.org/",
+        "description": "the search engine that uses anonymous proxy and hidden Tor branches.",
+        "category": "General",
+        "createdAt": 1772216824718
+      }
+    ],
+    "createdAt": 1772216824711,
+    "updatedAt": 1772216824718
+  },
+  {
+    "name": "Secure Webmail Providers",
+    "links": [
+      {
+        "title": "CounterMail",
+        "url": "https://countermail.com/",
+        "description": "online email service, designed to provide maximum security and privacy.",
+        "category": "General",
+        "createdAt": 1772216824719
+      },
+      {
+        "title": "Mail2Tor",
+        "url": "http://mail2tor.com/",
+        "description": "is a Tor Hidden Service that allows anyone to send and receive emails anonymously.",
+        "category": "General",
+        "createdAt": 1772216824720
+      },
+      {
+        "title": "Tutanota",
+        "url": "https://tutanota.com/",
+        "description": "is the world's most secure email service and amazingly easy to use.",
+        "category": "General",
+        "createdAt": 1772216824721
+      },
+      {
+        "title": "Protonmail",
+        "url": "https://protonmail.com/",
+        "description": "is the world's largest secure email service, developed by CERN and MIT scientists.",
+        "category": "General",
+        "createdAt": 1772216824722
+      },
+      {
+        "title": "Startmail",
+        "url": "https://www.startmail.com/en/",
+        "description": "private & encrypted email made easy.",
+        "category": "General",
+        "createdAt": 1772216824723
+      }
+    ],
+    "createdAt": 1772216824719,
+    "updatedAt": 1772216824723
+  },
+  {
+    "name": "Crypto",
+    "links": [
+      {
+        "title": "Keybase",
+        "url": "https://keybase.io/",
+        "description": "it's open source and powered by public-key cryptography.",
+        "category": "General",
+        "createdAt": 1772216824724
+      }
+    ],
+    "createdAt": 1772216824724,
+    "updatedAt": 1772216824724
+  },
+  {
+    "name": "PGP Keyservers",
+    "links": [
+      {
+        "title": "SKS OpenPGP Key server",
+        "url": "https://keyserver.ubuntu.com/",
+        "description": "services for the SKS keyservers used by OpenPGP.",
+        "category": "General",
+        "createdAt": 1772216824725
+      }
+    ],
+    "createdAt": 1772216824725,
+    "updatedAt": 1772216824725
+  }
+]

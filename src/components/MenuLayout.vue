@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { useStyleStore } from '@/stores/style.store';
+import { toRefs, computed } from 'vue';
 
 const styleStore = useStyleStore();
 const { isMenuCollapsed, isSmallScreen } = toRefs(styleStore);
@@ -10,13 +11,11 @@ const siderPosition = computed(() => (isSmallScreen.value ? 'absolute' : 'static
   <n-layout has-sider>
     <n-layout-sider
       bordered
-      collapse-mode="width"
-      :collapsed-width="0"
       :width="240"
-      :collapsed="isMenuCollapsed"
       :show-trigger="false"
       :native-scrollbar="false"
       :position="siderPosition"
+      :style="{ display: isMenuCollapsed ? 'none' : 'block' }"
     >
       <slot name="sider" />
     </n-layout-sider>
@@ -38,14 +37,39 @@ const siderPosition = computed(() => (isSmallScreen.value ? 'absolute' : 'static
   cursor: pointer;
 }
 
-.content {
-  // background-color: #f1f5f9;
-  ::v-deep(.n-layout-scroll-container) {
-    padding: 26px;
+.n-layout {
+  height: calc(100vh - 64px);
+  --sidebar-width: 240px;
+  background-color: #0d1117;
+  overflow: hidden !important;
+}
+
+:deep(.n-layout-sider) {
+  background-color: #0a0d12 !important;
+  border-right: 1px solid #30363d !important;
+  overflow: hidden !important;
+  z-index: 999;
+  
+  .n-layout-scroll-container {
+    scroll-behavior: auto !important;
+    scroll-padding-top: 0 !important;
   }
 }
 
-.n-layout {
-  height: 100vh;
+.content {
+  background-color: #0d1117;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden !important;
+  flex: 1;
+  ::v-deep(.n-layout-scroll-container) {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0;
+    background-color: #0d1117;
+    overflow: hidden !important;
+  }
 }
 </style>

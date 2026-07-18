@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Tools",
+    "links": [
+      {
+        "title": "CapAnalysis",
+        "url": "https://www.capanalysis.net/ca/",
+        "description": "web visual tool to analyze large amounts of captured network traffic (PCAP analyzer).",
+        "category": "General",
+        "createdAt": 1772217214118
+      },
+      {
+        "title": "netbox",
+        "url": "https://github.com/digitalocean/netbox",
+        "description": "IP address management (IPAM) and data center infrastructure management (DCIM) tool.",
+        "category": "General",
+        "createdAt": 1772217214119
+      }
+    ],
+    "createdAt": 1772217214118,
+    "updatedAt": 1772217214119
+  },
+  {
+    "name": "Labs",
+    "links": [
+      {
+        "title": "NRE Labs",
+        "url": "https://labs.networkreliability.engineering/",
+        "description": "learn automation by doing it. Right now, right here, in your browser.",
+        "category": "General",
+        "createdAt": 1772217214120
+      }
+    ],
+    "createdAt": 1772217214120,
+    "updatedAt": 1772217214120
+  },
+  {
+    "name": "Other",
+    "links": [
+      {
+        "title": "LBNL's Network Research Group",
+        "url": "https://ee.lbl.gov/",
+        "description": "home page of the Network Research Group (NRG).",
+        "category": "General",
+        "createdAt": 1772217214121
+      }
+    ],
+    "createdAt": 1772217214121,
+    "updatedAt": 1772217214121
+  }
+]

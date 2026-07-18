@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 import type { RouteLocationRaw } from 'vue-router';
+import { RouterLink } from 'vue-router';
 import { useAppTheme } from '../theme/themes';
 import { useTheme } from './c-button.theme';
 
@@ -42,22 +43,31 @@ const tag = computed(() => {
     return 'a';
   }
   if (to.value) {
-    return 'router-link';
+    return RouterLink;
   }
   return 'button';
 });
 const appTheme = useAppTheme();
 
 const size = computed(() => theme.value.size[sizeName.value]);
+
+const componentProps = computed(() => {
+  if (href.value) {
+    return { href: href.value };
+  }
+  if (to.value) {
+    return { to: to.value };
+  }
+  return {};
+});
 </script>
 
 <template>
   <component
     :is="tag"
-    :href="href ?? to"
+    v-bind="componentProps"
     class="c-button"
     :class="{ disabled, round, circle }"
-    :to="to"
     @click="handleClick"
   >
     <slot />

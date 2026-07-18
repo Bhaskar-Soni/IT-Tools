@@ -28,3 +28,29 @@ export function useCopy({ source, text = 'Copied to the clipboard', createToast 
     },
   };
 }
+
+export function useCopyHtml({ sourceHtml, text = 'Copied to the clipboard', createToast = true }: { sourceHtml?: MaybeRefOrGetter<string>; text?: string; createToast?: boolean } = {}) {
+  const { copy, copied, ...rest } = useClipboard({
+    source: sourceHtml,
+    legacy: true,
+  });
+
+  const message = useMessage();
+
+  return {
+    ...rest,
+    isJustCopied: copied,
+    async copy(content?: string, { notificationMessage }: { notificationMessage?: string } = {}) {
+      if (sourceHtml) {
+        await copy();
+      }
+      else {
+        await copy(content);
+      }
+
+      if (createToast) {
+        message.success(notificationMessage ?? text);
+      }
+    },
+  };
+}

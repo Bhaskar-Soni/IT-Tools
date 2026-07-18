@@ -2,7 +2,7 @@ import { defineThemes } from '../theme/theme.models';
 
 export const { useTheme } = defineThemes({
   dark: {
-    backgroundColor: '#232323',
+    backgroundColor: '#161b22',
     borderColor: '#282828',
   },
   light: {

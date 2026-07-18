@@ -1,55 +1,79 @@
-<script setup lang="ts">
-import { IconBrandGithub, IconBrandX, IconInfoCircle, IconMoon, IconSun } from '@tabler/icons-vue';
-import { useStyleStore } from '@/stores/style.store';
+﻿<script setup lang="ts">
+import { IconBrandGithub, IconBrandLinkedin, IconInfoCircle } from '@tabler/icons-vue';
+import { markRaw } from 'vue';
+import { useRouter } from 'vue-router';
 
-const styleStore = useStyleStore();
-const { isDarkTheme } = toRefs(styleStore);
+// Mark icons as raw to prevent Vue reactivity checks
+const githubIcon = markRaw(IconBrandGithub);
+const linkedinIcon = markRaw(IconBrandLinkedin);
+const infoIcon = markRaw(IconInfoCircle);
+const router = useRouter();
+
+function goToAbout() {
+  router.push('/about');
+}
 </script>
 
 <template>
-  <c-tooltip :tooltip="$t('home.nav.github')" position="bottom">
+  <c-tooltip :tooltip="'GitHub repository'" position="bottom">
     <c-button
       circle
       variant="text"
-      href="https://github.com/CorentinTh/it-tools"
+      href="https://github.com/Bhaskar-Soni"
       target="_blank"
       rel="noopener noreferrer"
-      :aria-label="$t('home.nav.githubRepository')"
+      :aria-label="'IT-Tools GitHub repository'"
     >
-      <n-icon size="25" :component="IconBrandGithub" />
+      <n-icon size="25" :component="githubIcon" />
     </c-button>
   </c-tooltip>
 
-  <c-tooltip :tooltip="$t('home.nav.twitterX')" position="bottom">
+  <c-tooltip :tooltip="'X account'" position="bottom">
     <c-button
       circle
       variant="text"
-      href="https://x.com/ittoolsdottech"
+      href="https://linkedin.com/in/sonibhaskar"
       rel="noopener"
       target="_blank"
-      :aria-label="$t('home.nav.twitterXAccount')"
+      :aria-label="'IT-Tools X account'"
     >
-      <n-icon size="25" :component="IconBrandX" />
+      <n-icon size="25" :component="linkedinIcon" />
     </c-button>
   </c-tooltip>
 
-  <c-tooltip :tooltip="$t('home.nav.about')" position="bottom">
-    <c-button circle variant="text" to="/about" :aria-label="$t('home.nav.aboutLabel')">
-      <n-icon size="25" :component="IconInfoCircle" />
-    </c-button>
-  </c-tooltip>
-  <c-tooltip :tooltip="isDarkTheme ? $t('home.nav.lightMode') : $t('home.nav.darkMode')" position="bottom">
-    <c-button circle variant="text" :aria-label="$t('home.nav.mode')" @click="() => styleStore.toggleDark()">
-      <n-icon v-if="isDarkTheme" size="25" :component="IconSun" />
-      <n-icon v-else size="25" :component="IconMoon" />
+  <c-tooltip :tooltip="'About IT-Tools'" position="bottom">
+    <c-button circle variant="text" :aria-label="'About'" @click="goToAbout">
+      <n-icon size="25" :component="infoIcon" />
     </c-button>
   </c-tooltip>
 </template>
 
 <style lang="less" scoped>
-.n-button {
+:deep(.c-button) {
   &:not(:last-child) {
     margin-right: 5px;
   }
+
+  &:nth-child(1),
+  &:nth-child(2) {
+    color: #ffffff !important;
+
+    &:hover {
+      background-color: rgba(59, 130, 246, 0.3) !important;
+    }
+
+    &:active {
+      background-color: rgba(59, 130, 246, 0.5) !important;
+      border: 2px solid #3b82f6 !important;
+    }
+
+    &:focus {
+      background-color: transparent !important;
+      border: none !important;
+      outline: none !important;
+    }
+  }
 }
 </style>
+
+

@@ -1,0 +1,436 @@
+[
+  {
+    "name": "SysOps/DevOps",
+    "links": [
+      {
+        "title": "Awesome Sysadmin",
+        "url": "https://github.com/kahun/awesome-sysadmin",
+        "description": "amazingly awesome open source sysadmin resources.",
+        "category": "General",
+        "createdAt": 1772218080017
+      },
+      {
+        "title": "Awesome Shell",
+        "url": "https://github.com/alebcay/awesome-shell",
+        "description": "awesome command-line frameworks, toolkits, guides and gizmos.",
+        "category": "General",
+        "createdAt": 1772218080018
+      },
+      {
+        "title": "Command-line-text-processing",
+        "url": "https://github.com/learnbyexample/Command-line-text-processing",
+        "description": "finding text to search and replace, sorting to beautifying, and more.",
+        "category": "General",
+        "createdAt": 1772218080019
+      },
+      {
+        "title": "Awesome Pcaptools",
+        "url": "https://github.com/caesar0301/awesome-pcaptools",
+        "description": "collection of tools developed by other researchers to process network traces.",
+        "category": "General",
+        "createdAt": 1772218080020
+      },
+      {
+        "title": "awesome-ebpf",
+        "url": "https://github.com/zoidbergwill/awesome-ebpf",
+        "description": "a curated list of awesome projects related to eBPF.",
+        "category": "General",
+        "createdAt": 1772218080021
+      },
+      {
+        "title": "Linux Network Performance",
+        "url": "https://github.com/leandromoreira/linux-network-performance-parameters",
+        "description": "where some of the network sysctl variables fit into the Linux/Kernel network flow.",
+        "category": "General",
+        "createdAt": 1772218080022
+      },
+      {
+        "title": "Awesome Postgres",
+        "url": "https://github.com/dhamaniasad/awesome-postgres",
+        "description": "list of awesome PostgreSQL software, libraries, tools and resources.",
+        "category": "General",
+        "createdAt": 1772218080023
+      },
+      {
+        "title": "quick-SQL-cheatsheet",
+        "url": "https://github.com/enochtangg/quick-SQL-cheatsheet",
+        "description": "a quick reminder of all SQL queries and examples on how to use them.",
+        "category": "General",
+        "createdAt": 1772218080024
+      },
+      {
+        "title": "Awesome-Selfhosted",
+        "url": "https://github.com/Kickball/awesome-selfhosted",
+        "description": "list of Free Software network services and web applications which can be hosted locally.",
+        "category": "General",
+        "createdAt": 1772218080025
+      },
+      {
+        "title": "List of applications",
+        "url": "https://wiki.archlinux.org/index.php/List_of_applications",
+        "description": "huge list of apps sorted by category, as a reference for those looking for packages.",
+        "category": "General",
+        "createdAt": 1772218080026
+      },
+      {
+        "title": "CS-Interview-Knowledge-Map",
+        "url": "https://github.com/InterviewMap/CS-Interview-Knowledge-Map",
+        "description": "build the best interview map.",
+        "category": "General",
+        "createdAt": 1772218080027
+      },
+      {
+        "title": "DevOps-Guide",
+        "url": "https://github.com/Tikam02/DevOps-Guide",
+        "description": "DevOps Guide from basic to advanced with Interview Questions and Notes.",
+        "category": "General",
+        "createdAt": 1772218080028
+      },
+      {
+        "title": "FreeBSD Journal",
+        "url": "https://issue.freebsdfoundation.org/publication/?m=33057&l=1&view=issuelistBrowser",
+        "description": "it is a great list of periodical magazines about FreeBSD and other important things.",
+        "category": "General",
+        "createdAt": 1772218080029
+      },
+      {
+        "title": "devops-interview-questions",
+        "url": "https://github.com/bregman-arie/devops-interview-questions",
+        "description": "contains interview questions on various DevOps and SRE related topics.",
+        "category": "General",
+        "createdAt": 1772218080030
+      }
+    ],
+    "createdAt": 1772218080017,
+    "updatedAt": 1772218080030
+  },
+  {
+    "name": "Developers",
+    "links": [
+      {
+        "title": "Web Developer Roadmap",
+        "url": "https://github.com/kamranahmedse/developer-roadmap",
+        "description": "roadmaps, articles and resources to help you choose your path, learn and improve.",
+        "category": "General",
+        "createdAt": 1772218080031
+      },
+      {
+        "title": "Front-End-Checklist",
+        "url": "https://github.com/thedaviddias/Front-End-Checklist",
+        "description": "the perfect Front-End Checklist for modern websites and meticulous developers.",
+        "category": "General",
+        "createdAt": 1772218080032
+      },
+      {
+        "title": "Front-End-Performance-Checklist",
+        "url": "https://github.com/thedaviddias/Front-End-Performance-Checklist",
+        "description": "Front-End Performance Checklist that runs faster than the others.",
+        "category": "General",
+        "createdAt": 1772218080033
+      },
+      {
+        "title": "Python's Magic Methods",
+        "url": "https://rszalski.github.io/magicmethods/",
+        "description": "what are magic methods? They're everything in object-oriented Python.",
+        "category": "General",
+        "createdAt": 1772218080034
+      },
+      {
+        "title": "wtfpython",
+        "url": "https://github.com/satwikkansal/wtfpython",
+        "description": "a collection of surprising Python snippets and lesser-known features.",
+        "category": "General",
+        "createdAt": 1772218080035
+      },
+      {
+        "title": "js-dev-reads",
+        "url": "https://github.com/twhite96/js-dev-reads",
+        "description": "a list of books and articles for the discerning web developer to read.",
+        "category": "General",
+        "createdAt": 1772218080036
+      },
+      {
+        "title": "Commit messages guide",
+        "url": "https://github.com/RomuloOliveira/commit-messages-guide",
+        "description": "a guide to understand the importance of commit messages.",
+        "category": "General",
+        "createdAt": 1772218080037
+      }
+    ],
+    "createdAt": 1772218080031,
+    "updatedAt": 1772218080037
+  },
+  {
+    "name": "Security/Pentesting",
+    "links": [
+      {
+        "title": "Awesome Web Security",
+        "url": "https://github.com/qazbnm456/awesome-web-security",
+        "description": "a curated list of Web Security materials and resources.",
+        "category": "General",
+        "createdAt": 1772218080038
+      },
+      {
+        "title": "awesome-cyber-skills",
+        "url": "https://github.com/joe-shenouda/awesome-cyber-skills",
+        "description": "a curated list of hacking environments where you can train your cyber skills.",
+        "category": "General",
+        "createdAt": 1772218080039
+      },
+      {
+        "title": "awesome-devsecops",
+        "url": "https://github.com/devsecops/awesome-devsecops",
+        "description": "an authoritative list of awesome devsecops tools.",
+        "category": "General",
+        "createdAt": 1772218080040
+      },
+      {
+        "title": "awesome-osint",
+        "url": "https://github.com/jivoi/awesome-osint",
+        "description": "is a curated list of amazingly awesome OSINT.",
+        "category": "General",
+        "createdAt": 1772218080041
+      },
+      {
+        "title": "HolyTips",
+        "url": "https://github.com/HolyBugx/HolyTips",
+        "description": "tips and tutorials on Bug Bounty Hunting and Web App Security.",
+        "category": "General",
+        "createdAt": 1772218080042
+      },
+      {
+        "title": "awesome-threat-intelligence",
+        "url": "https://github.com/hslatman/awesome-threat-intelligence",
+        "description": "a curated list of Awesome Threat Intelligence resources.",
+        "category": "General",
+        "createdAt": 1772218080043
+      },
+      {
+        "title": "Red-Teaming-Toolkit",
+        "url": "https://github.com/infosecn1nja/Red-Teaming-Toolkit",
+        "description": "a collection of open source and commercial tools that aid in red team operations.",
+        "category": "General",
+        "createdAt": 1772218080044
+      },
+      {
+        "title": "awesome-burp-extensions",
+        "url": "https://github.com/snoopysecurity/awesome-burp-extensions",
+        "description": "a curated list of amazingly awesome Burp Extensions.",
+        "category": "General",
+        "createdAt": 1772218080045
+      },
+      {
+        "title": "Free Security eBooks",
+        "url": "https://github.com/Hack-with-Github/Free-Security-eBooks",
+        "description": "list of a Free Security and Hacking eBooks.",
+        "category": "General",
+        "createdAt": 1772218080046
+      },
+      {
+        "title": "Hacking-Security-Ebooks",
+        "url": "https://github.com/yeahhub/Hacking-Security-Ebooks",
+        "description": "top 100 Hacking & Security E-Books.",
+        "category": "General",
+        "createdAt": 1772218080047
+      },
+      {
+        "title": "privacy-respecting",
+        "url": "https://github.com/nikitavoloboev/privacy-respecting",
+        "description": "curated list of privacy respecting services and software.",
+        "category": "General",
+        "createdAt": 1772218080048
+      },
+      {
+        "title": "reverse-engineering",
+        "url": "https://github.com/wtsxDev/reverse-engineering",
+        "description": "list of awesome reverse engineering resources.",
+        "category": "General",
+        "createdAt": 1772218080049
+      },
+      {
+        "title": "linux-re-101",
+        "url": "https://github.com/michalmalik/linux-re-101",
+        "description": "a collection of resources for linux reverse engineering.",
+        "category": "General",
+        "createdAt": 1772218080050
+      },
+      {
+        "title": "reverseengineering-reading-list",
+        "url": "https://github.com/onethawt/reverseengineering-reading-list",
+        "description": "a list of Reverse Engineering articles, books, and papers.",
+        "category": "General",
+        "createdAt": 1772218080051
+      },
+      {
+        "title": "Awesome-WAF",
+        "url": "https://github.com/0xInfection/Awesome-WAF",
+        "description": "a curated list of awesome web-app firewall (WAF) stuff.",
+        "category": "General",
+        "createdAt": 1772218080052
+      },
+      {
+        "title": "awesome-shodan-queries",
+        "url": "https://github.com/jakejarvis/awesome-shodan-queries",
+        "description": "interesting, funny, and depressing search queries to plug into shodan.io.",
+        "category": "General",
+        "createdAt": 1772218080053
+      },
+      {
+        "title": "RobotsDisallowed",
+        "url": "https://github.com/danielmiessler/RobotsDisallowed",
+        "description": "a curated list of the most common and most interesting robots.txt disallowed directories.",
+        "category": "General",
+        "createdAt": 1772218080054
+      },
+      {
+        "title": "HackingNeuralNetworks",
+        "url": "https://github.com/Kayzaks/HackingNeuralNetworks",
+        "description": "is a small course on exploiting and defending neural networks.",
+        "category": "General",
+        "createdAt": 1772218080055
+      },
+      {
+        "title": "wildcard-certificates",
+        "url": "https://gist.github.com/joepie91/7e5cad8c0726fd6a5e90360a754fc568",
+        "description": "why you probably shouldn't use a wildcard certificate.",
+        "category": "General",
+        "createdAt": 1772218080056
+      },
+      {
+        "title": "Don't use VPN services",
+        "url": "https://gist.github.com/joepie91/5a9909939e6ce7d09e29",
+        "description": "which is what every third-party \"VPN provider\" does.",
+        "category": "General",
+        "createdAt": 1772218080057
+      },
+      {
+        "title": "awesome-yara",
+        "url": "https://github.com/InQuest/awesome-yara",
+        "description": "a curated list of awesome YARA rules, tools, and people.",
+        "category": "General",
+        "createdAt": 1772218080058
+      },
+      {
+        "title": "macOS-Security-and-Privacy-Guide",
+        "url": "https://github.com/drduh/macOS-Security-and-Privacy-Guide",
+        "description": "guide to securing and improving privacy on macOS.",
+        "category": "General",
+        "createdAt": 1772218080059
+      },
+      {
+        "title": "macos_security",
+        "url": "https://github.com/usnistgov/macos_security",
+        "description": "macOS Security Compliance Project.",
+        "category": "General",
+        "createdAt": 1772218080060
+      },
+      {
+        "title": "awesome-sec-talks",
+        "url": "https://github.com/PaulSec/awesome-sec-talks",
+        "description": "is a collected list of awesome security talks.",
+        "category": "General",
+        "createdAt": 1772218080061
+      },
+      {
+        "title": "Movies for Hackers",
+        "url": "https://github.com/k4m4/movies-for-hackers",
+        "description": "list of movies every hacker & cyberpunk must watch.",
+        "category": "General",
+        "createdAt": 1772218080062
+      },
+      {
+        "title": "Cryptography_1",
+        "url": "https://github.com/danieldizzy/Cryptography_1",
+        "description": "materials used whilst taking Prof. Dan Boneh Stanford Crypto course.",
+        "category": "General",
+        "createdAt": 1772218080063
+      },
+      {
+        "title": "Crypton",
+        "url": "https://github.com/ashutosh1206/Crypton",
+        "description": "library to learn and practice Offensive and Defensive Cryptography.",
+        "category": "General",
+        "createdAt": 1772218080064
+      }
+    ],
+    "createdAt": 1772218080038,
+    "updatedAt": 1772218080064
+  },
+  {
+    "name": "Other",
+    "links": [
+      {
+        "title": "Cheatography",
+        "url": "https://www.cheatography.com/",
+        "description": "over 3,000 free cheat sheets, revision aids and quick references.",
+        "category": "General",
+        "createdAt": 1772218080065
+      },
+      {
+        "title": "awesome-static-analysis",
+        "url": "https://github.com/mre/awesome-static-analysis",
+        "description": "static analysis tools for all programming languages.",
+        "category": "General",
+        "createdAt": 1772218080066
+      },
+      {
+        "title": "computer-science",
+        "url": "https://github.com/ossu/computer-science",
+        "description": "path to a free self-taught education in Computer Science.",
+        "category": "General",
+        "createdAt": 1772218080067
+      },
+      {
+        "title": "post-mortems",
+        "url": "https://github.com/danluu/post-mortems",
+        "description": "is a collection of postmortems (config errors, hardware failures, and more).",
+        "category": "General",
+        "createdAt": 1772218080068
+      },
+      {
+        "title": "build-your-own-x",
+        "url": "https://github.com/danistefanovic/build-your-own-x",
+        "description": "build your own (insert technology here).",
+        "category": "General",
+        "createdAt": 1772218080069
+      },
+      {
+        "title": "Project-Based-Tutorials-in-C",
+        "url": "https://github.com/rby90/Project-Based-Tutorials-in-C",
+        "description": "is a curated list of project-based tutorials in C.",
+        "category": "General",
+        "createdAt": 1772218080070
+      },
+      {
+        "title": "The-Documentation-Compendium",
+        "url": "https://github.com/kylelobo/The-Documentation-Compendium",
+        "description": "various README templates & tips on writing high-quality documentation.",
+        "category": "General",
+        "createdAt": 1772218080071
+      },
+      {
+        "title": "awesome-python-applications",
+        "url": "https://github.com/mahmoud/awesome-python-applications",
+        "description": "free software that works great, and also happens to be open-source Python.",
+        "category": "General",
+        "createdAt": 1772218080072
+      },
+      {
+        "title": "awesome-public-datasets",
+        "url": "https://github.com/awesomedata/awesome-public-datasets",
+        "description": "a topic-centric list of HQ open datasets.",
+        "category": "General",
+        "createdAt": 1772218080073
+      },
+      {
+        "title": "machine-learning-algorithms",
+        "url": "https://github.com/Sahith02/machine-learning-algorithms",
+        "description": "a curated list of all machine learning algorithms and concepts.",
+        "category": "General",
+        "createdAt": 1772218080074
+      }
+    ],
+    "createdAt": 1772218080065,
+    "updatedAt": 1772218080074
+  }
+]

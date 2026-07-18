@@ -1,5 +1,5 @@
 {
-  "extends": "@vue/tsconfig/tsconfig.json",
+  "extends": "./node_modules/@vue/tsconfig/tsconfig.json",
   "include": ["env.d.ts", "src/**/*", "src/**/*.vue", "**/*.d.ts", "node_modules/vite-plugin-pwa/client.d.ts"],
   "exclude": ["src/**/__tests__/*"],
   "compilerOptions": {
@@ -12,7 +12,7 @@
     "paths": {
       "@/*": ["./src/*"]
     },
-    "types": ["naive-ui/volar", "@intlify/unplugin-vue-i18n/messages", "unplugin-icons/types/vue"],
+    "types": ["naive-ui/volar"],
     "esModuleInterop": true,
     "jsx": "preserve",
     "skipLibCheck": true

@@ -1,0 +1,604 @@
+[
+  {
+    "name": "SysOps/DevOps",
+    "links": [
+      {
+        "title": "Varnish for PHP developers",
+        "url": "https://www.youtube.com/watch?v=nAFpkV5-vuI",
+        "description": "very interesting presentation of Varnish by Mattias Geniar.",
+        "category": "General",
+        "createdAt": 1772218366546
+      },
+      {
+        "title": "A Netflix Guide to Microservices",
+        "url": "https://www.youtube.com/watch?v=CZ3wIuvmHeM",
+        "description": "talks about the chaotic and vibrant world of microservices at Netflix.",
+        "category": "General",
+        "createdAt": 1772218366547
+      }
+    ],
+    "createdAt": 1772218366546,
+    "updatedAt": 1772218366547
+  },
+  {
+    "name": "Developers",
+    "links": [
+      {
+        "title": "Comparing C to machine lang",
+        "url": "https://www.youtube.com/watch?v=yOyaJXpAYZQ",
+        "description": "compare a simple C app with the compiled machine code of that program.",
+        "category": "General",
+        "createdAt": 1772218366548
+      }
+    ],
+    "createdAt": 1772218366548,
+    "updatedAt": 1772218366548
+  },
+  {
+    "name": "Geeky Persons",
+    "links": [
+      {
+        "title": "Brendan Gregg's Blog",
+        "url": "http://www.brendangregg.com/",
+        "description": "is an industry expert in computing performance and cloud computing.",
+        "category": "General",
+        "createdAt": 1772218366549
+      },
+      {
+        "title": "Gynvael \"GynDream\" Coldwind",
+        "url": "https://gynvael.coldwind.pl/",
+        "description": "is a IT security engineer at Google.",
+        "category": "General",
+        "createdAt": 1772218366550
+      },
+      {
+        "title": "Micha\u0142 \"lcamtuf\" Zalewski",
+        "url": "http://lcamtuf.coredump.cx/",
+        "description": "white hat hacker, computer security expert.",
+        "category": "General",
+        "createdAt": 1772218366551
+      },
+      {
+        "title": "Mattias Geniar",
+        "url": "https://ma.ttias.be/",
+        "description": "developer, sysadmin, blogger, podcaster and public speaker.",
+        "category": "General",
+        "createdAt": 1772218366552
+      },
+      {
+        "title": "Nick Craver",
+        "url": "https://nickcraver.com/",
+        "description": "software developer and systems administrator for Stack Exchange.",
+        "category": "General",
+        "createdAt": 1772218366553
+      },
+      {
+        "title": "Scott Helme",
+        "url": "https://scotthelme.co.uk/",
+        "description": "security researcher, speaker and founder of securityheaders.com and report-uri.com.",
+        "category": "General",
+        "createdAt": 1772218366554
+      },
+      {
+        "title": "Brian Krebs",
+        "url": "https://krebsonsecurity.com/",
+        "description": "The Washington Post and now an Independent investigative journalist.",
+        "category": "General",
+        "createdAt": 1772218366555
+      },
+      {
+        "title": "Bruce Schneier",
+        "url": "https://www.schneier.com/",
+        "description": "is an internationally renowned security technologist, called a \"security guru\".",
+        "category": "General",
+        "createdAt": 1772218366556
+      },
+      {
+        "title": "Chrissy Morgan",
+        "url": "https://chrissymorgan.co.uk/",
+        "description": "advocate of practical learning, Chrissy also takes part in bug bounty programs.",
+        "category": "General",
+        "createdAt": 1772218366557
+      },
+      {
+        "title": "Andy Gill",
+        "url": "https://blog.zsec.uk/",
+        "description": "is a hacker at heart who works as a senior penetration tester.",
+        "category": "General",
+        "createdAt": 1772218366558
+      },
+      {
+        "title": "Daniel Miessler",
+        "url": "https://danielmiessler.com/",
+        "description": "cybersecurity expert and writer.",
+        "category": "General",
+        "createdAt": 1772218366559
+      },
+      {
+        "title": "Samy Kamkar",
+        "url": "https://samy.pl/",
+        "description": "is an American privacy and security researcher, computer hacker.",
+        "category": "General",
+        "createdAt": 1772218366560
+      },
+      {
+        "title": "Javvad Malik",
+        "url": "https://www.j4vv4d.com/",
+        "description": "is a security advocate at AlienVault, a blogger event speaker and industry commentator.",
+        "category": "General",
+        "createdAt": 1772218366561
+      },
+      {
+        "title": "Graham Cluley",
+        "url": "https://www.grahamcluley.com/",
+        "description": "public speaker and independent computer security analyst.",
+        "category": "General",
+        "createdAt": 1772218366562
+      },
+      {
+        "title": "Kacper Szurek",
+        "url": "https://security.szurek.pl/",
+        "description": "detection engineer at ESET.",
+        "category": "General",
+        "createdAt": 1772218366563
+      },
+      {
+        "title": "Troy Hunt",
+        "url": "https://www.troyhunt.com/",
+        "description": "web security expert known for public education and outreach on security topics.",
+        "category": "General",
+        "createdAt": 1772218366564
+      },
+      {
+        "title": "raymii.org",
+        "url": "https://raymii.org/s/index.html",
+        "description": "sysadmin specializing in building high availability cloud environments.",
+        "category": "General",
+        "createdAt": 1772218366565
+      },
+      {
+        "title": "Robert Penz",
+        "url": "https://robert.penz.name/",
+        "description": "IT security expert.",
+        "category": "General",
+        "createdAt": 1772218366566
+      }
+    ],
+    "createdAt": 1772218366549,
+    "updatedAt": 1772218366566
+  },
+  {
+    "name": "Geeky Blogs",
+    "links": [
+      {
+        "title": "Linux Audit",
+        "url": "https://linux-audit.com/",
+        "description": "the Linux security blog about auditing, hardening and compliance by Michael Boelen.",
+        "category": "General",
+        "createdAt": 1772218366567
+      },
+      {
+        "title": "",
+        "url": "https://linuxsecurity.expert/",
+        "description": "",
+        "category": "General",
+        "createdAt": 1772218366568
+      },
+      {
+        "title": "The Grymoire",
+        "url": "http://www.grymoire.com/",
+        "description": "collection of useful incantations for wizards, be you computer wizards, magicians, or whatever.",
+        "category": "General",
+        "createdAt": 1772218366569
+      },
+      {
+        "title": "Secjuice",
+        "url": "https://www.secjuice.com",
+        "description": "is the only non-profit, independent and volunteer led publication in the information security space.",
+        "category": "General",
+        "createdAt": 1772218366570
+      },
+      {
+        "title": "Decipher",
+        "url": "https://duo.com/decipher",
+        "description": "security news that informs and inspires.",
+        "category": "General",
+        "createdAt": 1772218366571
+      }
+    ],
+    "createdAt": 1772218366567,
+    "updatedAt": 1772218366571
+  },
+  {
+    "name": "Geeky Vendor Blogs",
+    "links": [
+      {
+        "title": "Tenable Podcast",
+        "url": "https://www.tenable.com/podcast",
+        "description": "conversations and interviews related to Cyber Exposure, and more.",
+        "category": "General",
+        "createdAt": 1772218366572
+      },
+      {
+        "title": "Sophos",
+        "url": "https://nakedsecurity.sophos.com/",
+        "description": "threat news room, giving you news, opinion, advice and research on computer security issues.",
+        "category": "General",
+        "createdAt": 1772218366573
+      },
+      {
+        "title": "Tripwire State of Security",
+        "url": "https://www.tripwire.com/state-of-security/",
+        "description": "blog featuring the latest news, trends and insights on current security issues.",
+        "category": "General",
+        "createdAt": 1772218366574
+      },
+      {
+        "title": "Malwarebytes Labs Blog",
+        "url": "https://blog.malwarebytes.com/",
+        "description": "security blog aims to provide insider news about cybersecurity.",
+        "category": "General",
+        "createdAt": 1772218366575
+      },
+      {
+        "title": "TrustedSec",
+        "url": "https://www.trustedsec.com/category/articles/",
+        "description": "latest news, and trends about cybersecurity.",
+        "category": "General",
+        "createdAt": 1772218366576
+      },
+      {
+        "title": "PortSwigger Web Security Blog",
+        "url": "https://portswigger.net/blog",
+        "description": "about web app security vulns and top tips from our team of web security.",
+        "category": "General",
+        "createdAt": 1772218366577
+      },
+      {
+        "title": "AT&T Cybersecurity blog",
+        "url": "https://www.alienvault.com/blogs",
+        "description": "news on emerging threats and practical advice to simplify threat detection.",
+        "category": "General",
+        "createdAt": 1772218366578
+      },
+      {
+        "title": "Thycotic",
+        "url": "https://thycotic.com/company/blog/",
+        "description": "where CISOs and IT Admins come to learn about industry trends, IT security, and more.",
+        "category": "General",
+        "createdAt": 1772218366579
+      }
+    ],
+    "createdAt": 1772218366572,
+    "updatedAt": 1772218366579
+  },
+  {
+    "name": "Geeky Cybersecurity Podcasts",
+    "links": [
+      {
+        "title": "Risky Business",
+        "url": "https://risky.biz/netcasts/risky-business/",
+        "description": "is a weekly information security podcast featuring news and in-depth interviews.",
+        "category": "General",
+        "createdAt": 1772218366580
+      },
+      {
+        "title": "Cyber, by Motherboard",
+        "url": "https://www.vice.com/en_us/topic/cyber",
+        "description": "stories, and focus on the ideas  about cybersecurity.",
+        "category": "General",
+        "createdAt": 1772218366581
+      },
+      {
+        "title": "Tenable Podcast",
+        "url": "https://www.tenable.com/podcast",
+        "description": "conversations and interviews related to Cyber Exposure, and more.",
+        "category": "General",
+        "createdAt": 1772218366582
+      },
+      {
+        "title": "",
+        "url": "https://podcasts.apple.com/gb/podcast/cybercrime-investigations/id1428801405",
+        "description": "",
+        "category": "General",
+        "createdAt": 1772218366583
+      },
+      {
+        "title": "The many hats club",
+        "url": "https://themanyhats.club/tag/episodes/",
+        "description": "featuring stories from a wide range of Infosec people (Whitehat, Greyhat and Blackhat).",
+        "category": "General",
+        "createdAt": 1772218366584
+      },
+      {
+        "title": "Darknet Diaries",
+        "url": "https://darknetdiaries.com/",
+        "description": "true stories from the dark side of the Internet.",
+        "category": "General",
+        "createdAt": 1772218366585
+      },
+      {
+        "title": "OSINTCurious Webcasts",
+        "url": "https://www.youtube.com/playlist?list=PL423I_gHbWUXah3dmt_q_XNp0NlGAKjis",
+        "description": "is the investigative curiosity that helps people be successful in OSINT.",
+        "category": "General",
+        "createdAt": 1772218366586
+      },
+      {
+        "title": "Security Weekly",
+        "url": "https://www.youtube.com/user/SecurityWeeklyTV",
+        "description": "the latest information security and hacking news.",
+        "category": "General",
+        "createdAt": 1772218366587
+      }
+    ],
+    "createdAt": 1772218366580,
+    "updatedAt": 1772218366587
+  },
+  {
+    "name": "Geeky Cybersecurity Video Blogs",
+    "links": [
+      {
+        "title": "rev3rse security",
+        "url": "https://www.youtube.com/channel/UCzvJStjySZVvOBsPl-Vgj0g",
+        "description": "offensive, binary exploitation, web app security, hardening, red team, blue team.",
+        "category": "General",
+        "createdAt": 1772218366588
+      },
+      {
+        "title": "LiveOverflow",
+        "url": "https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w",
+        "description": "a lot more advanced topics than what is typically offered in paid online courses - but for free.",
+        "category": "General",
+        "createdAt": 1772218366589
+      },
+      {
+        "title": "J4vv4D",
+        "url": "https://www.youtube.com/infoseccynic",
+        "description": "the important information regarding our internet security.",
+        "category": "General",
+        "createdAt": 1772218366590
+      },
+      {
+        "title": "",
+        "url": "https://cybertalks.co.uk/",
+        "description": "",
+        "category": "General",
+        "createdAt": 1772218366591
+      }
+    ],
+    "createdAt": 1772218366588,
+    "updatedAt": 1772218366591
+  },
+  {
+    "name": "Best Personal Twitter Accounts",
+    "links": [
+      {
+        "title": "@blackroomsec",
+        "url": "https://twitter.com/blackroomsec",
+        "description": "a white-hat hacker/pentester. Intergalactic Minesweeper Champion 1990.",
+        "category": "General",
+        "createdAt": 1772218366592
+      },
+      {
+        "title": "@MarcoCiappelli",
+        "url": "https://twitter.com/MarcoCiappelli",
+        "description": "Co-Founder @ITSPmagazine, at the intersection of IT security and society.",
+        "category": "General",
+        "createdAt": 1772218366593
+      },
+      {
+        "title": "@binitamshah",
+        "url": "https://twitter.com/binitamshah",
+        "description": "Linux Evangelist. Malwares. Kernel Dev. Security Enthusiast.",
+        "category": "General",
+        "createdAt": 1772218366594
+      },
+      {
+        "title": "@joe_carson",
+        "url": "https://twitter.com/joe_carson",
+        "description": "an InfoSec Professional and Tech Geek.",
+        "category": "General",
+        "createdAt": 1772218366595
+      },
+      {
+        "title": "@mikko",
+        "url": "https://twitter.com/mikko",
+        "description": "CRO at F-Secure, Reverse Engineer, TED Speaker, Supervillain.",
+        "category": "General",
+        "createdAt": 1772218366596
+      },
+      {
+        "title": "@esrtweet",
+        "url": "https://twitter.com/esrtweet",
+        "description": "often referred to as ESR, is an American software developer, and open-source software advocate.",
+        "category": "General",
+        "createdAt": 1772218366597
+      },
+      {
+        "title": "@gynvael",
+        "url": "https://twitter.com/gynvael",
+        "description": "security researcher/programmer, @DragonSectorCTF founder/player, technical streamer.",
+        "category": "General",
+        "createdAt": 1772218366598
+      },
+      {
+        "title": "@x0rz",
+        "url": "https://twitter.com/x0rz",
+        "description": "Security Researcher & Cyber Observer.",
+        "category": "General",
+        "createdAt": 1772218366599
+      },
+      {
+        "title": "@hasherezade",
+        "url": "https://twitter.com/hasherezade",
+        "description": "programmer, malware analyst. Author of PEbear, PEsieve, libPeConv.",
+        "category": "General",
+        "createdAt": 1772218366600
+      },
+      {
+        "title": "@TinkerSec",
+        "url": "https://twitter.com/TinkerSec",
+        "description": "tinkerer, cypherpunk, hacker.",
+        "category": "General",
+        "createdAt": 1772218366601
+      },
+      {
+        "title": "@alisaesage",
+        "url": "https://twitter.com/alisaesage",
+        "description": "independent hacker and researcher.",
+        "category": "General",
+        "createdAt": 1772218366602
+      },
+      {
+        "title": "@SwiftOnSecurity",
+        "url": "https://twitter.com/SwiftOnSecurity",
+        "description": "systems security, industrial safety, sysadmin, author of decentsecurity.com.",
+        "category": "General",
+        "createdAt": 1772218366603
+      },
+      {
+        "title": "@dakami",
+        "url": "https://twitter.com/dakami",
+        "description": "is one of just seven people with the authority to restore the DNS root keys.",
+        "category": "General",
+        "createdAt": 1772218366604
+      },
+      {
+        "title": "@samykamkar",
+        "url": "https://twitter.com/samykamkar",
+        "description": "is a famous \"grey hat\" hacker, security researcher, creator of the MySpace \"Samy\" worm.",
+        "category": "General",
+        "createdAt": 1772218366605
+      },
+      {
+        "title": "@securityweekly",
+        "url": "https://twitter.com/securityweekly",
+        "description": "founder & CTO of Security Weekly podcast network.",
+        "category": "General",
+        "createdAt": 1772218366606
+      },
+      {
+        "title": "@jack_daniel",
+        "url": "https://twitter.com/jack_daniel",
+        "description": "@SecurityBSides co-founder.",
+        "category": "General",
+        "createdAt": 1772218366607
+      },
+      {
+        "title": "@thegrugq",
+        "url": "https://twitter.com/thegrugq",
+        "description": "Security Researcher.",
+        "category": "General",
+        "createdAt": 1772218366608
+      },
+      {
+        "title": "@matthew_d_green",
+        "url": "https://twitter.com/matthew_d_green",
+        "description": "a cryptographer and professor at Johns Hopkins University.",
+        "category": "General",
+        "createdAt": 1772218366609
+      }
+    ],
+    "createdAt": 1772218366592,
+    "updatedAt": 1772218366609
+  },
+  {
+    "name": "Best Commercial Twitter Accounts",
+    "links": [
+      {
+        "title": "@haveibeenpwned",
+        "url": "https://twitter.com/haveibeenpwned",
+        "description": "check if you have an account that has been compromised in a data breach.",
+        "category": "General",
+        "createdAt": 1772218366610
+      },
+      {
+        "title": "@bugcrowd",
+        "url": "https://twitter.com/bugcrowd",
+        "description": "trusted by more of the Fortune 500 than any other crowdsourced security platform.",
+        "category": "General",
+        "createdAt": 1772218366611
+      },
+      {
+        "title": "@Malwarebytes",
+        "url": "https://twitter.com/Malwarebytes",
+        "description": "most trusted security company. Unmatched threat visibility.",
+        "category": "General",
+        "createdAt": 1772218366612
+      },
+      {
+        "title": "@sansforensics",
+        "url": "https://twitter.com/sansforensics",
+        "description": "the world's leading Digital Forensics and Incident Response provider.",
+        "category": "General",
+        "createdAt": 1772218366613
+      },
+      {
+        "title": "@attcyber",
+        "url": "https://twitter.com/attcyber",
+        "description": "AT&T Cybersecurity\u2019s Edge-to-Edge technologies provide threat intelligence, and more.",
+        "category": "General",
+        "createdAt": 1772218366614
+      },
+      {
+        "title": "@TheManyHatsClub",
+        "url": "https://twitter.com/TheManyHatsClub",
+        "description": "an information security focused podcast and group of individuals from all walks of life.",
+        "category": "General",
+        "createdAt": 1772218366615
+      },
+      {
+        "title": "@hedgehogsec",
+        "url": "https://twitter.com/hedgehogsec",
+        "description": "Hedgehog Cyber. Gibraltar and Manchester's top boutique information security firm.",
+        "category": "General",
+        "createdAt": 1772218366616
+      },
+      {
+        "title": "@NCSC",
+        "url": "https://twitter.com/NCSC",
+        "description": "the National Cyber Security Centre. Helping to make the UK the safest place to live and work online.",
+        "category": "General",
+        "createdAt": 1772218366617
+      },
+      {
+        "title": "@Synacktiv",
+        "url": "https://twitter.com/Synacktiv",
+        "description": "IT security experts.",
+        "category": "General",
+        "createdAt": 1772218366618
+      }
+    ],
+    "createdAt": 1772218366610,
+    "updatedAt": 1772218366618
+  },
+  {
+    "name": "A piece of history",
+    "links": [
+      {
+        "title": "How to Do Things at ARL",
+        "url": "http://web.archive.org/web/20190221103734/https://ftp.arl.army.mil/~mike/howto/",
+        "description": "how to configure modems, scan images, record CD-ROMs, and other. *",
+        "category": "General",
+        "createdAt": 1772218366619
+      }
+    ],
+    "createdAt": 1772218366619,
+    "updatedAt": 1772218366619
+  },
+  {
+    "name": "Other",
+    "links": [
+      {
+        "title": "Diffie-Hellman Key Exchange (short version)",
+        "url": "https://www.youtube.com/watch?v=3QnD2c4Xovk",
+        "description": "how Diffie-Hellman Key Exchange worked.",
+        "category": "General",
+        "createdAt": 1772218366620
+      }
+    ],
+    "createdAt": 1772218366620,
+    "updatedAt": 1772218366620
+  }
+]

@@ -1,0 +1,1479 @@
+[
+  {
+    "name": "Pentesters arsenal tools",
+    "links": [
+      {
+        "title": "Sandcat Browser",
+        "url": "http://www.syhunt.com/sandcat/",
+        "description": "a penetration-oriented browser with plenty of advanced functionality already built in.",
+        "category": "General",
+        "createdAt": 1772218515480
+      },
+      {
+        "title": "Metasploit",
+        "url": "https://www.metasploit.com/",
+        "description": "tool and framework for pentesting system, web and many more.",
+        "category": "General",
+        "createdAt": 1772218515481
+      },
+      {
+        "title": "Burp Suite",
+        "url": "https://portswigger.net/burp",
+        "description": "tool for testing web app security, intercepting proxy to replay, inject, scan and fuzz.",
+        "category": "General",
+        "createdAt": 1772218515482
+      },
+      {
+        "title": "OWASP Zed Attack Proxy",
+        "url": "https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project",
+        "description": "intercepting proxy to replay, inject, scan and fuzz HTTP requests.",
+        "category": "General",
+        "createdAt": 1772218515483
+      },
+      {
+        "title": "w3af",
+        "url": "http://w3af.org/",
+        "description": "is a Web Application Attack and Audit Framework.",
+        "category": "General",
+        "createdAt": 1772218515484
+      },
+      {
+        "title": "mitmproxy",
+        "url": "https://mitmproxy.org/",
+        "description": "an interactive TLS-capable intercepting HTTP proxy for penetration testers.",
+        "category": "General",
+        "createdAt": 1772218515485
+      },
+      {
+        "title": "Nikto2",
+        "url": "https://cirt.net/Nikto2",
+        "description": "web server scanner which performs comprehensive tests against web servers for multiple items.",
+        "category": "General",
+        "createdAt": 1772218515486
+      },
+      {
+        "title": "sqlmap",
+        "url": "http://sqlmap.org/",
+        "description": "tool that automates the process of detecting and exploiting SQL injection flaws.",
+        "category": "General",
+        "createdAt": 1772218515487
+      },
+      {
+        "title": "Recon-ng",
+        "url": "https://github.com/lanmaster53/recon-ng",
+        "description": "is a full-featured Web Reconnaissance framework written in Python.",
+        "category": "General",
+        "createdAt": 1772218515488
+      },
+      {
+        "title": "AutoRecon",
+        "url": "https://github.com/Tib3rius/AutoRecon",
+        "description": "is a network reconnaissance tool which performs automated enumeration of services.",
+        "category": "General",
+        "createdAt": 1772218515489
+      },
+      {
+        "title": "Faraday",
+        "url": "https://www.faradaysec.com/",
+        "description": "an Integrated Multiuser Pentest Environment.",
+        "category": "General",
+        "createdAt": 1772218515490
+      },
+      {
+        "title": "Photon",
+        "url": "https://github.com/s0md3v/Photon",
+        "description": "incredibly fast crawler designed for OSINT.",
+        "category": "General",
+        "createdAt": 1772218515491
+      },
+      {
+        "title": "XSStrike",
+        "url": "https://github.com/s0md3v/XSStrike",
+        "description": "most advanced XSS detection suite.",
+        "category": "General",
+        "createdAt": 1772218515492
+      },
+      {
+        "title": "Sn1per",
+        "url": "https://github.com/1N3/Sn1per",
+        "description": "automated pentest framework for offensive security experts.",
+        "category": "General",
+        "createdAt": 1772218515493
+      },
+      {
+        "title": "vuls",
+        "url": "https://github.com/future-architect/vuls",
+        "description": "is an agent-less vulnerability scanner for Linux, FreeBSD, and other.",
+        "category": "General",
+        "createdAt": 1772218515494
+      },
+      {
+        "title": "tsunami",
+        "url": "https://github.com/google/tsunami-security-scanner",
+        "description": "is a general purpose network security scanner with an extensible plugin system.",
+        "category": "General",
+        "createdAt": 1772218515495
+      },
+      {
+        "title": "aquatone",
+        "url": "https://github.com/michenriksen/aquatone",
+        "description": "a tool for domain flyovers.",
+        "category": "General",
+        "createdAt": 1772218515496
+      },
+      {
+        "title": "BillCipher",
+        "url": "https://github.com/GitHackTools/BillCipher",
+        "description": "information gathering tool for a website or IP address.",
+        "category": "General",
+        "createdAt": 1772218515497
+      },
+      {
+        "title": "WhatWaf",
+        "url": "https://github.com/Ekultek/WhatWaf",
+        "description": "detect and bypass web application firewalls and protection systems.",
+        "category": "General",
+        "createdAt": 1772218515498
+      },
+      {
+        "title": "Corsy",
+        "url": "https://github.com/s0md3v/Corsy",
+        "description": "CORS misconfiguration scanner.",
+        "category": "General",
+        "createdAt": 1772218515499
+      },
+      {
+        "title": "Raccoon",
+        "url": "https://github.com/evyatarmeged/Raccoon",
+        "description": "is a high performance offensive security tool for reconnaissance and vulnerability scanning.",
+        "category": "General",
+        "createdAt": 1772218515500
+      },
+      {
+        "title": "dirhunt",
+        "url": "https://github.com/Nekmo/dirhunt",
+        "description": "find web directories without bruteforce.",
+        "category": "General",
+        "createdAt": 1772218515501
+      },
+      {
+        "title": "John The Ripper",
+        "url": "https://www.openwall.com/john/",
+        "description": "is a fast password cracker, currently available for many flavors of Unix, Windows, and other.",
+        "category": "General",
+        "createdAt": 1772218515502
+      },
+      {
+        "title": "hashcat",
+        "url": "https://hashcat.net/hashcat/",
+        "description": "world's fastest and most advanced password recovery utility.",
+        "category": "General",
+        "createdAt": 1772218515503
+      },
+      {
+        "title": "p0f",
+        "url": "http://lcamtuf.coredump.cx/p0f3/",
+        "description": "is a tool to identify the players behind any incidental TCP/IP communications.",
+        "category": "General",
+        "createdAt": 1772218515504
+      },
+      {
+        "title": "ssh_scan",
+        "url": "https://github.com/mozilla/ssh_scan",
+        "description": "a prototype SSH configuration and policy scanner.",
+        "category": "General",
+        "createdAt": 1772218515505
+      },
+      {
+        "title": "LeakLooker",
+        "url": "https://github.com/woj-ciech/LeakLooker",
+        "description": "find open databases - powered by Binaryedge.io",
+        "category": "General",
+        "createdAt": 1772218515506
+      },
+      {
+        "title": "exploitdb",
+        "url": "https://github.com/offensive-security/exploitdb",
+        "description": "searchable archive from The Exploit Database.",
+        "category": "General",
+        "createdAt": 1772218515507
+      },
+      {
+        "title": "getsploit",
+        "url": "https://github.com/vulnersCom/getsploit",
+        "description": "is a command line utility for searching and downloading exploits.",
+        "category": "General",
+        "createdAt": 1772218515508
+      },
+      {
+        "title": "ctf-tools",
+        "url": "https://github.com/zardus/ctf-tools",
+        "description": "some setup scripts for security research tools.",
+        "category": "General",
+        "createdAt": 1772218515509
+      },
+      {
+        "title": "pwntools",
+        "url": "https://github.com/Gallopsled/pwntools",
+        "description": "CTF framework and exploit development library.",
+        "category": "General",
+        "createdAt": 1772218515510
+      },
+      {
+        "title": "security-tools",
+        "url": "https://github.com/bl4de/security-tools",
+        "description": "collection of small security tools created mostly in Python. CTFs, pentests and so on.",
+        "category": "General",
+        "createdAt": 1772218515511
+      },
+      {
+        "title": "pentestpackage",
+        "url": "https://github.com/leonteale/pentestpackage",
+        "description": "is a package of Pentest scripts.",
+        "category": "General",
+        "createdAt": 1772218515512
+      },
+      {
+        "title": "python-pentest-tools",
+        "url": "https://github.com/dloss/python-pentest-tools",
+        "description": "python tools for penetration testers.",
+        "category": "General",
+        "createdAt": 1772218515513
+      },
+      {
+        "title": "fuzzdb",
+        "url": "https://github.com/fuzzdb-project/fuzzdb",
+        "description": "dictionary of attack patterns and primitives for black-box application fault injection.",
+        "category": "General",
+        "createdAt": 1772218515514
+      },
+      {
+        "title": "AFL",
+        "url": "https://github.com/google/AFL",
+        "description": "is a free software fuzzer maintained by Google.",
+        "category": "General",
+        "createdAt": 1772218515515
+      },
+      {
+        "title": "AFL++",
+        "url": "https://github.com/AFLplusplus/AFLplusplus",
+        "description": "is AFL with community patches.",
+        "category": "General",
+        "createdAt": 1772218515516
+      },
+      {
+        "title": "syzkaller",
+        "url": "https://github.com/google/syzkaller",
+        "description": "is an unsupervised, coverage-guided kernel fuzzer.",
+        "category": "General",
+        "createdAt": 1772218515517
+      },
+      {
+        "title": "pwndbg",
+        "url": "https://github.com/pwndbg/pwndbg",
+        "description": "exploit development and reverse engineering with GDB made easy.",
+        "category": "General",
+        "createdAt": 1772218515518
+      },
+      {
+        "title": "GDB PEDA",
+        "url": "https://github.com/longld/peda",
+        "description": "Python Exploit Development Assistance for GDB.",
+        "category": "General",
+        "createdAt": 1772218515519
+      },
+      {
+        "title": "IDA",
+        "url": "https://www.hex-rays.com/products/ida/index.shtml",
+        "description": "multi-processor disassembler and debugger useful for reverse engineering malware.",
+        "category": "General",
+        "createdAt": 1772218515520
+      },
+      {
+        "title": "radare2",
+        "url": "https://github.com/radare/radare2",
+        "description": "framework for reverse-engineering and analyzing binaries.",
+        "category": "General",
+        "createdAt": 1772218515521
+      },
+      {
+        "title": "routersploit",
+        "url": "https://github.com/threat9/routersploit",
+        "description": "exploitation framework for embedded devices.",
+        "category": "General",
+        "createdAt": 1772218515522
+      },
+      {
+        "title": "Ghidra",
+        "url": "https://github.com/NationalSecurityAgency/ghidra",
+        "description": "is a software reverse engineering (SRE) framework.",
+        "category": "General",
+        "createdAt": 1772218515523
+      },
+      {
+        "title": "Cutter",
+        "url": "https://cutter.re/",
+        "description": "is an SRE platform integrating Ghidra's decompiler.",
+        "category": "General",
+        "createdAt": 1772218515524
+      },
+      {
+        "title": "Vulnreport",
+        "url": "https://github.com/salesforce/vulnreport",
+        "description": "open-source pentesting management and automation platform by Salesforce Product Security.",
+        "category": "General",
+        "createdAt": 1772218515525
+      },
+      {
+        "title": "Mentalist",
+        "url": "https://github.com/sc0tfree/mentalist",
+        "description": "is a graphical tool for custom wordlist generation.",
+        "category": "General",
+        "createdAt": 1772218515526
+      },
+      {
+        "title": "archerysec",
+        "url": "https://github.com/archerysec/archerysec",
+        "description": "vulnerability assessment and management helps to perform scans and manage vulnerabilities.",
+        "category": "General",
+        "createdAt": 1772218515527
+      },
+      {
+        "title": "Osmedeus",
+        "url": "https://github.com/j3ssie/Osmedeus",
+        "description": "fully automated offensive security tool for reconnaissance and vulnerability scanning.",
+        "category": "General",
+        "createdAt": 1772218515528
+      },
+      {
+        "title": "beef",
+        "url": "https://github.com/beefproject/beef",
+        "description": "the browser exploitation framework project.",
+        "category": "General",
+        "createdAt": 1772218515529
+      },
+      {
+        "title": "AutoSploit",
+        "url": "https://github.com/NullArray/AutoSploit",
+        "description": "automated mass exploiter.",
+        "category": "General",
+        "createdAt": 1772218515530
+      },
+      {
+        "title": "SUDO_KILLER",
+        "url": "https://github.com/TH3xACE/SUDO_KILLER",
+        "description": "is a tool to identify and exploit sudo rules' misconfigurations and vulnerabilities.",
+        "category": "General",
+        "createdAt": 1772218515531
+      },
+      {
+        "title": "yara",
+        "url": "https://github.com/VirusTotal/yara",
+        "description": "the pattern matching swiss knife.",
+        "category": "General",
+        "createdAt": 1772218515532
+      },
+      {
+        "title": "mimikatz",
+        "url": "https://github.com/gentilkiwi/mimikatz",
+        "description": "a little tool to play with Windows security.",
+        "category": "General",
+        "createdAt": 1772218515533
+      },
+      {
+        "title": "sherlock",
+        "url": "https://github.com/sherlock-project/sherlock",
+        "description": "hunt down social media accounts by username across social networks.",
+        "category": "General",
+        "createdAt": 1772218515534
+      },
+      {
+        "title": "OWASP Threat Dragon",
+        "url": "https://owasp.org/www-project-threat-dragon/",
+        "description": "is a tool used to create threat model diagrams and to record possible threats.",
+        "category": "General",
+        "createdAt": 1772218515535
+      }
+    ],
+    "createdAt": 1772218515480,
+    "updatedAt": 1772218515535
+  },
+  {
+    "name": "Pentests bookmarks collection",
+    "links": [
+      {
+        "title": "PTES",
+        "url": "http://www.pentest-standard.org/index.php/Main_Page",
+        "description": "the penetration testing execution standard.",
+        "category": "General",
+        "createdAt": 1772218515536
+      },
+      {
+        "title": "Pentests MindMap",
+        "url": "https://www.amanhardikar.com/mindmaps/Practice.html",
+        "description": "amazing mind map with vulnerable apps and systems.",
+        "category": "General",
+        "createdAt": 1772218515537
+      },
+      {
+        "title": "WebApps Security Tests MindMap",
+        "url": "https://www.amanhardikar.com/mindmaps/webapptest.html",
+        "description": "incredible mind map for WebApps security tests.",
+        "category": "General",
+        "createdAt": 1772218515538
+      },
+      {
+        "title": "Brute XSS",
+        "url": "https://brutelogic.com.br/blog/",
+        "description": "master the art of Cross Site Scripting.",
+        "category": "General",
+        "createdAt": 1772218515539
+      },
+      {
+        "title": "XSS cheat sheet",
+        "url": "https://portswigger.net/web-security/cross-site-scripting/cheat-sheet",
+        "description": "contains many vectors that can help you bypass WAFs and filters.",
+        "category": "General",
+        "createdAt": 1772218515540
+      },
+      {
+        "title": "Offensive Security Bookmarks",
+        "url": "https://jivoi.github.io/2015/07/03/offensive-security-bookmarks/",
+        "description": "security bookmarks collection, all things that author need to pass OSCP.",
+        "category": "General",
+        "createdAt": 1772218515541
+      },
+      {
+        "title": "Awesome Pentest Cheat Sheets",
+        "url": "https://github.com/coreb1t/awesome-pentest-cheat-sheets",
+        "description": "collection of the cheat sheets useful for pentesting.",
+        "category": "General",
+        "createdAt": 1772218515542
+      },
+      {
+        "title": "Awesome Hacking by HackWithGithub",
+        "url": "https://github.com/Hack-with-Github/Awesome-Hacking",
+        "description": "awesome lists for hackers, pentesters and security researchers.",
+        "category": "General",
+        "createdAt": 1772218515543
+      },
+      {
+        "title": "Awesome Hacking by carpedm20",
+        "url": "https://github.com/carpedm20/awesome-hacking",
+        "description": "a curated list of awesome hacking tutorials, tools and resources.",
+        "category": "General",
+        "createdAt": 1772218515544
+      },
+      {
+        "title": "Awesome Hacking Resources",
+        "url": "https://github.com/vitalysim/Awesome-Hacking-Resources",
+        "description": "collection of hacking/penetration testing resources to make you better.",
+        "category": "General",
+        "createdAt": 1772218515545
+      },
+      {
+        "title": "Awesome Pentest",
+        "url": "https://github.com/enaqx/awesome-pentest",
+        "description": "collection of awesome penetration testing resources, tools and other shiny things.",
+        "category": "General",
+        "createdAt": 1772218515546
+      },
+      {
+        "title": "Awesome-Hacking-Tools",
+        "url": "https://github.com/m4ll0k/Awesome-Hacking-Tools",
+        "description": "is a curated list of awesome Hacking Tools.",
+        "category": "General",
+        "createdAt": 1772218515547
+      },
+      {
+        "title": "Hacking Cheat Sheet",
+        "url": "https://github.com/ksanchezcld/Hacking_Cheat_Sheet",
+        "description": "author hacking and pentesting notes.",
+        "category": "General",
+        "createdAt": 1772218515548
+      },
+      {
+        "title": "blackhat-arsenal-tools",
+        "url": "https://github.com/toolswatch/blackhat-arsenal-tools",
+        "description": "official Black Hat arsenal security tools repository.",
+        "category": "General",
+        "createdAt": 1772218515549
+      },
+      {
+        "title": "Penetration Testing and WebApp Cheat Sheets",
+        "url": "https://www.peerlyst.com/posts/the-complete-list-of-infosec-related-cheat-sheets-claus-cramon",
+        "description": "the complete list of Infosec related cheat sheets.",
+        "category": "General",
+        "createdAt": 1772218515550
+      },
+      {
+        "title": "Cyber Security Resources",
+        "url": "https://github.com/The-Art-of-Hacking/h4cker",
+        "description": "includes thousands of cybersecurity-related references and resources.",
+        "category": "General",
+        "createdAt": 1772218515551
+      },
+      {
+        "title": "Pentest Bookmarks",
+        "url": "https://github.com/jhaddix/pentest-bookmarks",
+        "description": "there are a LOT of pentesting blogs.",
+        "category": "General",
+        "createdAt": 1772218515552
+      },
+      {
+        "title": "Cheatsheet-God",
+        "url": "https://github.com/OlivierLaflamme/Cheatsheet-God",
+        "description": "Penetration Testing Reference Bank - OSCP/PTP & PTX Cheatsheet.",
+        "category": "General",
+        "createdAt": 1772218515553
+      },
+      {
+        "title": "ThreatHunter-Playbook",
+        "url": "https://github.com/Cyb3rWard0g/ThreatHunter-Playbook",
+        "description": "to aid the development of techniques and hypothesis for hunting campaigns.",
+        "category": "General",
+        "createdAt": 1772218515554
+      },
+      {
+        "title": "Beginner-Network-Pentesting",
+        "url": "https://github.com/hmaverickadams/Beginner-Network-Pentesting",
+        "description": "notes for beginner network pentesting course.",
+        "category": "General",
+        "createdAt": 1772218515555
+      },
+      {
+        "title": "OSCPRepo",
+        "url": "https://github.com/rewardone/OSCPRepo",
+        "description": "is a list of resources that author have been gathering in preparation for the OSCP.",
+        "category": "General",
+        "createdAt": 1772218515556
+      },
+      {
+        "title": "PayloadsAllTheThings",
+        "url": "https://github.com/swisskyrepo/PayloadsAllTheThings",
+        "description": "a list of useful payloads and bypass for Web Application Security and Pentest/CTF.",
+        "category": "General",
+        "createdAt": 1772218515557
+      },
+      {
+        "title": "payloads",
+        "url": "https://github.com/foospidy/payloads",
+        "description": "git all the Payloads! A collection of web attack payloads.",
+        "category": "General",
+        "createdAt": 1772218515558
+      },
+      {
+        "title": "command-injection-payload-list",
+        "url": "https://github.com/payloadbox/command-injection-payload-list",
+        "description": "command injection payload list.",
+        "category": "General",
+        "createdAt": 1772218515559
+      },
+      {
+        "title": "Awesome Shodan Search Queries",
+        "url": "https://github.com/jakejarvis/awesome-shodan-queries",
+        "description": "great search queries to plug into Shodan.",
+        "category": "General",
+        "createdAt": 1772218515560
+      },
+      {
+        "title": "AwesomeXSS",
+        "url": "https://github.com/s0md3v/AwesomeXSS",
+        "description": "is a collection of Awesome XSS resources.",
+        "category": "General",
+        "createdAt": 1772218515561
+      },
+      {
+        "title": "php-webshells",
+        "url": "https://github.com/JohnTroony/php-webshells",
+        "description": "common php webshells.",
+        "category": "General",
+        "createdAt": 1772218515562
+      },
+      {
+        "title": "Pentesting Tools Cheat Sheet",
+        "url": "https://highon.coffee/blog/penetration-testing-tools-cheat-sheet/",
+        "description": "a quick reference high level overview for typical penetration testing.",
+        "category": "General",
+        "createdAt": 1772218515563
+      },
+      {
+        "title": "OWASP Cheat Sheet Series",
+        "url": "https://cheatsheetseries.owasp.org/",
+        "description": "is a collection of high value information on specific application security topics.",
+        "category": "General",
+        "createdAt": 1772218515564
+      },
+      {
+        "title": "OWASP dependency-check",
+        "url": "https://jeremylong.github.io/DependencyCheck/index.html",
+        "description": "is an open source solution the OWASP Top 10 2013 entry.",
+        "category": "General",
+        "createdAt": 1772218515565
+      },
+      {
+        "title": "OWASP ProActive Controls",
+        "url": "https://www.owasp.org/index.php/OWASP_Proactive_Controls",
+        "description": "OWASP Top 10 Proactive Controls 2018.",
+        "category": "General",
+        "createdAt": 1772218515566
+      },
+      {
+        "title": "PENTESTING-BIBLE",
+        "url": "https://github.com/blaCCkHatHacEEkr/PENTESTING-BIBLE",
+        "description": "hacking & penetration testing & red team & cyber security resources.",
+        "category": "General",
+        "createdAt": 1772218515567
+      },
+      {
+        "title": "pentest-wiki",
+        "url": "https://github.com/nixawk/pentest-wiki",
+        "description": "is a free online security knowledge library for pentesters/researchers.",
+        "category": "General",
+        "createdAt": 1772218515568
+      },
+      {
+        "title": "DEF CON Media Server",
+        "url": "https://media.defcon.org/",
+        "description": "great stuff from DEFCON.",
+        "category": "General",
+        "createdAt": 1772218515569
+      },
+      {
+        "title": "Awesome Malware Analysis",
+        "url": "https://github.com/rshipp/awesome-malware-analysis",
+        "description": "a curated list of awesome malware analysis tools and resources.",
+        "category": "General",
+        "createdAt": 1772218515570
+      },
+      {
+        "title": "SQL Injection Cheat Sheet",
+        "url": "https://www.netsparker.com/blog/web-security/sql-injection-cheat-sheet/",
+        "description": "detailed technical stuff about the many different variants of the SQL Injection.",
+        "category": "General",
+        "createdAt": 1772218515571
+      },
+      {
+        "title": "Entersoft Knowledge Base",
+        "url": "http://kb.entersoft.co.in/",
+        "description": "great and detailed reference about vulnerabilities.",
+        "category": "General",
+        "createdAt": 1772218515572
+      },
+      {
+        "title": "HTML5 Security Cheatsheet",
+        "url": "http://html5sec.org/",
+        "description": "a collection of HTML5 related XSS attack vectors.",
+        "category": "General",
+        "createdAt": 1772218515573
+      },
+      {
+        "title": "XSS String Encoder",
+        "url": "http://evuln.com/tools/xss-encoder/",
+        "description": "for generating XSS code to check your input validation filters against XSS.",
+        "category": "General",
+        "createdAt": 1772218515574
+      },
+      {
+        "title": "GTFOBins",
+        "url": "https://gtfobins.github.io/",
+        "description": "list of Unix binaries that can be exploited by an attacker to bypass local security restrictions.",
+        "category": "General",
+        "createdAt": 1772218515575
+      },
+      {
+        "title": "Guifre Ruiz Notes",
+        "url": "https://guif.re/",
+        "description": "collection of security, system, network and pentest cheatsheets.",
+        "category": "General",
+        "createdAt": 1772218515576
+      },
+      {
+        "title": "SSRF Tips",
+        "url": "http://blog.safebuff.com/2016/07/03/SSRF-Tips/index.html",
+        "description": "a collection of SSRF Tips.",
+        "category": "General",
+        "createdAt": 1772218515577
+      },
+      {
+        "title": "shell-storm repo CTF",
+        "url": "http://shell-storm.org/repo/CTF/",
+        "description": "great archive of CTFs.",
+        "category": "General",
+        "createdAt": 1772218515578
+      },
+      {
+        "title": "ctf",
+        "url": "https://github.com/bl4de/ctf",
+        "description": "CTF (Capture The Flag) writeups, code snippets, notes, scripts.",
+        "category": "General",
+        "createdAt": 1772218515579
+      },
+      {
+        "title": "My-CTF-Web-Challenges",
+        "url": "https://github.com/orangetw/My-CTF-Web-Challenges",
+        "description": "collection of CTF Web challenges.",
+        "category": "General",
+        "createdAt": 1772218515580
+      },
+      {
+        "title": "MSTG",
+        "url": "https://github.com/OWASP/owasp-mstg",
+        "description": "The Mobile Security Testing Guide (MSTG) is a comprehensive manual for mobile app security testing.",
+        "category": "General",
+        "createdAt": 1772218515581
+      },
+      {
+        "title": "Internal-Pentest-Playbook",
+        "url": "https://github.com/sdcampbell/Internal-Pentest-Playbook",
+        "description": "notes on the most common things for an Internal Network Penetration Test.",
+        "category": "General",
+        "createdAt": 1772218515582
+      },
+      {
+        "title": "KeyHacks",
+        "url": "https://github.com/streaak/keyhacks",
+        "description": "shows quick ways in which API keys leaked by a bug bounty program can be checked.",
+        "category": "General",
+        "createdAt": 1772218515583
+      },
+      {
+        "title": "securitum/research",
+        "url": "https://github.com/securitum/research",
+        "description": "various Proof of Concepts of security research performed by Securitum.",
+        "category": "General",
+        "createdAt": 1772218515584
+      },
+      {
+        "title": "public-pentesting-reports",
+        "url": "https://github.com/juliocesarfort/public-pentesting-reports",
+        "description": "is a list of public pentest reports released by several consulting security groups.",
+        "category": "General",
+        "createdAt": 1772218515585
+      },
+      {
+        "title": "awesome-bug-bounty",
+        "url": "https://github.com/djadmin/awesome-bug-bounty",
+        "description": "is a comprehensive curated list of available Bug Bounty.",
+        "category": "General",
+        "createdAt": 1772218515586
+      },
+      {
+        "title": "bug-bounty-reference",
+        "url": "https://github.com/ngalongc/bug-bounty-reference",
+        "description": "is a list of bug bounty write-ups.",
+        "category": "General",
+        "createdAt": 1772218515587
+      },
+      {
+        "title": "Awesome-Bugbounty-Writeups",
+        "url": "https://github.com/devanshbatham/Awesome-Bugbounty-Writeups",
+        "description": "is a curated list of bugbounty writeups.",
+        "category": "General",
+        "createdAt": 1772218515588
+      },
+      {
+        "title": "Bug bounty writeups",
+        "url": "https://pentester.land/list-of-bug-bounty-writeups.html",
+        "description": "list of bug bounty writeups (2012-2020).",
+        "category": "General",
+        "createdAt": 1772218515589
+      },
+      {
+        "title": "hackso.me",
+        "url": "https://hackso.me/",
+        "description": "a great journey into security.",
+        "category": "General",
+        "createdAt": 1772218515590
+      }
+    ],
+    "createdAt": 1772218515536,
+    "updatedAt": 1772218515590
+  },
+  {
+    "name": "Backdoors/exploits",
+    "links": [
+      {
+        "title": "PHP-backdoors",
+        "url": "https://github.com/bartblaze/PHP-backdoors",
+        "description": "a collection of PHP backdoors. For educational or testing purposes only.",
+        "category": "General",
+        "createdAt": 1772218515591
+      }
+    ],
+    "createdAt": 1772218515591,
+    "updatedAt": 1772218515591
+  },
+  {
+    "name": "Wordlists and Weak passwords",
+    "links": [
+      {
+        "title": "Weakpass",
+        "url": "https://weakpass.com/",
+        "description": "for any kind of bruteforce find wordlists or unleash the power of them all at once!",
+        "category": "General",
+        "createdAt": 1772218515592
+      },
+      {
+        "title": "Hashes.org",
+        "url": "https://hashes.org/",
+        "description": "is a free online hash resolving service incorporating many unparalleled techniques.",
+        "category": "General",
+        "createdAt": 1772218515593
+      },
+      {
+        "title": "SecLists",
+        "url": "https://github.com/danielmiessler/SecLists",
+        "description": "collection of multiple types of lists used during security assessments, collected in one place.",
+        "category": "General",
+        "createdAt": 1772218515594
+      },
+      {
+        "title": "Probable-Wordlists",
+        "url": "https://github.com/berzerk0/Probable-Wordlists",
+        "description": "sorted by probability originally created for password generation and testing.",
+        "category": "General",
+        "createdAt": 1772218515595
+      },
+      {
+        "title": "skullsecurity passwords",
+        "url": "https://wiki.skullsecurity.org/index.php?title=Passwords",
+        "description": "password dictionaries and leaked passwords repository.",
+        "category": "General",
+        "createdAt": 1772218515596
+      },
+      {
+        "title": "Polish PREMIUM Dictionary",
+        "url": "https://bezpieka.org/polski-slownik-premium-polish-wordlist",
+        "description": "official dictionary created by the team on the forum bezpieka.org. * 1",
+        "category": "General",
+        "createdAt": 1772218515597
+      },
+      {
+        "title": "statistically-likely-usernames",
+        "url": "https://github.com/insidetrust/statistically-likely-usernames",
+        "description": "wordlists for creating statistically likely username lists.",
+        "category": "General",
+        "createdAt": 1772218515598
+      }
+    ],
+    "createdAt": 1772218515592,
+    "updatedAt": 1772218515598
+  },
+  {
+    "name": "Bounty platforms",
+    "links": [
+      {
+        "title": "YesWeHack",
+        "url": "https://www.yeswehack.com/",
+        "description": "bug bounty platform with infosec jobs.",
+        "category": "General",
+        "createdAt": 1772218515599
+      },
+      {
+        "title": "Openbugbounty",
+        "url": "https://www.openbugbounty.org/",
+        "description": "allows any security researcher reporting a vulnerability on any website.",
+        "category": "General",
+        "createdAt": 1772218515600
+      },
+      {
+        "title": "hackerone",
+        "url": "https://www.hackerone.com/",
+        "description": "global hacker community to surface the most relevant security issues.",
+        "category": "General",
+        "createdAt": 1772218515601
+      },
+      {
+        "title": "bugcrowd",
+        "url": "https://www.bugcrowd.com/",
+        "description": "crowdsourced cybersecurity for the enterprise.",
+        "category": "General",
+        "createdAt": 1772218515602
+      },
+      {
+        "title": "Crowdshield",
+        "url": "https://crowdshield.com/",
+        "description": "crowdsourced security & bug bounty management.",
+        "category": "General",
+        "createdAt": 1772218515603
+      },
+      {
+        "title": "Synack",
+        "url": "https://www.synack.com/",
+        "description": "crowdsourced security & bug bounty programs, crowd security intelligence platform, and more.",
+        "category": "General",
+        "createdAt": 1772218515604
+      },
+      {
+        "title": "Hacktrophy",
+        "url": "https://hacktrophy.com/en/",
+        "description": "bug bounty platform.",
+        "category": "General",
+        "createdAt": 1772218515605
+      }
+    ],
+    "createdAt": 1772218515599,
+    "updatedAt": 1772218515605
+  },
+  {
+    "name": "Web Training Apps (local installation)",
+    "links": [
+      {
+        "title": "OWASP-VWAD",
+        "url": "https://www.owasp.org/index.php/OWASP_Vulnerable_Web_Applications_Directory_Project",
+        "description": "comprehensive and well maintained registry of all known vulnerable web applications.",
+        "category": "General",
+        "createdAt": 1772218515606
+      },
+      {
+        "title": "DVWA",
+        "url": "http://www.dvwa.co.uk/",
+        "description": "PHP/MySQL web application that is damn vulnerable.",
+        "category": "General",
+        "createdAt": 1772218515607
+      },
+      {
+        "title": "metasploitable2",
+        "url": "https://metasploit.help.rapid7.com/docs/metasploitable-2",
+        "description": "vulnerable web application amongst security researchers.",
+        "category": "General",
+        "createdAt": 1772218515608
+      },
+      {
+        "title": "metasploitable3",
+        "url": "https://github.com/rapid7/metasploitable3",
+        "description": "is a VM that is built from the ground up with a large amount of security vulnerabilities.",
+        "category": "General",
+        "createdAt": 1772218515609
+      },
+      {
+        "title": "DSVW",
+        "url": "https://github.com/stamparm/DSVW",
+        "description": "is a deliberately vulnerable web application written in under 100 lines of code.",
+        "category": "General",
+        "createdAt": 1772218515610
+      },
+      {
+        "title": "OWASP Mutillidae II",
+        "url": "https://sourceforge.net/projects/mutillidae/",
+        "description": "free, open source, deliberately vulnerable web-application.",
+        "category": "General",
+        "createdAt": 1772218515611
+      },
+      {
+        "title": "OWASP Juice Shop Project",
+        "url": "https://www.owasp.org/index.php/OWASP_Juice_Shop_Project",
+        "description": "the most bug-free vulnerable application in existence.",
+        "category": "General",
+        "createdAt": 1772218515612
+      },
+      {
+        "title": "OWASP Node js Goat Project",
+        "url": "https://www.owasp.org/index.php/Projects/OWASP_Node_js_Goat_Project",
+        "description": "OWASP Top 10 security risks apply to web apps developed using Node.js.",
+        "category": "General",
+        "createdAt": 1772218515613
+      },
+      {
+        "title": "juicy-ctf",
+        "url": "https://github.com/iteratec/juicy-ctf",
+        "description": "run Capture the Flags and Security Trainings with OWASP Juice Shop.",
+        "category": "General",
+        "createdAt": 1772218515614
+      },
+      {
+        "title": "SecurityShepherd",
+        "url": "https://github.com/OWASP/SecurityShepherd",
+        "description": "web and mobile application security training platform.",
+        "category": "General",
+        "createdAt": 1772218515615
+      },
+      {
+        "title": "Security Ninjas",
+        "url": "https://github.com/opendns/Security_Ninjas_AppSec_Training",
+        "description": "open source application security training program.",
+        "category": "General",
+        "createdAt": 1772218515616
+      },
+      {
+        "title": "hackazon",
+        "url": "https://github.com/rapid7/hackazon",
+        "description": "a modern vulnerable web app.",
+        "category": "General",
+        "createdAt": 1772218515617
+      },
+      {
+        "title": "dvna",
+        "url": "https://github.com/appsecco/dvna",
+        "description": "damn vulnerable NodeJS application.",
+        "category": "General",
+        "createdAt": 1772218515618
+      },
+      {
+        "title": "django-DefectDojo",
+        "url": "https://github.com/DefectDojo/django-DefectDojo",
+        "description": "is an open-source application vulnerability correlation and security orchestration tool.",
+        "category": "General",
+        "createdAt": 1772218515619
+      },
+      {
+        "title": "Google Gruyere",
+        "url": "https://google-gruyere.appspot.com/",
+        "description": "web application exploits and defenses.",
+        "category": "General",
+        "createdAt": 1772218515620
+      },
+      {
+        "title": "Bodhi",
+        "url": "https://github.com/amolnaik4/bodhi",
+        "description": "is a playground focused on learning the exploitation of client-side web vulnerabilities.",
+        "category": "General",
+        "createdAt": 1772218515621
+      },
+      {
+        "title": "Websploit",
+        "url": "https://websploit.h4cker.org/",
+        "description": "single vm lab with the purpose of combining several vulnerable appliations in one environment.",
+        "category": "General",
+        "createdAt": 1772218515622
+      },
+      {
+        "title": "vulhub",
+        "url": "https://github.com/vulhub/vulhub",
+        "description": "pre-built Vulnerable Environments based on docker-compose.",
+        "category": "General",
+        "createdAt": 1772218515623
+      },
+      {
+        "title": "CloudGoat 2",
+        "url": "https://rhinosecuritylabs.com/aws/introducing-cloudgoat-2/",
+        "description": "the new & improved \"Vulnerable by Design\"",
+        "category": "General",
+        "createdAt": 1772218515624
+      },
+      {
+        "title": "secDevLabs",
+        "url": "https://github.com/globocom/secDevLabs",
+        "description": "is a laboratory for learning secure web development in a practical manner.",
+        "category": "General",
+        "createdAt": 1772218515625
+      },
+      {
+        "title": "CORS-vulnerable-Lab",
+        "url": "https://github.com/incredibleindishell/CORS-vulnerable-Lab",
+        "description": "sample vulnerable code and its exploit code.",
+        "category": "General",
+        "createdAt": 1772218515626
+      },
+      {
+        "title": "RootTheBox",
+        "url": "https://github.com/moloch--/RootTheBox",
+        "description": "a Game of Hackers (CTF Scoreboard & Game Manager).",
+        "category": "General",
+        "createdAt": 1772218515627
+      },
+      {
+        "title": "KONTRA",
+        "url": "https://application.security/",
+        "description": "application security training (OWASP Top Web & Api).",
+        "category": "General",
+        "createdAt": 1772218515628
+      }
+    ],
+    "createdAt": 1772218515606,
+    "updatedAt": 1772218515628
+  },
+  {
+    "name": "Labs (ethical hacking platforms/trainings/CTFs)",
+    "links": [
+      {
+        "title": "Offensive Security",
+        "url": "https://www.offensive-security.com/",
+        "description": "true performance-based penetration testing training for over a decade.",
+        "category": "General",
+        "createdAt": 1772218515629
+      },
+      {
+        "title": "Hack The Box",
+        "url": "https://www.hackthebox.eu/",
+        "description": "online platform allowing you to test your penetration testing skills.",
+        "category": "General",
+        "createdAt": 1772218515630
+      },
+      {
+        "title": "Hacking-Lab",
+        "url": "https://www.hacking-lab.com/index.html",
+        "description": "online ethical hacking, computer network and security challenge platform.",
+        "category": "General",
+        "createdAt": 1772218515631
+      },
+      {
+        "title": "pwnable.kr",
+        "url": "http://pwnable.kr/index.php",
+        "description": "non-commercial wargame site which provides various pwn challenges.",
+        "category": "General",
+        "createdAt": 1772218515632
+      },
+      {
+        "title": "Pwnable.tw",
+        "url": "https://pwnable.tw/",
+        "description": "is a wargame site for hackers to test and expand their binary exploiting skills.",
+        "category": "General",
+        "createdAt": 1772218515633
+      },
+      {
+        "title": "picoCTF",
+        "url": "https://picoctf.com/",
+        "description": "is a free computer security game targeted at middle and high school students.",
+        "category": "General",
+        "createdAt": 1772218515634
+      },
+      {
+        "title": "CTFlearn",
+        "url": "https://ctflearn.com/",
+        "description": "is an online platform built to help ethical hackers learn and practice their cybersecurity knowledge.",
+        "category": "General",
+        "createdAt": 1772218515635
+      },
+      {
+        "title": "ctftime",
+        "url": "https://ctftime.org/",
+        "description": "CTF archive and a place, where you can get some another CTF-related info.",
+        "category": "General",
+        "createdAt": 1772218515636
+      },
+      {
+        "title": "Silesia Security Lab",
+        "url": "https://silesiasecuritylab.com/",
+        "description": "high quality security testing services.",
+        "category": "General",
+        "createdAt": 1772218515637
+      },
+      {
+        "title": "Practical Pentest Labs",
+        "url": "https://practicalpentestlabs.com/",
+        "description": "pentest lab, take your Hacking skills to the next level.",
+        "category": "General",
+        "createdAt": 1772218515638
+      },
+      {
+        "title": "Root Me",
+        "url": "https://www.root-me.org/?lang=en",
+        "description": "the fast, easy, and affordable way to train your hacking skills.",
+        "category": "General",
+        "createdAt": 1772218515639
+      },
+      {
+        "title": "rozwal.to",
+        "url": "https://rozwal.to/login",
+        "description": "a great platform to train your pentesting skills.",
+        "category": "General",
+        "createdAt": 1772218515640
+      },
+      {
+        "title": "TryHackMe",
+        "url": "https://tryhackme.com/",
+        "description": "learning Cyber Security made easy.",
+        "category": "General",
+        "createdAt": 1772218515641
+      },
+      {
+        "title": "hackxor",
+        "url": "https://hackxor.net/",
+        "description": "is a realistic web application hacking game, designed to help players of all abilities develop their skills.",
+        "category": "General",
+        "createdAt": 1772218515642
+      },
+      {
+        "title": "Hack Yourself First",
+        "url": "http://hack-yourself-first.com/",
+        "description": "it's full of nasty app sec holes.",
+        "category": "General",
+        "createdAt": 1772218515643
+      },
+      {
+        "title": "OverTheWire",
+        "url": "http://overthewire.org/wargames/",
+        "description": "can help you to learn and practice security concepts in the form of fun-filled games.",
+        "category": "General",
+        "createdAt": 1772218515644
+      },
+      {
+        "title": "Wizard Labs",
+        "url": "https://labs.wizard-security.net/",
+        "description": "is an online Penetration Testing Lab.",
+        "category": "General",
+        "createdAt": 1772218515645
+      },
+      {
+        "title": "PentesterLab",
+        "url": "https://pentesterlab.com/",
+        "description": "provides vulnerable systems that can be used to test and understand vulnerabilities.",
+        "category": "General",
+        "createdAt": 1772218515646
+      },
+      {
+        "title": "RingZer0",
+        "url": "https://ringzer0ctf.com/",
+        "description": "tons of challenges designed to test and improve your hacking skills.",
+        "category": "General",
+        "createdAt": 1772218515647
+      },
+      {
+        "title": "try2hack",
+        "url": "http://www.try2hack.nl/",
+        "description": "several security-oriented challenges for your entertainment.",
+        "category": "General",
+        "createdAt": 1772218515648
+      },
+      {
+        "title": "Ubeeri",
+        "url": "https://www.ubeeri.com/preconfig-labs",
+        "description": "preconfigured lab environments.",
+        "category": "General",
+        "createdAt": 1772218515649
+      },
+      {
+        "title": "Pentestit",
+        "url": "https://lab.pentestit.ru/",
+        "description": "emulate IT infrastructures of real companies for legal pen testing and improving pentest skills.",
+        "category": "General",
+        "createdAt": 1772218515650
+      },
+      {
+        "title": "Microcorruption",
+        "url": "https://microcorruption.com/login",
+        "description": "reversal challenges done in the web interface.",
+        "category": "General",
+        "createdAt": 1772218515651
+      },
+      {
+        "title": "Crackmes",
+        "url": "https://crackmes.one/",
+        "description": "download crackmes to help improve your reverse engineering skills.",
+        "category": "General",
+        "createdAt": 1772218515652
+      },
+      {
+        "title": "DomGoat",
+        "url": "https://domgo.at/cxss/intro",
+        "description": "DOM XSS security learning and practicing platform.",
+        "category": "General",
+        "createdAt": 1772218515653
+      },
+      {
+        "title": "Stereotyped Challenges",
+        "url": "https://chall.stypr.com",
+        "description": "upgrade your web hacking techniques today!",
+        "category": "General",
+        "createdAt": 1772218515654
+      },
+      {
+        "title": "Vulnhub",
+        "url": "https://www.vulnhub.com/",
+        "description": "allows anyone to gain practical 'hands-on' experience in digital security.",
+        "category": "General",
+        "createdAt": 1772218515655
+      },
+      {
+        "title": "W3Challs",
+        "url": "https://w3challs.com/",
+        "description": "is a penetration testing training platform, which offers various computer challenges.",
+        "category": "General",
+        "createdAt": 1772218515656
+      },
+      {
+        "title": "RingZer0 CTF",
+        "url": "https://ringzer0ctf.com/challenges",
+        "description": "offers you tons of challenges designed to test and improve your hacking skills.",
+        "category": "General",
+        "createdAt": 1772218515657
+      },
+      {
+        "title": "Hack.me",
+        "url": "https://hack.me/",
+        "description": "a platform where you can build, host and share vulnerable web apps for educational purposes.",
+        "category": "General",
+        "createdAt": 1772218515658
+      },
+      {
+        "title": "HackThis!",
+        "url": "https://www.hackthis.co.uk/levels/",
+        "description": "discover how hacks, dumps and defacements are performed and secure your website.",
+        "category": "General",
+        "createdAt": 1772218515659
+      },
+      {
+        "title": "Enigma Group WebApp Training",
+        "url": "https://www.enigmagroup.org/#",
+        "description": "these challenges cover the exploits listed in the OWASP Top 10 Project.",
+        "category": "General",
+        "createdAt": 1772218515660
+      },
+      {
+        "title": "Reverse Engineering Challenges",
+        "url": "https://challenges.re/",
+        "description": "challenges, exercises, problems and tasks - by level, by type, and more.",
+        "category": "General",
+        "createdAt": 1772218515661
+      },
+      {
+        "title": "0x00sec",
+        "url": "https://0x00sec.org/",
+        "description": "the home of the Hacker - Malware, Reverse Engineering, and Computer Science.",
+        "category": "General",
+        "createdAt": 1772218515662
+      },
+      {
+        "title": "We Chall",
+        "url": "https://www.wechall.net/challs",
+        "description": "there are exist a lots of different challenge types.",
+        "category": "General",
+        "createdAt": 1772218515663
+      },
+      {
+        "title": "Hacker Gateway",
+        "url": "https://www.hackergateway.com/",
+        "description": "is the go-to place for hackers who want to test their skills.",
+        "category": "General",
+        "createdAt": 1772218515664
+      },
+      {
+        "title": "Hacker101",
+        "url": "https://www.hacker101.com/",
+        "description": "is a free class for web security.",
+        "category": "General",
+        "createdAt": 1772218515665
+      },
+      {
+        "title": "contained.af",
+        "url": "https://contained.af/",
+        "description": "a stupid game for learning about containers, capabilities, and syscalls.",
+        "category": "General",
+        "createdAt": 1772218515666
+      },
+      {
+        "title": "flAWS challenge!",
+        "url": "http://flaws.cloud/",
+        "description": "a series of levels you'll learn about common mistakes and gotchas when using AWS.",
+        "category": "General",
+        "createdAt": 1772218515667
+      },
+      {
+        "title": "CyberSec WTF",
+        "url": "https://cybersecurity.wtf",
+        "description": "provides web hacking challenges derived from bounty write-ups.",
+        "category": "General",
+        "createdAt": 1772218515668
+      },
+      {
+        "title": "CTF Challenge",
+        "url": "https://ctfchallenge.co.uk/login",
+        "description": "CTF Web App challenges.",
+        "category": "General",
+        "createdAt": 1772218515669
+      },
+      {
+        "title": "gCTF",
+        "url": "https://capturetheflag.withgoogle.com",
+        "description": "most of the challenges used in the Google CTF 2017.",
+        "category": "General",
+        "createdAt": 1772218515670
+      },
+      {
+        "title": "Hack This Site",
+        "url": "https://www.hackthissite.org/pages/index/index.php",
+        "description": "is a free, safe and legal training ground for hackers.",
+        "category": "General",
+        "createdAt": 1772218515671
+      },
+      {
+        "title": "Attack & Defense",
+        "url": "https://attackdefense.com",
+        "description": "is a browser-based cloud labs.",
+        "category": "General",
+        "createdAt": 1772218515672
+      },
+      {
+        "title": "Cryptohack",
+        "url": "https://cryptohack.org/",
+        "description": "a fun platform for learning modern cryptography.",
+        "category": "General",
+        "createdAt": 1772218515673
+      },
+      {
+        "title": "Cryptopals",
+        "url": "https://cryptopals.com/",
+        "description": "the cryptopals crypto challenges.",
+        "category": "General",
+        "createdAt": 1772218515674
+      }
+    ],
+    "createdAt": 1772218515629,
+    "updatedAt": 1772218515674
+  },
+  {
+    "name": "CTF platforms",
+    "links": [
+      {
+        "title": "fbctf",
+        "url": "https://github.com/facebook/fbctf",
+        "description": "platform to host Capture the Flag competitions.",
+        "category": "General",
+        "createdAt": 1772218515675
+      },
+      {
+        "title": "ctfscoreboard",
+        "url": "https://github.com/google/ctfscoreboard",
+        "description": "scoreboard for Capture The Flag competitions.",
+        "category": "General",
+        "createdAt": 1772218515676
+      }
+    ],
+    "createdAt": 1772218515675,
+    "updatedAt": 1772218515676
+  },
+  {
+    "name": "Other resources",
+    "links": [
+      {
+        "title": "Bugcrowd University",
+        "url": "https://github.com/bugcrowd/bugcrowd_university",
+        "description": "open source education content for the researcher community.",
+        "category": "General",
+        "createdAt": 1772218515677
+      },
+      {
+        "title": "OSCPRepo",
+        "url": "https://github.com/rewardone/OSCPRepo",
+        "description": "a list of resources and scripts that I have been gathering in preparation for the OSCP.",
+        "category": "General",
+        "createdAt": 1772218515678
+      },
+      {
+        "title": "OWASP Top 10: Real-World Examples",
+        "url": "https://medium.com/@cxosmo/owasp-top-10-real-world-examples-part-1-a540c4ea2df5",
+        "description": "test your web apps with real-world examples (two-part series).",
+        "category": "General",
+        "createdAt": 1772218515679
+      },
+      {
+        "title": "phrack.org",
+        "url": "http://phrack.org/index.html",
+        "description": "an awesome collection of articles from several respected hackers and other thinkers.",
+        "category": "General",
+        "createdAt": 1772218515680
+      },
+      {
+        "title": "Practical-Ethical-Hacking-Resources",
+        "url": "https://github.com/Gr1mmie/Practical-Ethical-Hacking-Resources",
+        "description": "compilation of resources from TCM's Udemy Course.",
+        "category": "General",
+        "createdAt": 1772218515681
+      }
+    ],
+    "createdAt": 1772218515677,
+    "updatedAt": 1772218515681
+  }
+]

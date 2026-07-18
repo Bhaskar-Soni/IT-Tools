@@ -1,16 +1,16 @@
-<script lang="ts" setup>
+﻿<script lang="ts" setup>
 import { useRoute } from 'vue-router';
 import { useHead } from '@vueuse/head';
 import type { HeadObject } from '@vueuse/head';
 
-import BaseLayout from './base.layout.vue';
+import CategoryLayout from './category.layout.vue';
 import FavoriteButton from '@/components/FavoriteButton.vue';
-import type { Tool } from '@/tools/tools.types';
+import type { Tool } from '@/core/tool.types';
 
 const route = useRoute();
 
 const head = computed<HeadObject>(() => ({
-  title: `${route.meta.name} - IT Tools`,
+  title: `${route.meta.name} - IT-Tools`,
   meta: [
     {
       name: 'description',
@@ -23,17 +23,16 @@ const head = computed<HeadObject>(() => ({
   ],
 }));
 useHead(head);
-const { t } = useI18n();
 
-const i18nKey = computed<string>(() => route.path.trim().replace('/', ''));
-const toolTitle = computed<string>(() => t(`tools.${i18nKey.value}.title`, String(route.meta.name)));
-const toolDescription = computed<string>(() => t(`tools.${i18nKey.value}.description`, String(route.meta.description)));
+const toolTitle = computed<string>(() => String(route.meta.name));
+const toolDescription = computed<string>(() => String(route.meta.description));
+const isWide = computed(() => route.meta.layoutMode === 'wide');
 </script>
 
 <template>
-  <BaseLayout>
-    <div class="tool-layout">
-      <div class="tool-header">
+  <CategoryLayout>
+    <div class="tool-layout" :class="{ wide: isWide }">
+      <div class="tool-header" :class="{ wide: isWide }">
         <div flex flex-nowrap items-center justify-between>
           <n-h1>
             {{ toolTitle }}
@@ -52,10 +51,10 @@ const toolDescription = computed<string>(() => t(`tools.${i18nKey.value}.descrip
       </div>
     </div>
 
-    <div class="tool-content">
+    <div class="tool-content" :class="{ wide: isWide }">
       <slot />
     </div>
-  </BaseLayout>
+  </CategoryLayout>
 </template>
 
 <style lang="less" scoped>
@@ -70,6 +69,15 @@ const toolDescription = computed<string>(() => t(`tools.${i18nKey.value}.descrip
   ::v-deep(& > *) {
     flex: 0 1 600px;
   }
+
+  &.wide {
+    justify-content: flex-start;
+
+    ::v-deep(& > *) {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  }
 }
 
 .tool-layout {
@@ -80,6 +88,7 @@ const toolDescription = computed<string>(() => t(`tools.${i18nKey.value}.descrip
   .tool-header {
     padding: 40px 0;
     width: 100%;
+    text-align: center;
 
     .n-h1 {
       opacity: 0.9;
@@ -95,7 +104,7 @@ const toolDescription = computed<string>(() => t(`tools.${i18nKey.value}.descrip
       background: rgb(161, 161, 161);
       opacity: 0.2;
 
-      margin: 10px 0;
+      margin: 10px auto;
     }
 
     .description {
@@ -104,5 +113,20 @@ const toolDescription = computed<string>(() => t(`tools.${i18nKey.value}.descrip
       opacity: 0.7;
     }
   }
+
+  &.wide {
+    max-width: none;
+    margin: 0;
+
+    .tool-header {
+      text-align: left;
+
+      .separator {
+        margin: 10px 0;
+      }
+    }
+  }
 }
 </style>
+
+

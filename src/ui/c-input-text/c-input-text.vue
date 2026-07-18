@@ -131,6 +131,10 @@ function blur() {
 
 onMounted(() => {
   if (autofocus.value) {
+    const active = document.activeElement;
+    if (active && active !== document.body) {
+      return;
+    }
     focus();
   }
 });
@@ -254,7 +258,7 @@ defineExpose({
     flex-direction: row;
     align-items: center;
     background-color: v-bind('theme.backgroundColor');
-    color: transparent;
+    color: v-bind('appTheme.text.baseColor');
     border: 1px solid v-bind('theme.borderColor');
     border-radius: 4px;
     padding: 0 4px 0 12px;

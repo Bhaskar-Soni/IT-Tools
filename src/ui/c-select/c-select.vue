@@ -204,42 +204,44 @@ function onSearchInput() {
   }
 
   .c-select-input {
-    background-color: v-bind('theme.backgroundColor');
-    border: 1px solid v-bind('theme.borderColor');
+    background-color: v-bind('theme.backgroundColor') !important;
+    border: 1px solid v-bind('theme.borderColor') !important;
     border-radius: 4px;
     padding: 0 12px;
     font-family: inherit;
     font-size: v-bind('size.fontSize');
     height: v-bind('size.height');
+    color: v-bind('appTheme.text.baseColor') !important;
     transition: border-color 0.2s ease-in-out;
 
     .placeholder, .chevron {
-      color: v-bind('appTheme.text.mutedColor');
+      color: v-bind('appTheme.text.mutedColor') !important;
     }
   }
 
   .c-select-dropdown {
-    background-color: v-bind('theme.backgroundColor');
+    background-color: v-bind('theme.backgroundColor') !important;
     border-radius: 4px;
-    // box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     box-shadow: v-bind('theme.dropdownShadow');
     font-family: inherit;
     font-size: inherit;
     line-height: 1;
     padding: 6px;
+    color: v-bind('appTheme.text.baseColor') !important;
 
     .c-select-dropdown-option{
       border-radius: 4px;
       padding: 8px 12px;
       background-color: transparent;
+      color: v-bind('appTheme.text.baseColor') !important;
       transition: background-color 0.2s ease-in-out;
 
       &.active {
-        color: v-bind('theme.option.active.textColor');
+        color: v-bind('theme.option.active.textColor') !important;
       }
 
       &:hover, &.hover {
-        background-color: v-bind('theme.option.hover.backgroundColor');
+        background-color: v-bind('theme.option.hover.backgroundColor') !important;
       }
     }
   }

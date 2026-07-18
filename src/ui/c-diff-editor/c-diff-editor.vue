@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import '@/monaco-setup';
 import * as monaco from 'monaco-editor';
 import { useStyleStore } from '@/stores/style.store';
 
@@ -13,7 +14,8 @@ monaco.editor.defineTheme('it-tools-dark', {
   inherit: true,
   rules: [],
   colors: {
-    'editor.background': '#00000000',
+    'editor.background': '#161b22',
+    'editorStickyScroll.background': '#161b22',
   },
 });
 
@@ -22,7 +24,8 @@ monaco.editor.defineTheme('it-tools-light', {
   inherit: true,
   rules: [],
   colors: {
-    'editor.background': '#00000000',
+    'editor.background': '#edeff5',
+    'editorStickyScroll.background': '#edeff5',
   },
 });
 
@@ -54,6 +57,9 @@ onMounted(() => {
     minimap: {
       enabled: false,
     },
+    renderSideBySide: true,
+    useInlineViewWhenSpaceIsLimited: false,
+    enableSplitViewResizing: true,
   });
 
   editor.setModel({
@@ -64,5 +70,30 @@ onMounted(() => {
 </script>
 
 <template>
-  <div ref="editorContainer" h-600px />
+  <div class="diff-editor-wrapper">
+    <div ref="editorContainer" class="diff-editor" />
+  </div>
 </template>
+
+<style scoped>
+.diff-editor-wrapper {
+  width: 100%;
+  overflow: auto;
+}
+
+.diff-editor {
+  width: 100%;
+  min-width: 900px;
+  height: 80vh;
+}
+@media (max-width: 980px) {
+  .diff-editor {
+    min-width: 720px;
+  }
+}
+@media (max-width: 760px) {
+  .diff-editor {
+    min-width: 600px;
+  }
+}
+</style>

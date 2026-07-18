@@ -20,16 +20,16 @@ export const { useTheme } = defineThemes({
   dark: {
     sizes,
 
-    backgroundColor: '#333333',
-    borderColor: '#333333',
+    backgroundColor: '#0d1117',
+    borderColor: '#30363d',
     dropdownShadow: 'rgba(0, 0, 0, 0.2) 0px 8px 24px',
 
     option: {
       hover: {
-        backgroundColor: '#444444',
+        backgroundColor: 'rgba(88, 166, 255, 0.1)',
       },
       active: {
-        textColor: appThemes.dark.primary.color,
+        textColor: '#58a6ff',
       },
     },
 
@@ -40,13 +40,13 @@ export const { useTheme } = defineThemes({
   light: {
     sizes,
 
-    backgroundColor: '#ffffff',
-    borderColor: '#e0e0e69e',
+    backgroundColor: '#f6f8fa',
+    borderColor: '#d0d7de',
     dropdownShadow: 'rgba(149, 157, 165, 0.2) 0px 8px 24px',
 
     option: {
       hover: {
-        backgroundColor: '#eee',
+        backgroundColor: '#eaeef2',
       },
       active: {
         textColor: appThemes.light.primary.color,
